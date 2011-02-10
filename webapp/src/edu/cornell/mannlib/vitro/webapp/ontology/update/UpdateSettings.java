@@ -6,13 +6,15 @@ import com.hp.hpl.jena.ontology.OntModel;
 
 import edu.cornell.mannlib.vitro.webapp.dao.jena.OntModelSelector;
 
-public class OntologyUpdateSettings {
+public class UpdateSettings {
 
 	private String dataDir;
 	private String sparqlConstructAdditionsDir;
 	private String sparqlConstructAdditionsPass2Dir;
 	private String sparqlConstructDeletionsDir;
 	private String askQueryFile;
+	private String askEmptyQueryFile;
+	private String askEverQueryFile;
 	private String successAssertionsFile;
 	private String successRDFFormat = "N3";
 	private String diffFile;
@@ -56,6 +58,18 @@ public class OntologyUpdateSettings {
 	}
 	public void setAskQueryFile(String askQueryFile) {
 		this.askQueryFile = askQueryFile;
+	}
+	public String getAskEverQueryFile() {
+		return askEverQueryFile;
+	}
+	public void setAskEverQueryFile(String askEverQueryFile) {
+		this.askEverQueryFile = askEverQueryFile;
+	}
+	public String getAskEmptyQueryFile() {
+		return askEmptyQueryFile;
+	}
+	public void setAskEmptyQueryFile(String askEmptyQueryFile) {
+		this.askEmptyQueryFile = askEmptyQueryFile;
 	}
 	public String getSuccessAssertionsFile() {
 		return successAssertionsFile;

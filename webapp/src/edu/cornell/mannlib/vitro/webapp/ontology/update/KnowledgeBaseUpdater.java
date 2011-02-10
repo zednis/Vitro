@@ -34,18 +34,18 @@ import edu.cornell.mannlib.vitro.webapp.utils.jena.JenaIngestUtils;
  * @author bjl23
  *
  */
-public class OntologyUpdater {
+public class KnowledgeBaseUpdater {
 
 	//private final Log log = LogFactory.getLog(OntologyUpdater.class);
 	
-	private OntologyUpdateSettings settings;
-	private OntologyChangeLogger logger;
-	private OntologyChangeRecord record;
+	private UpdateSettings settings;
+	private ChangeLogger logger;
+	private ChangeRecord record;
 	
-	public OntologyUpdater(OntologyUpdateSettings settings) {
+	public KnowledgeBaseUpdater(UpdateSettings settings) {
 		this.settings = settings;
 		this.logger = null;
-		this.record = new SimpleOntologyChangeRecord(settings.getAddedDataFile(), settings.getRemovedDataFile());
+		this.record = new SimpleChangeRecord(settings.getAddedDataFile(), settings.getRemovedDataFile());
 	}
 	
 	public boolean update() throws IOException {	
@@ -56,8 +56,13 @@ public class OntologyUpdater {
 		if (updateRequired) {
 			
 			if (this.logger == null) {
-				this.logger = new SimpleOntologyChangeLogger(settings.getLogFile(),	settings.getErrorLogFile());
+				this.logger = new SimpleChangeLogger(settings.getLogFile(),	settings.getErrorLogFile());
 			}
+			
+			
+			long startTime = System.currentTimeMillis();
+            System.out.println("Migrating the knowledge base");
+            logger.log("Started knowledge base migration");
 			
 			try {
 			     performUpdate();
@@ -75,6 +80,8 @@ public class OntologyUpdater {
 			record.writeChanges();
 			logger.closeLogs();
 
+			long elapsedSecs = (System.currentTimeMillis() - startTime)/1000;		
+			System.out.println("Finished knowledge base migration in " + elapsedSecs + " second" + (elapsedSecs != 1 ? "s" : ""));
 		}
 		
 		return updateRequired;
@@ -101,7 +108,7 @@ public class OntologyUpdater {
 	
 	private void performSparqlConstructAdditions(String sparqlConstructDir, OntModel aboxModel) throws IOException {
 		
-		Model anonModel = performSparqlConstructs(sparqlConstructDir, aboxModel);
+		Model anonModel = performSparqlConstructs(sparqlConstructDir, aboxModel, true);
 		
 		if (anonModel == null) {
 			return;
@@ -110,24 +117,28 @@ public class OntologyUpdater {
 		aboxModel.enterCriticalSection(Lock.WRITE);
 		try {
 			JenaIngestUtils jiu = new JenaIngestUtils();
-			Model additions = jiu.renameBNodes(anonModel, settings.getDefaultNamespace() + "n", 
-					aboxModel);
+			Model additions = jiu.renameBNodes(anonModel, settings.getDefaultNamespace() + "n", aboxModel);
 			Model actualAdditions = ModelFactory.createDefaultModel();
 			StmtIterator stmtIt = additions.listStatements();
+			
 			while (stmtIt.hasNext()) {
 				Statement stmt = stmtIt.nextStatement();
 				if (!aboxModel.contains(stmt)) {
 					actualAdditions.add(stmt);
 				}
 			}
+			
 			aboxModel.add(actualAdditions);
+			record.recordAdditions(actualAdditions);
+			/*
 			if (actualAdditions.size() > 0) {
 				logger.log("Constructed " + actualAdditions.size() + " new " +
 						   "statement" 
 						   + ((actualAdditions.size() > 1) ? "s" : "") + 
-						   " using SPARQL CONSTRUCT queries.");
+						   " using SPARQL construct queries.");
 			}
-			record.recordAdditions(actualAdditions);
+			*/
+
 		} finally {
 			aboxModel.leaveCriticalSection();
 		}
@@ -136,7 +147,7 @@ public class OntologyUpdater {
 	
 	private void performSparqlConstructRetractions(String sparqlConstructDir, OntModel aboxModel) throws IOException {
 		
-		Model retractions = performSparqlConstructs(sparqlConstructDir, aboxModel);
+		Model retractions = performSparqlConstructs(sparqlConstructDir, aboxModel, false);
 		
 		if (retractions == null) {
 			return;
@@ -153,12 +164,13 @@ public class OntologyUpdater {
 				}
 			}
 			aboxModel.remove(actualRetractions);
-			if (actualRetractions.size() > 0) {
-				logger.log("Removed " + actualRetractions.size() + " statement" 
-						   + ((actualRetractions.size() > 1) ? "s" : "") + 
-						   " using SPARQL CONSTRUCT queries.");
-			}
 			record.recordRetractions(actualRetractions);
+			/*
+			if (actualRetractions.size() > 0) {
+				logger.log("Removed " + actualRetractions.size() + " statement" + ((actualRetractions.size() > 1) ? "s" : "") +  " using SPARQL CONSTRUCT queries.");
+			}
+			*/
+
 		} finally {
 			aboxModel.leaveCriticalSection();
 		}
@@ -174,7 +186,7 @@ public class OntologyUpdater {
 	 * @param aboxModel
 	 */
 	private Model performSparqlConstructs(String sparqlConstructDir, 
-			OntModel aboxModel) throws IOException {
+			                              OntModel aboxModel, boolean add) throws IOException {
 		
 		Model anonModel = ModelFactory.createDefaultModel();
 		File sparqlConstructDirectory = new File(sparqlConstructDir);
@@ -186,6 +198,7 @@ public class OntologyUpdater {
 					" SPARQL CONSTRUCTS.");
 			return null;
 		}
+		
 		File[] sparqlFiles = sparqlConstructDirectory.listFiles();
 		for (int i = 0; i < sparqlFiles.length; i ++) {
 			File sparqlFile = sparqlFiles[i];			
@@ -198,13 +211,21 @@ public class OntologyUpdater {
 					fileContents.append(ln).append('\n');
 				}
 				try {
-					Query q = QueryFactory.create(fileContents.toString(), 
-							Syntax.syntaxARQ);
+					Query q = QueryFactory.create(fileContents.toString(), Syntax.syntaxARQ);
 					aboxModel.enterCriticalSection(Lock.WRITE);
 					try {
-						QueryExecution qe = QueryExecutionFactory.create(q,
-								aboxModel);
+						QueryExecution qe = QueryExecutionFactory.create(q,	aboxModel);
+						long numBefore = anonModel.size();
 						qe.execConstruct(anonModel);
+						long numAfter = anonModel.size();
+                        long num = numAfter - numBefore;
+                        
+                        if (num > 0) {
+						   logger.log((add ? "Added " : "Removed ") + num + 
+								   " statement"  + ((num > 1) ? "s" : "") + 
+								   " using the SPARQL construct query from file " + sparqlFiles[i].getName());
+                        }
+						
 					} finally {
 						aboxModel.leaveCriticalSection();
 					}
@@ -214,9 +235,8 @@ public class OntologyUpdater {
 							"query at " + sparqlFile + ". Error message is: " + e.getMessage());
 				}
 			} catch (FileNotFoundException fnfe) {
-				logger.logError(this.getClass().getName() + 
-						".performSparqlConstructs() could not find " +
-						" SPARQL CONSTRUCT file " + sparqlFile + ". Skipping.");
+				logger.log("WARNING: performSparqlConstructs() could not find " +
+						   " SPARQL CONSTRUCT file " + sparqlFile + ". Skipping.");
 			}	
 		}
 		
@@ -252,8 +272,8 @@ public class OntologyUpdater {
 		                                          settings.getNewTBoxAnnotationsModel(),
                                                   settings.getOntModelSelector().getABoxModel(), logger, record);
                                                   
-        tboxUpdater.updateVitroPropertyDefaultValues();
-        tboxUpdater.updateVitroAnnotationsModel();
+        tboxUpdater.updateDefaultAnnotationValues();
+        tboxUpdater.updateAnnotationModel();
 	}
 	
 	/**
@@ -261,28 +281,45 @@ public class OntologyUpdater {
 	 * needs to be updated to conform to a new ontology version
 	 */
 	public boolean updateRequired() throws IOException {
+		
+		boolean required = false;
+		
 		String sparqlQueryStr = loadSparqlQuery(settings.getAskQueryFile());
 		if (sparqlQueryStr == null) {
-			return false;
+			return required;
 		}
+				
 		Model m = settings.getOntModelSelector().getApplicationMetadataModel();
 		Query query = QueryFactory.create(sparqlQueryStr);
-		QueryExecution qexec = QueryExecutionFactory.create(query, m);
+		QueryExecution isUpdated = QueryExecutionFactory.create(query, m);
 		
 		// if the ASK query DOES have a solution (i.e. the assertions exist
 		// showing that the update has already been performed), then the update
 		// is NOT required.
-		return !qexec.execAsk(); 
 		
+		if (isUpdated.execAsk()) {
+			required = false;
+		} else {
+			required = true;
+			String sparqlQueryStr2 = loadSparqlQuery(settings.getAskEmptyQueryFile());
+			if (sparqlQueryStr2 != null) {
+				Query query2 = QueryFactory.create(sparqlQueryStr2);
+				QueryExecution isNotEmpty = QueryExecutionFactory.create(query2, m);
+				required = isNotEmpty.execAsk();
+			} 
+		}
+		
+		return required; 
 	}
-	
+		
 	/**
 	 * loads a SPARQL ASK query from a text file
 	 * @param filePath
 	 * @return the query string or null if file not found
 	 */
-	private String loadSparqlQuery(String filePath) throws IOException {
-		File file = new File(settings.getAskQueryFile());	
+	public static String loadSparqlQuery(String filePath) throws IOException {
+		
+		File file = new File(filePath);	
 		if (!file.exists()) {
 			return null;
 		}
@@ -299,13 +336,12 @@ public class OntologyUpdater {
 		try {
 			
 		    Model m = settings.getOntModelSelector().getApplicationMetadataModel();
-		    File successAssertionsFile = 
-		    	new File(settings.getSuccessAssertionsFile()); 
+		    File successAssertionsFile = new File(settings.getSuccessAssertionsFile()); 
 		    InputStream inStream = new FileInputStream(successAssertionsFile);
 		    m.enterCriticalSection(Lock.WRITE);
 		    try {
 		    	m.read(inStream, null, settings.getSuccessRDFFormat());
-		    	logger.log("Successfully finished processing ontology changes.");
+		    	logger.logWithDate("Finished knowledge base migration");
 		    } finally {
 		    	m.leaveCriticalSection();
 		    }
@@ -377,9 +413,6 @@ public class OntologyUpdater {
 
 		public List<AtomicOntologyChange> getAtomicPropertyChanges() {
 			return atomicPropertyChanges;
-		}
-		
-	}
-	
-	
+		}	
+	}	
 }

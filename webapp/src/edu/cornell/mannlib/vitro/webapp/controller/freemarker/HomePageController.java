@@ -9,6 +9,8 @@ import java.util.Map;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+import edu.cornell.mannlib.vitro.webapp.beans.Portal;
+import edu.cornell.mannlib.vitro.webapp.beans.Tab;
 import edu.cornell.mannlib.vitro.webapp.beans.VClassGroup;
 import edu.cornell.mannlib.vitro.webapp.controller.VitroRequest;
 import edu.cornell.mannlib.vitro.webapp.controller.freemarker.responsevalues.ResponseValues;
@@ -28,9 +30,9 @@ public class HomePageController extends FreemarkerHttpServlet {
     protected ResponseValues processRequest(VitroRequest vreq) { 
         
         Map<String, Object> body = new HashMap<String, Object>();    
-        VClassGroupCache vcgc = VClassGroupCache.getVClassGroupCache( getServletContext() );
-        List<VClassGroup> vClassGroups =  vcgc.getGroups(vreq.getPortalId());
-        body.put("vClassGroups", vClassGroups);
+//        VClassGroupCache vcgc = VClassGroupCache.getVClassGroupCache( getServletContext() );
+//        List<VClassGroup> vClassGroups =  vcgc.getGroups(vreq.getPortalId());
+//        body.put("vClassGroups", vClassGroups);
         
         PageDataGetter dataGetter =
             PageController.getPageDataGetterMap(getServletContext())
@@ -44,11 +46,20 @@ public class HomePageController extends FreemarkerHttpServlet {
             if(pageData != null)
                 body.putAll(pageData);            
         }
+
+        // Get the home tab content for themes that display deprecated tabs
+        body.put("homeTabContent", getHomeTabContent(vreq));
         
-        // Add home page data to body here         
         return new TemplateResponseValues(BODY_TEMPLATE, body);
     }
 
+    // Get the home tab content for themes that display deprecated tabs
+    private String getHomeTabContent(VitroRequest vreq) {
+        Portal portal = vreq.getPortal();
+        int tabId = portal.getRootTabId();
+        Tab tab = vreq.getWebappDaoFactory().getTabDao().getTab(tabId,0,vreq.getAppBean());
+        return tab.getBody();
+    }
     
     @Override
     protected String getTitle(String siteName, VitroRequest vreq) {
