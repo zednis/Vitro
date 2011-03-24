@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <bean id="ingester" class="edu.cornell.mannlib.ingest.Ingester">
+    <property name="download"><ref local="fileDownloader"/></property>
+    <property name="modelMaker"><ref local="jenaModelMaker"/></property>
+    <property name="parser"><ref local="pubMedParser"/></property>    
+  </bean>
+  
+  <bean id="fileDownloader" class="edu.cornell.mannlib.ingest.download.LocalFileDownload">
+  	<property name="filename"><value>fetch.xml</value></property>  	
+  </bean>
+  
+  <bean id="pubMedParser" class="edu.cornell.mannlib.ingest.parser.PubMedParser" />
+  
+  <!--  
+  <bean id="downloader" class="edu.cornell.mannlib.ingest.download.PubMedDownloader">
+  	<property name="searchURL">
+  		<value>http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi</value>
+  	</property>
+  	<property name="searchQuery">
+  		<value>?db=PubMed&amp;email=bdc34@cornell.edu&amp;tool=Fetcher&amp;usehistory=y&amp;reldate=200&amp;term=cornell[Affiliation]+AND+hasabstract[text]</value>
+  	</property>
+  	<property name="fetchURL">
+  		<value>http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi</value></property>
+  	<property name="fetchQuery">
+  		<value>?db=PubMed&amp;email=bdc34@cornell.edu&amp;tool=Fetcher&amp;retmode=xml&amp;WebEnv=##webenv##&amp;query_key=##querykey##&amp;retstart=##start##&amp;retmax=##retrymax##</value>
+  	</property>
+  	<property name="countXPath"><value>number(/eSearchResult/Count)</value></property>
+  	<property name="webEnvXPath"><value>string(/eSearchResult/WebEnv)</value></property>
+  	<property name="queryKeyXPath"><value>string(/eSearchResult/QueryKey)</value></property>  		
+  </bean>
+ -->
+ 
+<!-- ############# JENA, RDF and JDBC beans ###############   -->
+	<bean id="jdbc-driver" class="java.lang.String">
+		<constructor-arg type="java.lang.String">
+			<value>com.mysql.jdbc.Driver</value>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="init-jdbc-driver" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+  		<property name="targetClass"><value>java.lang.Class</value></property>
+  		<property name="targetMethod"><value>forName</value></property>
+  		<property name="arguments"><list><ref local="jdbc-driver"/></list></property>  		
+	</bean>
+
+  	<bean id="jenaConnection" class="com.hp.hpl.jena.db.DBConnection" 
+  		  singleton="true" depends-on="init-jdbc-driver">
+   		<constructor-arg index="0"><value>jdbc:mysql://localhost/ingestrdf</value></constructor-arg>
+   		<constructor-arg index="1"><value>ingest</value></constructor-arg>
+   		<constructor-arg index="2"><value>round790table</value></constructor-arg>
+   		<constructor-arg index="3"><value>MySQL</value></constructor-arg>
+  	</bean>  	  
+			
+	<bean id="JenaSetup" class="edu.cornell.mannlib.ingest.rdf.JenaSetup" singleton="true">
+		<property name="jenaDbConnection"><ref local="jenaConnection"/></property>
+	</bean>
+				    				    
+	<bean id="jenaModelMaker"  
+		  factory-bean="JenaSetup" factory-method="getModelMaker" singleton="true">			  
+	</bean>
+	
+	<!-- 
+  	<bean id="jenaModel" class="com.hp.hpl.jena.rdf.model.Model" 
+  		factory-bean="jenaModelMaker" factory-method="createModel" singleton="false" >
+  		  <constructor-arg type="java.lang.String"><value>test1</value></constructor-arg>
+  	</bean> 
+  	-->
+
+</beans>

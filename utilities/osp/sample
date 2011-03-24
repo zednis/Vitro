@@ -1,0 +1,4 @@
+SELECT award_prop_project_id AS id,award_or_proposal as type,award_prop_title as title,award_prop_status_code as status,award_prop_pi_id as pi,award_prop_pi_name as name,award_prop_pi_netid as netid,award_prop_proj_director_id as id,
+award_prop_proj_director_name as director,award_prop_proj_director_netid as netid,award_prop_college as college,award_prop_department_adw_code as adw,award_prop_department,award_prop_sponsor_name as sponsor,award_prop_sponsor_all_levels as absponsor,
+award_prop_start_date,award_prop_end_date,award_prop_total as total,award_description as description,proposal_purpose,proposal_purpose_description FROM OSPWH.award_proposal
+WHERE award_prop_college='AGRICULTURE & LIFE SCIENCES' AND award_prop_status_code='ASAP' or award_prop_status_code='APA'

@@ -1,0 +1,105 @@
+Goal:
+dump info about cals faculty.
+etypes: ( cornell faculty 31, cornell academic staff 94, 
+        librarian 32, non-cornell faculty 90)
+
+
+Tables to output:
+people
+        id
+        entityId
+        typeId  
+        netid
+        name
+        moniker
+        desc
+        imageThumb
+
+people2departments
+        id
+        personId??
+        deptId
+        role
+        modTime
+        
+departments
+        if
+        ADWid?
+        entityId
+        typeId
+        name
+        modTime
+      
+urls
+       id
+       urltypeId
+       entityId
+       url
+       anchor
+       modTime
+
+urlTypes
+        id
+        type
+        generic
+        modtime
+        
+keywords2people
+        id
+        keyid
+        personid
+        modtime
+
+keywords
+        id
+        keytermid
+        term
+        stem
+        modtime
+
+people2grants
+        id
+        personid
+        grantid
+        role
+        modtime
+        
+departments2grants
+        id
+        deptid
+        grantid
+        modtime
+
+grants
+        id
+        ospid
+        entityid
+        title
+        sunrise
+        sunset
+
+        
+people2pubs
+        id
+        personid
+        pubid
+
+pubs
+        id
+        entityid
+        title
+        pubyear
+        all_authors
+        full_source
+        volume
+        issue
+        pages
+        
+
+journals
+        id
+        tokenId
+        title
+        abbreviation
+        modtime
+        

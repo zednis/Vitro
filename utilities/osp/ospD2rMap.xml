@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<d2r:Map xmlns:d2r="http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RMap/0.1#" >
+
+    <!--
+        This is a d2r Map that converts the data in the tables created by 
+        OSPDWDownload.java to RDF/XML.
+        Brian Caruso 2008-08-05
+    -->
+
+	<d2r:ProcessorMessage d2r:outputFormat="RDF/XML"/>
+	<d2r:Namespace d2r:prefix="osp" d2r:namespace="http://mannlib.cornell.edu/2008/08/osp#"/>
+	<d2r:Namespace d2r:prefix="owl" d2r:namespace="http://www.w3.org/2002/07/owl#"/>
+	<d2r:Namespace d2r:prefix="rdfs" d2r:namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+    <d2r:Namespace d2r:prefix="vitro" d2r:namespace="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"/>
+    <d2r:Namespace d2r:prefix="vivo" d2r:namespace="http://vivo.library.cornell.edu/ns/0.1#"/>	
+    <d2r:Namespace d2r:prefix="xsd" d2r:namespace="http://www.w3.org/2001/XMLSchema#"/>
+
+	<d2r:DBConnection 
+	    d2r:jdbcDriver="org.gjt.mm.mysql.Driver"
+	    d2r:jdbcDSN="jdbc:mysql://localhost/osplocal"
+	    d2r:username="osplocal"
+	    d2r:password="8611714"/>
+
+
+	<d2r:ClassMap
+	    d2r:type="osp:Department" d2r:sql="SELECT * FROM DEPARTMENT_T" 
+	    d2r:groupBy="DEPARTMENT_ID" >
+
+		<d2r:DatatypePropertyBridge d2r:property="vivo:OSPdepartmentid"
+		d2r:column="DEPARTMENT_T.DEPARTMENT_ID" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:departmentName"
+		d2r:column="DEPARTMENT_T.DEPARTMENT_NAME" />
+	</d2r:ClassMap>	
+	
+
+
+	<d2r:ClassMap
+	    d2r:type="osp:Sponsor" 
+        d2r:sql="SELECT * FROM SPONSOR_T" 
+	    d2r:groupBy="SPONSOR_ID">
+		
+		<d2r:DatatypePropertyBridge d2r:property="vivo:OSPsponsorid"
+		d2r:column="SPONSOR_T.SPONSOR_ID" />
+		<d2r:DatatypePropertyBridge d2r:property="rdfs:label"
+		d2r:column="SPONSOR_T.SPONSOR_NAME" />
+
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorAllLevels"
+		d2r:column="SPONSOR_T.SPONSOR_ALL_LEVELS" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorLevel1"
+		d2r:column="SPONSOR_T.SPONSOR_LEVEL_1" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorLevel2"
+		d2r:column="SPONSOR_T.SPONSOR_LEVEL_2" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorLevel3"
+		d2r:column="SPONSOR_T.SPONSOR_LEVEL_3" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorAbbreviation"
+		d2r:column="SPONSOR_T.SPONSOR_ABBREVIATION" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorOrigin"
+		d2r:column="SPONSOR_T.SPONSOR_ORIGIN" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorFundSource"
+		d2r:column="SPONSOR_T.SPONSOR_FUND_SOURCE" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorEmailAddress"
+		d2r:column="SPONSOR_T.SPONSOR_EMAIL_ADDRESS" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorWebSite"
+		d2r:column="SPONSOR_T.SPONSOR_WEB_SITE" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorStreet1"
+		d2r:column="SPONSOR_T.SPONSOR_STREET_1" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorStreet2"
+		d2r:column="SPONSOR_T.SPONSOR_STREET_2" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorCity"
+		d2r:column="SPONSOR_T.SPONSOR_CITY" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorState"
+		d2r:column="SPONSOR_T.SPONSOR_STATE" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorCountry"
+		d2r:column="SPONSOR_T.SPONSOR_COUNTRY" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorZipCode"
+		d2r:column="SPONSOR_T.SPONSOR_ZIP_CODE" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorLevel"
+		d2r:column="SPONSOR_T.SPONSOR_LEVEL" />
+		<d2r:DatatypePropertyBridge d2r:property="osp:sponsorParentId"
+		d2r:column="SPONSOR_T.SPONSOR_PARENT_ID" />
+
+        <d2r:ObjectPropertyBridge 
+            d2r:property="vivo:OrganizedEndeavorReceivesFundingFromOrganizedEndeavor"
+            d2r:referredClass="osp:Sponsor"
+            d2r:referredGroupBy="SPONSOR_PARENT_ID"/>
+	</d2r:ClassMap>
+
+
+	<d2r:ClassMap
+	    d2r:type="vivo:ResearchGrant" 
+        d2r:sql="SELECT * FROM AWARD_PROPOSAL" 
+	    d2r:groupBy="AWARD_PROP_PROJECT_ID" >
+
+		<d2r:DatatypePropertyBridge 
+            d2r:property="vivo:OSPawardid" 
+            d2r:column="AWARD_PROPOSAL.AWARD_PROP_PROJECT_ID" />
+
+		<d2r:DatatypePropertyBridge  d2r:lang="en"
+            d2r:property="rdfs:label" 
+            d2r:column="AWARD_PROPOSAL.AWARD_PROP_FULL_TITLE" />
+		<d2r:DatatypePropertyBridge 
+            d2r:property="osp:sponsorProjectId" 
+            d2r:column="AWARD_PROPOSAL.SPONSOR_PROJECT_ID" />
+		<d2r:DatatypePropertyBridge 
+            d2r:property="osp:federalFlowThrough" 
+            d2r:column="AWARD_PROPOSAL.FEDERAL_FLOW_THROUGH" />
+		<d2r:DatatypePropertyBridge 
+            d2r:property="osp:flowThroughSponsAllLevels" 
+            d2r:column="AWARD_PROPOSAL.FLOW_THROUGH_SPONS_ALL_LEVELS" />
+		<d2r:DatatypePropertyBridge 
+            d2r:property="osp:flowThroughSponsorId" 
+            d2r:column="AWARD_PROPOSAL.FLOW_THROUGH_SPONSOR_ID" />
+	
+        <d2r:ObjectPropertyBridge
+            d2r:property="vivo:AwardFundedByOrganizedEndeavor"
+            d2r:referredClass="osp:Sponsor"
+            d2r:referredGroupBy="AWARD_PROP_SPONSOR_ID"/>
+        <d2r:ObjectPropertyBridge
+            d2r:property="vivo:AwardSubcontracedByOrganizedEndeavor"
+            d2r:referredClass="osp:Sponsor"
+            d2r:referredGroupBy="FLOW_THROUGH_SPONSOR_ID"/>
+        <d2r:ObjectPropertyBridge 
+            d2r:property="vivo:FinancialAwardAdministeredByOrganizedEndeavor"
+            d2r:referredClass="osp:Department"
+            d2r:referredGroupBy="AWARD_PROP_DEPARTMENT_ID"/>
+	</d2r:ClassMap>
+
+
+    <d2r:ClassMap
+        d2r:type="vivo:Person"
+        d2r:groupBy="INVESTIGATOR_ID_C"
+        d2r:sql="select PROJECT_ID_C, INVESTIGATOR_ID_C, INVPROJ_INVESTIGATOR_NETID
+                     from PROJECT_MEMBERS_T join INVESTIGATORS_T on INVESTIGATOR_ID_C = INVPROJ_INVESTIGATOR_ID
+                     where ROLE_C ='PI'">
+
+      <d2r:DatatypePropertyBridge 
+          d2r:property="vivo:CornellemailnetId"
+          d2r:column="INVPROJ_INVESTIGATOR_NETID"/>
+
+      <d2r:ObjectPropertyBridge
+          d2r:property="vivo:PersonPrimaryInvestigatorOfFinancialAward"
+          d2r:referredClass="vivo:ResearchGrant"
+          d2r:referredGroupBy="PROJECT_ID_C"/>
+    </d2r:ClassMap>
+
+    <d2r:ClassMap
+        d2r:type="vivo:Person"
+        d2r:groupBy="INVESTIGATOR_ID_C"
+        d2r:sql="select PROJECT_ID_C, INVESTIGATOR_ID_C, INVPROJ_INVESTIGATOR_NETID
+                     from PROJECT_MEMBERS_T join INVESTIGATORS_T on INVESTIGATOR_ID_C = INVPROJ_INVESTIGATOR_ID
+                     where ROLE_C ='CO'">
+
+      <d2r:DatatypePropertyBrideg
+          d2r:property="vivo:CornellemailnetId"
+          d2r:column="INVPROJ_INVESTIGATOR_NETID"/>
+
+      <d2r:ObjectPropertyBridge
+          d2r:property="vivo:FinancialAwardIsCoInvestigatedByPerson"
+          d2r:referredClass="vivo:ResearchGrant"
+          d2r:referredGroupBy="PROJECT_ID_C"/>
+    </d2r:ClassMap>
+
+
+<!--	    d2r:type="osp:Investigator" d2r:sql="select  
+INVESTIGATORS_T.* ,PROJECT_MEMBERS_T.PROJECT_ID_C as projpi, PROJECT_MEMBERS_T.AWARD_PROPOSAL_C as projpipropid, null as projcopi, null as projcopipropid, null as projfe, null as projfepropid
+from 
+INVESTIGATORS_T left join PROJECT_MEMBERS_T 
+on INVESTIGATORS_T.INVPROJ_INVESTIGATOR_ID = PROJECT_MEMBERS_T.INVESTIGATOR_ID_C 
+where INVESTIGATORS_T.INVPROJ_FULL_NAME like 'Z%'and PROJECT_MEMBERS_T.ROLE_C = 'PI'
+
+union
+
+select  
+INVESTIGATORS_T.* , null as projpi, null as projpipropid, PROJECT_MEMBERS_T.PROJECT_ID_C as projcopi, PROJECT_MEMBERS_T.AWARD_PROPOSAL_C as projcopipropid, null as projfe, null as projfepropid
+from 
+INVESTIGATORS_T left join PROJECT_MEMBERS_T 
+on INVESTIGATORS_T.INVPROJ_INVESTIGATOR_ID = PROJECT_MEMBERS_T.INVESTIGATOR_ID_C 
+where INVESTIGATORS_T.INVPROJ_FULL_NAME like 'Z%' and PROJECT_MEMBERS_T.ROLE_C = 'CO'
+
+union
+
+select  
+INVESTIGATORS_T.* , null as projpi, null as projpipropid, null as projcopi, null as projcopipropid, PROJECT_MEMBERS_T.PROJECT_ID_C as projfe, PROJECT_MEMBERS_T.AWARD_PROPOSAL_C as projfepropid
+from 
+INVESTIGATORS_T left join PROJECT_MEMBERS_T 
+on INVESTIGATORS_T.INVPROJ_INVESTIGATOR_ID = PROJECT_MEMBERS_T.INVESTIGATOR_ID_C 
+where INVESTIGATORS_T.INVPROJ_FULL_NAME like 'Z%' and PROJECT_MEMBERS_T.ROLE_C = 'FE';
+" -->
+
+<!--       <d2r:ObjectPropertyBridge -->
+<!--           d2r:propety="osp:primaryInvestigator" -->
+<!--           d2r:referredClass="osp:Project" -->
+<!--           d2r:referredGroupBy="projpi"/> -->
+	         
+<!--       <d2r:ObjectPropertyBridge -->
+<!--           d2r:propety="osp:coprimaryInvestigator" -->
+<!--           d2r:referredClass="osp:Project" -->
+<!--           d2r:referredGroupBy="projco"/> -->
+
+<!--       <d2r:ObjectPropertyBridge -->
+<!--           d2r:propety="osp:projfe" -->
+<!--           d2r:referredClass="osp:Project" -->
+<!--           d2r:referredGroupBy="projfe"/> -->
+
+
+</d2r:Map>

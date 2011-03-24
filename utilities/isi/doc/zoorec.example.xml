@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item dbyear="2006" recid="1896249" sortkey="3109023172" dbweek="12">
+    <Header>
+        <AccessionNumber>ZOOR14212075852</AccessionNumber>
+        <DateProduced>2006-10-31</DateProduced>
+        <Owner>Copyright 2006 The Thomson Corporation</Owner>
+        <ProdIssueYear>2006</ProdIssueYear>
+        <ProdIssueNumber>12</ProdIssueNumber>
+        <AbstractPresentYN>1</AbstractPresentYN>
+    </Header> <i_ckey>GAO
+        0387060036IJ</i_ckey> <ZRBibliographic>
+            <SearchYear>2006</SearchYear>
+            <PubYear>2006</PubYear> <DocumentTypeList>
+                <DocumentTypeText>Article</DocumentTypeText>
+            </DocumentTypeList> <LanguageList>
+                <Language>English</Language>
+                <SummaryLanguage>English</SummaryLanguage>
+            </LanguageList>
+            <Pagination>387-395</Pagination>
+            <Medium>Print</Medium> <AuthorList>
+                <AuPostal>Department of Entomology, Comstock Hall, Cornell University,
+                    Ithaca, NY 14853-0901</AuPostal>
+                <AuCountry>USA</AuCountry> <Author
+                    AuCorresponding="0">
+                    <AuLastName>Gao</AuLastName>
+                    <AuFirstName>Jianwei</AuFirstName>
+                    <AuCollectiveName>Gao, Jianwei</AuCollectiveName>
+                </Author> <Author AuCorresponding="1">
+                    <AuEmail>JGS5@CORNELL.EDU</AuEmail>
+                    <AuLastName>Scott</AuLastName>
+                    <AuFirstName>Jeffrey G.</AuFirstName>
+                    <AuCollectiveName>Scott, Jeffrey G.</AuCollectiveName>
+                </Author> </AuthorList> <ZRItemTitle>
+                    <ZRTitle>Role of the transcriptional repressor mdGfi-1 in
+                        CYP6D1v1-mediated insecticide resistance in the house fly, Musca
+                        domestica.</ZRTitle> </ZRItemTitle>
+            <Source> <JournalInfo>
+                <JournalTitle>Insect Biochemistry and Molecular
+                    Biology</JournalTitle>
+                <CoverDate>May</CoverDate>
+                <SourceVolume>36</SourceVolume>
+                <SourceIssue>5</SourceIssue>
+                <SourceISSN>0965-1748</SourceISSN>
+            </JournalInfo> </Source>
+            <SourceConcat>Insect Biochemistry and Molecular Biology 36(5), May
+                2006: 387-395. [Print]</SourceConcat> <Abstract>Gfi-1 is
+                    a C2H2-type zinc finger protein that is a transcriptional repressor in vertebrates
+                    and has been implicated in control of CYP6D1 expression in house flies (Musca
+                    domestica). A 15 bp insert, which disrupts a putative mdGfi-1 binding site in the
+                    CYP6D1v1 promoter has been implicated as a cause of increased expression of CYP6D1,
+                    and thus insecticide resistance. Using electrophoretic mobility shift assays we
+                    demonstrate that the CYP6D1 promoter from susceptible strains binds mdGfi-1. The 15
+                    bp insert that interrupts the mdGfi-1-binding site in insecticide-resistant strains
+                    reduces the amount of mdGfi-1 binding by 9- to 20-fold, consistent with the role of
+                    mdGfi-1 in resistance. Partial sequences of mdGfi-1 (spanning the first intron) from
+                    individual houseflies from 11 different strains revealed the presence of 23 alleles.
+                    There was no consistent difference in the mdGfi-1 alleles between susceptible and
+                    CYP6D1-mediated insecticide-resistant strains, indicating that mdGfi-1 alleles were
+                    not likely involved in resistance. Polymorphisms were used to map mdGfi-1 to
+                    autosome 1. Quantitative real time PCR (qRT-PCR) revealed Gfi-1 expression was
+                    higher in the thorax compared to the head and abdomen, and varied between life
+                    stages and between strains. However, similar levels of mdGfi-1 were detected in
+                    susceptible and resistant adults suggesting that altered levels of mdGfi-1 were not
+                    likely a cause of insecticide resistance. The significance of these results to
+                    understanding insecticide resistance is discussed.</Abstract>
+        </ZRBibliographic> <ZRIndex>
+            <BroadTermsList>
+                <BroadTerms>Biochemistry</BroadTerms>
+                <BroadTerms>Genetics</BroadTerms>
+                <BroadTerms>Abiotic factors</BroadTerms>
+                <BroadTerms>Chemical factors</BroadTerms>
+            </BroadTermsList> <DescriptorsData>
+                <DescriptorsList> <DescrOrganismList>
+                    <DescrOrganisms>Musca domestica</DescrOrganisms>
+                </DescrOrganismList> <DescrSubjectsList>
+                    <DescrControlledTerm Display="1">Nucleic
+                        acids</DescrControlledTerm> <DescrSubset
+                            Display="1">MdGfi-1 transcriptional
+                            repressor</DescrSubset> <DescrModifier
+                                Display="0">Role in CYP6D1v1 mediated insecticide
+                                resistance</DescrModifier> </DescrSubjectsList>
+                    <DescrSubjectsList> <DescrControlledTerm
+                        Display="1">Molecular
+                        genetics</DescrControlledTerm> <DescrSubset
+                            Display="0">MdGfi-1 transcriptional
+                            repressor</DescrSubset> <DescrModifier
+                                Display="1">Role in CYP6D1v1 mediated insecticide
+                                resistance</DescrModifier> </DescrSubjectsList>
+                    <DescrSubjectsList> <DescrControlledTerm
+                        Display="1">Fertilizers and
+                        pesticides</DescrControlledTerm> <DescrSubset
+                            Display="1">Insecticide
+                            resistance</DescrSubset> <DescrModifier
+                                Display="0">Mediated by CYP6D1v1
+                                gene</DescrModifier> <DescrModifier
+                                    Display="0">role of mdGfi-1 transcriptional
+                                    repressor</DescrModifier> </DescrSubjectsList>
+                </DescriptorsList> </DescriptorsData>
+            <ZRTaxonomicData> <TaxaNotesList>
+                <TaxaNotes>Arthropods</TaxaNotes>
+                <TaxaNotes>Insects</TaxaNotes>
+                <TaxaNotes>Invertebrates</TaxaNotes>
+                <TaxaNotes>True Flies</TaxaNotes>
+            </TaxaNotesList> <SuperTaxaList> <SuperTaxa
+                Indent="1">Insecta</SuperTaxa>
+                <SuperTaxa
+                    Indent="2">Diptera</SuperTaxa>
+                <SuperTaxa
+                    Indent="3">Brachycera</SuperTaxa>
+                <SuperTaxa
+                    Indent="4">Cyclorrhapha</SuperTaxa>
+                <SuperTaxa
+                    Indent="5">Muscidae</SuperTaxa>
+            </SuperTaxaList> <SystematicsList>
+                <OrganismHierarchyData> <OrganismHierarchy
+                    SequenceIndent="1">Insecta</OrganismHierarchy>
+                    <OrganismHierarchy
+                        SequenceIndent="2">Diptera</OrganismHierarchy>
+                    <OrganismHierarchy
+                        SequenceIndent="3">Brachycera</OrganismHierarchy>
+                    <OrganismHierarchy
+                        SequenceIndent="4">Cyclorrhapha</OrganismHierarchy>
+                    <OrganismHierarchy
+                        SequenceIndent="5">Muscidae</OrganismHierarchy>
+                </OrganismHierarchyData>
+                <OrganismClassifier>Muscidae</OrganismClassifier>
+                <OrganismName>Musca domestica</OrganismName>
+            </SystematicsList> </ZRTaxonomicData>
+        </ZRIndex> </item> 
+    

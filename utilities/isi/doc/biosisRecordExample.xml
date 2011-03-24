@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item dbyear="2007" recid="16286155" sortkey="3103776758" dbweek="1">
+    <Header>
+        <AccessionNumber>PREV200700008202</AccessionNumber>
+        <DateProduced>20061212</DateProduced>
+        <Owner>Copyright Thomson 2007</Owner>
+        <ProdIssueYear>2007</ProdIssueYear>
+        <ProdIssueNumber>1</ProdIssueNumber>
+        <AbstractPresentYN>N</AbstractPresentYN>
+    </Header>
+    <i_ckey>LAVI0580060013XM</i_ckey>
+    <Bibliographic>
+        <PubYear>2006</PubYear>
+        <DocumentTypeList>
+            <DocumentTypeText>Meeting</DocumentTypeText>
+            <LiteratureTypeText>Meeting Abstract</LiteratureTypeText>
+        </DocumentTypeList>
+        <LanguageList>
+            <Language>English</Language>
+        </LanguageList>
+        <Pagination>580</Pagination>
+        <AuthorList>
+            <AuPostal>Univ Milano Bicocca, Dept Surg Sci, Milan, Italy</AuPostal>
+            <AuCountry>Italy</AuCountry>
+            <Author>
+                <AuRole>Reprint Author, Author</AuRole>
+                <AuLastName>Lavitrano</AuLastName>
+                <AuFirstName>Maria L.</AuFirstName>
+                <AuCollectiveName>Lavitrano, Maria L.</AuCollectiveName>
+            </Author>
+        </AuthorList>
+        <ItemTitle>
+            <TitleEnglish>Production of multi-gene transgenic pigs for xenotransplantation
+                by sperm mediated gene transfer (SMGT)</TitleEnglish>
+        </ItemTitle>
+        <Meeting>
+            <MeetingTitle>International Symposium on Xenotransplantation/9th Minisymposium
+                on Xenotransplantation of German-Working-Group-on-Xenotransplantation</MeetingTitle>
+            <MeetingDates>June 08 -09, 2006 </MeetingDates>
+            <MeetingLocation>Berlin, GERMANY</MeetingLocation>
+            <MeetingSponsor>Deutsch Forsch Gemeinsch</MeetingSponsor>
+            <MeetingSponsor>German Working Grp Xenotransplantat</MeetingSponsor>
+            <MeetingSponsor>Robert Koch Inst</MeetingSponsor>
+        </Meeting>
+        <Source>
+            <JournalInfo>
+                <JournalTitle>Xenotransplantation</JournalTitle>
+                <CoverDate>NOV 2006</CoverDate>
+                <SourceVolume>13</SourceVolume>
+                <SourceIssue>6</SourceIssue>
+                <SourceISSN>0908-665X</SourceISSN>
+            </JournalInfo>
+        </Source>
+    </Bibliographic>
+    <Index>
+        <MajorConceptData>
+            <MajorConceptList>
+                <MajorConcept>Methods and Techniques</MajorConcept>
+            </MajorConceptList>
+            <MajorConceptList>
+                <MajorConcept>Molecular Genetics</MajorConcept>
+                <MCBroaderTerms>Biochemistry and Molecular Biophysics</MCBroaderTerms>
+            </MajorConceptList>
+        </MajorConceptData>
+        <TaxonomicData>
+            <TaxonomicList>
+                <SuperTaxa>Artiodactyla</SuperTaxa>
+                <SuperTaxa>Mammalia</SuperTaxa>
+                <SuperTaxa>Vertebrata</SuperTaxa>
+                <SuperTaxa>Chordata</SuperTaxa>
+                <SuperTaxa>Animalia</SuperTaxa>
+                <TaxaNotes>Animals, Artiodactyls, Chordates, Mammals, Nonhuman Vertebrates,
+                    Nonhuman Mammals, Vertebrates</TaxaNotes>
+                <OrgData>
+                    <OrgClassifier>Suidae [85740]</OrgClassifier>
+                    <OrganismList>
+                        <OrganismName>pig</OrganismName>
+                        <TypeofName>common</TypeofName>
+                        <OrganismSpec>
+                            <DevelopmentalStage>immature</DevelopmentalStage>
+                            <OrgDetail>transgenic</OrgDetail>
+                        </OrganismSpec>
+                    </OrganismList>
+                </OrgData>
+            </TaxonomicList>
+        </TaxonomicData>
+        <GeneNameData>
+            <GeneNameList>
+                <GeneNameTerm>pig EGFP gene [Suidae]</GeneNameTerm>
+                <GeneNameVariant>pig enhanced green fluorescent protein
+                    gene</GeneNameVariant>
+            </GeneNameList>
+            <GeneNameList>
+                <GeneNameTerm>pig EBFP gene [Suidae]</GeneNameTerm>
+                <GeneNameVariant>pig enhanced blue fluorescent protein
+                    gene</GeneNameVariant>
+            </GeneNameList>
+            <GeneNameList>
+                <GeneNameTerm>pig DsRed2 gene [Suidae]</GeneNameTerm>
+                <GeneNameVariant>pig red fluorescent protein gene</GeneNameVariant>
+            </GeneNameList>
+        </GeneNameData>
+        <ChemicalData>
+            <ChemicalList>
+                <ChemicalName>gene</ChemicalName>
+            </ChemicalList>
+        </ChemicalData>
+        <PartsStructuresData>
+            <PartsStructuresList>
+                <PSTerm>liver</PSTerm>
+                <PSOrganSystem>digestive system</PSOrganSystem>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>heart</PSTerm>
+                <PSOrganSystem>circulatory system</PSOrganSystem>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>T lymphocyte</PSTerm>
+                <PSOrganSystem>immune system, blood and lymphatics</PSOrganSystem>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>muscle</PSTerm>
+                <PSOrganSystem>muscular system</PSOrganSystem>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>fibroblast</PSTerm>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>sperm</PSTerm>
+                <PSOrganSystem>reproductive system</PSOrganSystem>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>hair</PSTerm>
+                <PSOrganSystem>integumentary system</PSOrganSystem>
+            </PartsStructuresList>
+            <PartsStructuresList>
+                <PSTerm>peripheral blood mononuclear cell</PSTerm>
+                <PSOrganSystem>immune system, blood and lymphatics</PSOrganSystem>
+            </PartsStructuresList>
+        </PartsStructuresData>
+        <MethodsEquipmentData>
+            <MethodsEquipmentList>
+                <METerm>xenotransplantation</METerm>
+                <MERole>laboratory techniques, experimental surgical techniques</MERole>
+            </MethodsEquipmentList>
+            <MethodsEquipmentList>
+                <METerm>sperm mediated gene transfer</METerm>
+                <MERole>laboratory techniques, genetic techniques</MERole>
+            </MethodsEquipmentList>
+        </MethodsEquipmentData>
+        <MiscellaneousDescriptors>
+            <MiscDescriptorsList>
+                <MiscDescriptor>severe reaction response</MiscDescriptor>
+            </MiscDescriptorsList>
+        </MiscellaneousDescriptors>
+        <ConceptCodeList>
+            <ConceptCode>00520, General biology - Symposia, transactions and proceedings</ConceptCode>
+            <ConceptCode>02506, Cytology - Animal</ConceptCode>
+            <ConceptCode>03502, Genetics - General</ConceptCode>
+            <ConceptCode>03506, Genetics - Animal</ConceptCode>
+            <ConceptCode>14004, Digestive system - Physiology and biochemistry</ConceptCode>
+            <ConceptCode>14504, Cardiovascular system - Physiology and biochemistry</ConceptCode>
+            <ConceptCode>15002, Blood - Blood and lymph studies</ConceptCode>
+            <ConceptCode>15004, Blood - Blood cell studies</ConceptCode>
+            <ConceptCode>16504, Reproductive system - Physiology and biochemistry</ConceptCode>
+            <ConceptCode>17504, Muscle - Physiology and biochemistry</ConceptCode>
+            <ConceptCode>18504, Integumentary system - Physiology and biochemistry</ConceptCode>
+            <ConceptCode>34502, Immunology - General and methods</ConceptCode>
+        </ConceptCodeList>
+    </Index>
+</item>
+        

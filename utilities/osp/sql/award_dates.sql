@@ -1,0 +1,1 @@
+select award_prop_start_date, award_prop_end_date, award_approved_by_date, first_award_date, last_award_or_amend_date, award_reviewed_by_date, award_approved_by_date, award_distributed_by_date, proposal_deadline_date from ospwh.award_proposal WHERE AWARD_PROP_COLLEGE LIKE 'AGRICULTURE & LIFE SCIENCES'

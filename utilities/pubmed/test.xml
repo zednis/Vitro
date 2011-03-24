@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st November 2004//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_041101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15846427</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN>1359-7345</ISSN>
+                <JournalIssue>
+                    <Issue>16</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>May</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Generation dependent mesophase behavior in extended amphiphilic dendrons in the shape of macromolecular dumbbells.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2143-5</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Small angle X-ray scattering studies of 2nd and 3rd generation based extended amphiphilic dendrons in the shape of macromolecular dumbbells with identical hydrophilic volume fractions suggest 2-D hexagonal columnar and Pm3n micellar cubic mesophases, respectively, elucidating the role of shape induced interface curvature in mesophase formation.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Materials Science and Engineering, Cornell University, Ithaca, NY 14853, USA. ubw1@cornell.edu.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Cho</LastName>
+                    <ForeName>Byoung-Ki</ForeName>
+                    <Initials>BK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jain</LastName>
+                    <ForeName>Anurag</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gruner</LastName>
+                    <ForeName>Sol M</ForeName>
+                    <Initials>SM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wiesner</LastName>
+                    <ForeName>Ulrich</ForeName>
+                    <Initials>U</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2005</Year>
+                <Month>03</Month>
+                <Day>04</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Chem Commun (Camb)</MedlineTA>
+            <NlmUniqueID>9610838</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2005</Year>
+                <Month>3</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="epublish">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>21</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1039/b500610d</ArticleId>
+            <ArticleId IdType="pubmed">15846427</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15845502</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>0019-9567</ISSN>
+                <JournalIssue>
+                    <Volume>73</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Pseudomonas aeruginosa SoxR Does Not Conform to the Archetypal Paradigm for SoxR-Dependent Regulation of the Bacterial Oxidative Stress Adaptive Response.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>2958-66</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>SoxR is a transcriptional regulator that controls an oxidative stress response in Escherichia coli. The regulator is primarily activated by superoxide anion-dependent oxidation. Activated SoxR turns on transcription of a single gene, soxS, which encodes a transcriptional regulator that activates a regulon that includes dozens of oxidative stress response genes. SoxR homologues have been identified in many bacterial species, including the opportunistic pathogen Pseudomonas aeruginosa. However, the expected SoxR partner, SoxS, has not been found in P. aeruginosa. Thus, the primary gene target(s) of P. aeruginosa SoxR is unknown and the involvement of this regulator in the oxidative stress response of the bacterium remains unclear. We utilized transcriptome profiling to identify the P. aeruginosa SoxR regulon and constructed and characterized an unmarked P. aeruginosa DeltasoxR mutant. We provide evidence indicating that P. aeruginosa SoxR activates a six-gene regulon in response to O(2)(.-)-induced stress. The regulon includes three transcriptional units: (i) the recently identified mexGHI-ompD four-gene operon, which encodes a multidrug efflux pump system involved in quorum-sensing signal homeostasis; (ii) gene PA3718, encoding a probable efflux pump; and (iii) gene PA2274, encoding a probable monooxygenase. We also demonstrate that P. aeruginosa SoxR is not a key regulatory player in the oxidative stress response. Finally, we show that P. aeruginosa SoxR is required for virulence in a mouse model of intrapulmonary infection. These results demonstrate that the E. coli-based SoxRS paradigm does not hold in P. aeruginosa and foster new hypotheses for the possible physiological role of P. aeruginosa SoxR.</AbstractText>
+            </Abstract>
+            <Affiliation>Microbiology and Immunology, Medical College of Cornell University, 1300 York Avenue, Box 62, W-706, New York, NY 10021. leq2001@med.cornell.edu.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Palma</LastName>
+                    <ForeName>Marco</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zurita</LastName>
+                    <ForeName>Juan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ferreras</LastName>
+                    <ForeName>Julian A</ForeName>
+                    <Initials>JA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Worgall</LastName>
+                    <ForeName>Stefan</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Larone</LastName>
+                    <ForeName>Davise H</ForeName>
+                    <Initials>DH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Shi</LastName>
+                    <ForeName>Lei</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Campagne</LastName>
+                    <ForeName>Fabien</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Quadri</LastName>
+                    <ForeName>Luis E N</ForeName>
+                    <Initials>LE</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Infect Immun</MedlineTA>
+            <NlmUniqueID>0246127</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">73/5/2958</ArticleId>
+            <ArticleId IdType="doi">10.1128/IAI.73.5.2958-2966.2005</ArticleId>
+            <ArticleId IdType="pubmed">15845502</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15845036</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>0003-4800</ISSN>
+                <JournalIssue>
+                    <Volume>69</Volume>
+                    <Issue>Pt 3</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>May</Month>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Application of the Stepwise Focusing Method to Optimize the Cost-effectiveness of Genome-wide Association Studies with Limited Research Budgets for Genotyping and Phenotyping.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>323-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Summary The recent cataloguing of a large number of SNPs enables us to perform genome-wide association studies for detecting common genetic variants associated with disease. Such studies, however, generally have limited research budgets for genotyping and phenotyping. It is therefore necessary to optimize the study design by determining the most cost-effective numbers of SNPs and individuals to analyze. In this report we applied the stepwise focusing method, with two-stage design, developed by Satagopan et al. (2002) and Saito &amp; Kamatani (2002), to optimize the cost-effectiveness of a genome-wide direct association study using a transmission/disequilibrium test (TDT). The stepwise focusing method consists of two steps: a large number of SNPs are examined in the first focusing step, and then all the SNPs showing a significant P-value are tested again using a larger set of individuals in the second focusing step. In the framework of optimization, the numbers of SNPs and families and the significance levels in the first and second steps were regarded as variables to be considered. Our results showed that the stepwise focusing method achieves a distinct gain of power compared to a conventional method with the same research budget.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Molecular Biology and Genetics, Cornell University, Ithaca, NY 14853, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ohashi</LastName>
+                    <ForeName>Jun</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Clark</LastName>
+                    <ForeName>Andrew G</ForeName>
+                    <Initials>AG</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Ann Hum Genet</MedlineTA>
+            <NlmUniqueID>0416661</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">AHG157</ArticleId>
+            <ArticleId IdType="doi">10.1046/j.1529-8817.2005.00157.x</ArticleId>
+            <ArticleId IdType="pubmed">15845036</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID>15844431</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>0003-1488</ISSN>
+                <JournalIssue>
+                    <Volume>226</Volume>
+                    <Issue>8</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>Apr</Month>
+                        <Day>15</Day>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Outcome of dogs with mast cell tumors in the inguinal or perineal region versus other cutaneous locations: 124 cases (1990-2001).</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1368-74</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>OBJECTIVE: To compare clinical outcome of dogs with cutaneous mast cell tumors (MCTs) in the inguinal or perineal region with outcome for dogs with MCTs in other cutaneous locations. DESIGN: Retrospective study. ANIMALS: 37 dogs with MCTs in the inguinal or perineal region and 87 dogs with MCTs in other cutaneous locations. PROCEDURE: Information obtained from the medical records included sex, breed, age, histologic grade of all tumors, number and location of all tumors, tumor size (ie, diameter of the tumor), completeness of surgical excision, treatments administered in addition to surgery, and outcome. In all dogs, the primary treatment consisted of surgical excision. RESULTS: Disease-free interval and survival time for dogs with MCTs in the inguinal or perineal region were not significantly different from values for dogs with MCTs in other cutaneous locations. Dogs with incompletely excised tumors, dogs with grade III tumors, and dogs that received systemic treatment were 2, 2.5, and 4 times as likely, respectively, to have a relapse. Factors significantly associated with a shorter survival time were age &gt; 8 years, metastatic disease at the time of initial diagnosis, and tumor relapse. CONCLUSIONS AND CLINICAL RELEVANCE: Results of the present study suggest that dogs with MCTs in the inguinal or perineal region do not have a worse prognosis in regard to disease-free interval or survival time than do dogs with MCTs in other cutaneous locations. Treatment recommendations for dogs with cutaneous MCTs should be based on confirmed predictors of biological behavior, such as histologic grade and clinical stage.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Clinical Sciences, College of Veterinary Medicine, Cornell University, Ithaca, NY 14853, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Sfiligoi</LastName>
+                    <ForeName>Gabriella</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rassnick</LastName>
+                    <ForeName>Kenneth M</ForeName>
+                    <Initials>KM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Scarlett</LastName>
+                    <ForeName>Janet M</ForeName>
+                    <Initials>JM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Northrup</LastName>
+                    <ForeName>Nicole C</ForeName>
+                    <Initials>NC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gieger</LastName>
+                    <ForeName>Tracy L</ForeName>
+                    <Initials>TL</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Am Vet Med Assoc</MedlineTA>
+            <NlmUniqueID>7503067</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">15844431</ArticleId>
+            <ArticleId IdType="medline">102088659</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="Publisher">
+        <PMID>15844153</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>4</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN>0740-3194</ISSN>
+                <JournalIssue>
+                    <Volume>53</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>Apr</Month>
+                        <Day>20</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Coden>MRMEEN</Coden>
+                <Title>Magnetic resonance in medicine : official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine.</Title>
+            </Journal>
+            <ArticleTitle>Simultaneous perfusion and blood-oxygenation-level-dependent measurements using single-shot interleaved z-shim echo-planar imaging.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1207-1211</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Single-shot interleaved z-shim EPI (SSIZS-EPI) was extended to a simultaneous perfusion and blood-oxygenation-level-dependent (BOLD) imaging technique that reduces susceptibility-induced signal loss while preserving rapid image acquisition. Experiments on human brains showed that images acquired with this technique had improved signal-to-noise ratio in the inferior prefrontal, meso-, and lateral-temporal lobes compared with a conventional EPI. Perfusion maps obtained from the SSIZS-EPI images at resting state illustrated substantial signal recovery in these brain areas. Perfusion and BOLD images collected with a sensorimotor paradigm demonstrated the feasibility of the technique to simultaneously measure cerebral blood flow and blood oxygenation signals associated with brain activation. Functional experiments with a neuropsychiatric paradigm showed increased brain activities in the periamygdalar regions in both perfusion and BOLD maps, consistent with a previous H(2) (15)O PET study. The proposed technique, with its advantages of reducing susceptibility artifacts and fast scanning speed, would be useful for obtaining more reliable measurements of functional signals, particularly in the brain regions with field inhomogeneities. Magn Reson Med 53:1207-1211, 2005. Published 2005 Wiley-Liss, Inc.</AbstractText>
+            </Abstract>
+            <Affiliation>Functional Neuroimaging Laboratory, Department of Psychiatry, Weill Medical College of Cornell University, New York, New York, USA.</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Yang</LastName>
+                    <FirstName>Yihong</FirstName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author>
+                    <LastName>Gu</LastName>
+                    <FirstName>Hong</FirstName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author>
+                    <LastName>Silbersweig</LastName>
+                    <FirstName>David A</FirstName>
+                    <Initials>DA</Initials>
+                </Author>
+                <Author>
+                    <LastName>Stern</LastName>
+                    <FirstName>Emily</FirstName>
+                    <Initials>E</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Magn Reson Med</MedlineTA>
+            <NlmUniqueID>8505245</NlmUniqueID>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1002/mrm.20431</ArticleId>
+            <ArticleId IdType="pubmed">15844153</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15843650</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <Article PubModel="Electronic-Print">
+            <Journal>
+                <ISSN>0047-2425</ISSN>
+                <JournalIssue>
+                    <Volume>34</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <MedlineDate>2005 May-Jun</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Simple Models for Phosphorus Loss from Manure during Rainfall.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>872-6</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Mechanistic, predictive equations for phosphorus (P) transport in runoff from manure-applied fields constitute a critical knowledge gap for developing nonpoint-source pollution models. We derived two simple equations to describe the P release from animal manure during a rainfall event-one based on first-order P desorption kinetics and one based on second-order kinetics. The manure characteristics needed in the two kinetic equations are the maximum amount of water-extractable phosphorus (WEP) and a characteristic desorption time. Water-extractable P can be measured directly but currently the characteristic time can only be obtained by fitting experimental data. In addition, we evaluated two models usually used to estimate P loss from soil, the Elovitch equation and power function, both of which relate P loss to time. The models were tested against previously published data of P release from different manures under laboratory conditions. All equations fit the data well. Of the two kinetic equations, the second-order model showed better agreement with the data than the first-order model; for example, maximum relative differences between the model results and measured data were 2.6 and 4.7%, respectively. The characteristic times varied between 20 min for dairy manure and almost 100 min for poultry manure. The characteristic time did not appear to change with flow rate but decreased with smaller manure aggregates. The parameters for power-function relationships could not be related to measured manure characteristics. These results provide the first step to process-based approximations for predicting P release from manure with time during rainfall shortly after land application, when P losses are the greatest.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Biological and Environmental Engineering, Cornell University, Riley-Robb Hall, Ithaca, NY 14853-5701.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>GÃ©rard-Marchant</LastName>
+                    <ForeName>Pierre</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Walter</LastName>
+                    <ForeName>M Todd</ForeName>
+                    <Initials>MT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steenhuis</LastName>
+                    <ForeName>Tammo S</ForeName>
+                    <Initials>TS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2005</Year>
+                <Month>04</Month>
+                <Day>20</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>J Environ Qual</MedlineTA>
+            <NlmUniqueID>0330666</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="ppublish">
+                <Year>2005</Year>
+                <Month/>
+                <Day/>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>epublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">34/3/872</ArticleId>
+            <ArticleId IdType="doi">10.2134/jeq2003.0097</ArticleId>
+            <ArticleId IdType="pubmed">15843650</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Process">
+        <PMID>15843260</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>0300-5577</ISSN>
+                <JournalIssue>
+                    <Volume>33</Volume>
+                    <Issue>2</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Gestational age-specific distribution of twin birth weight discordance.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>117-20</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>AIM: To examine the gestational age-specific distribution of twin birth weight discordance. METHODS: We analyzed all liveborn twin sets between 28 and 40 weeks' gestation from the United States 1995-1998 Multiple Matched Birth Data Set compiled by the National Center for Health Statistics. We calculated the 50th and 95th percentiles of birth weight discordance at each gestational age. Neonatal mortality rates were calculated for discordant twins at the 95th percentile of birth weight discordance for each gestational age. RESULTS: At older gestational ages, the 95th percentile of birth weight discordance resulted in an inter-twin birth weight difference of approximately 25%, a value often used to define twins as birth weight discordant. However, at earlier gestational ages, the 95th percentile of birth weight discordance was greater, reaching nearly 50% at 28 weeks. CONCLUSIONS: The inter-twin birth weight difference at the 95th percentile is greater at lower gestational ages, possibly illustrating the different nature or severity of twin birth weight discordance at an earlier gestational age.</AbstractText>
+            </Abstract>
+            <Affiliation>Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Weill Medical College of Cornell University, New York, NY 10021, USA. robinkal@aol.com</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Kalish</LastName>
+                    <ForeName>Robin B</ForeName>
+                    <Initials>RB</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Branum</LastName>
+                    <ForeName>Amy</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sharma</LastName>
+                    <ForeName>Geeta</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Keith</LastName>
+                    <ForeName>Louis G</ForeName>
+                    <Initials>LG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blickstein</LastName>
+                    <ForeName>Isaac</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Germany</Country>
+            <MedlineTA>J Perinat Med</MedlineTA>
+            <NlmUniqueID>0361031</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="doi">10.1515/JPM.2005.022</ArticleId>
+            <ArticleId IdType="pubmed">15843260</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15843025</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>0022-2836</ISSN>
+                <JournalIssue>
+                    <Volume>348</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>May</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Crystal structures of fms1 and its complex with spermine reveal substrate specificity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>951-9</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Fms1 is a rate-limiting enzyme for the biosynthesis of pantothenic acid in yeast. Fms1 has polyamine oxidase (PAO) activity, which converts spermine into spermidine and 3-aminopropanal. The 3-aminopropanal is further oxidized to produce beta-alanine, which is necessary for the biosynthesis of pantothenic acid. The crystal structures of Fms1 and its complex with the substrate spermine have been determined using the single-wavelength anomalous diffraction (SAD) phasing method. Fms1 consists of an FAD-binding domain, with Rossmann fold topology, and a substrate-binding domain. The active site is a tunnel located at the interface of the two domains. The substrate spermine binds to the active site mainly via hydrogen bonds and hydrophobic interactions. In the complex, C11 but not C9 of spermine is close enough to the catalytic site (N5 of FAD) to be oxidized. Therefore, the products are spermidine and 3-aminopropanal, rather than 3-(aminopropyl) 4-aminobutyraldehyde and 1,3-diaminoprone.</AbstractText>
+            </Abstract>
+            <Affiliation>MacCHESS at the Cornell High Energy Synchrotron Source, Cornell University, Ithaca, NY 14853-8001, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Huang</LastName>
+                    <ForeName>Qingqiu</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Liu</LastName>
+                    <ForeName>Qun</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hao</LastName>
+                    <ForeName>Quan</ForeName>
+                    <Initials>Q</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>J Mol Biol</MedlineTA>
+            <NlmUniqueID>2985088R</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2004</Year>
+                <Month>12</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2005</Year>
+                <Month>2</Month>
+                <Day>24</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2005</Year>
+                <Month>3</Month>
+                <Day>2</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0022-2836(05)00263-9</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.jmb.2005.03.008</ArticleId>
+            <ArticleId IdType="pubmed">15843025</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15842968</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>04</Month>
+            <Day>21</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>0002-9149</ISSN>
+                <JournalIssue>
+                    <Volume>95</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>May</Month>
+                        <Day>1</Day>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Influence of Stent Length to Lesion Length Ratio on Angiographic and Clinical Outcomes After Implantation of Bare Metal and Drug-Eluting Stents (the TAXUS-IV Study).</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1043-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Longer bare metal stent lengths have been associated with greater restenosis. However, the effect of the ratio of stent length to lesion length on clinical and angiographic restenosis after implantation of bare metal and drug-eluting stents has not been clearly defined. Patients in the TAXUS-IV study who underwent single-study stent placement were categorized into tertiles based on ratios of stent length to lesion length. Clinical results at 1 year and angiographic outcomes at 9 months were compared across the 3 groups. The median ratios of stent length to lesion length were 1.20, 1.58, and 2.27 in the 3 tertiles. Analysis segment restenosis rates at 9 months were similar across the 3 tertiles with bare metal stents (24.7% vs 26.7% vs 23.8%, respectively, p = 0.90 for trend) and paclitaxel-eluting stents (11.7% vs 6.5% vs 5.4%, respectively, p = 0.24). Similarly, there were no differences in 1-year rates of target lesion revascularization across the 3 tertiles for bare metal stents (14.6% vs 14.8% vs 13.7%, respectively, p = 0.91) or paclitaxel-eluting stents (6.1% vs 3.6% vs 4.0%, respectively, p = 0.38). By multivariate analysis, the ratio of stent length to lesion length was an independent predictor of neither 9-month angiographic restenosis nor 1-year target lesion revascularization in the bare metal stent arm (odds ratio 1.21, p = 0.36, and hazard ratio 0.80, p = 0.31, respectively) or in the paclitaxel-eluting stent arm (odds ratio 0.86, p = 0.76, and hazard ratio 0.58, p = 0.21, respectively). These data do not support the arbitrary use of larger ratios of stent length to lesion length in patients who undergo implantation of drug-eluting stents.</AbstractText>
+            </Abstract>
+            <Affiliation>Weill Medical College of Cornell University, New York, New York.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Wong</LastName>
+                    <ForeName>S Chiu</ForeName>
+                    <Initials>SC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hong</LastName>
+                    <ForeName>Mun K</ForeName>
+                    <Initials>MK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ellis</LastName>
+                    <ForeName>Stephen G</ForeName>
+                    <Initials>SG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Buchbinder</LastName>
+                    <ForeName>Maurice</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Reisman</LastName>
+                    <ForeName>Mark</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Delago</LastName>
+                    <ForeName>Augustin</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kellett</LastName>
+                    <ForeName>Mirle</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Popma</LastName>
+                    <ForeName>Jeffrey J</ForeName>
+                    <Initials>JJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Russell</LastName>
+                    <ForeName>Mary E</ForeName>
+                    <Initials>ME</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mehran</LastName>
+                    <ForeName>Roxana</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moses</LastName>
+                    <ForeName>Jeffrey W</ForeName>
+                    <Initials>JW</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Stone</LastName>
+                    <ForeName>Gregg W</ForeName>
+                    <Initials>GW</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Am J Cardiol</MedlineTA>
+            <NlmUniqueID>0207277</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2004</Year>
+                <Month>11</Month>
+                <Day>3</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2005</Year>
+                <Month>1</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2005</Year>
+                <Month>1</Month>
+                <Day>4</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>4</Month>
+                <Day>22</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">S0002-9149(05)00180-3</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.amjcard.2005.01.024</ArticleId>
+            <ArticleId IdType="pubmed">15842968</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>

@@ -1,0 +1,683 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix crw:     <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#> .
+@prefix w:		 <http://vitro.mannlib.cornell.edu/ns/vitro/rdfIngestWorkflow#> .
+@prefix s:	     <http://vitro.mannlib.cornell.edu/ns/vitro/0.7/sparql#> .
+@prefix vitro:   <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+
+# first define the source model
+crw:rawHEdataModel
+      a           w:Model ;
+      rdfs:label  "CHE - raw model"@en-US ;
+      w:modelName "rawHEdata" .
+      
+# then define a new model
+crw:cheResponseModel
+      a           w:Model ;
+      rdfs:label  "CHE - Faculty Response Model"@en-US ;
+      w:modelName "cheResponseModel" .
+      
+# then add a model for intermediate results, in this case responses run through jTidy
+crw:cheTidiedResponseModel
+      a           w:Model ;
+      rdfs:label  "CHE - Intermediate Model"@en-US ;
+      w:modelName "cheTidiedResponseModel" .
+      
+# set up marker model
+crw:cheMarkedIndividualsModel
+      a           w:Model ;
+      rdfs:label  "CHE - marked individuals model"@en-US ;
+      w:modelName "cheMarkedIndividualsModel" .
+      
+# set up a final retractions model
+crw:cheFinalRetractionsModel
+      a           w:Model ;
+      rdfs:label  "CHE - final retractions model"@en-US ;
+      w:modelName "cheFinalRetractionsModel" .
+      
+# set up a final additions model
+crw:cheFinalAssertionsModel
+      a           w:Model ;
+      rdfs:label  "CHE - final additions model"@en-US ;
+      w:modelName "cheFinalAssertionsModel" .
+
+######################## define workflow ############################### 
+      
+crw:CHEFacultyReportingWorkflow
+      a           w:Workflow ;
+      rdfs:label  "CHE Faculty Reporting Workflow - All Responses"@en-US ;
+      w:firstStep crw:ClearResponseModel .
+
+######################## workflow steps  ############################### 
+
+# if anything in the model, clear it; if doesn't exist, create it
+crw:ClearResponseModel
+      a          w:WorkflowStep ;
+      rdfs:label "Clear Response Model"@en-US ;
+      w:action   crw:ClearResponseModelAction ;
+      w:nextStep crw:CopyRawDataIntoWorkModel .
+
+# the action to clear the response model
+crw:ClearResponseModelAction
+      a             w:ClearModelAction ;
+      rdfs:label    "CHE - Clear Response Model Action"@en-US ;
+      w:sourceModel crw:cheResponseModel .
+      
+# the action to copy raw model into working model
+crw:CopyRawDataIntoWorkModel
+	  a  w:WorkflowStep ;
+	  rdfs:label "Copy Raw Model"@en-US ;
+	  w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:rawHEdataModel ;
+		w:destinationModel crw:cheResponseModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr
+	        " 
+			CONSTRUCT {
+				?s ?p ?o
+			} WHERE {
+				?s ?p ?o
+			}" ]
+	  ] ;
+	  w:nextStep crw:CreateFullNetIDs .
+	  
+# the action to create a VIVO net id 
+crw:CreateFullNetIDs
+	  a w:WorkflowStep ;
+	  rdfs:label "Create Cornell NetID property"@en-US ;
+	  w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:destinationModel crw:cheResponseModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " PREFIX che: <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      				 PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      				 PREFIX fn: <http://www.w3.org/2005/xpath-functions#>
+			CONSTRUCT { 
+				?s vivo:CornellemailnetId ?o
+			} WHERE {
+				?s che:cheresponse_Netid ?o
+			}" ]
+	  ] ;
+	  w:nextStep crw:AppendCornellEdu .
+
+# the action to append @cornell.edu to net ids
+crw:AppendCornellEdu
+	a w:WorkflowStep ;
+	rdfs:label "Append @Cornell.edu to net ids"@en-US ;
+	w:action [
+		a w:ProcessPropertyValueStringsAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:destinationModel crw:cheResponseModel ;
+		w:originalProperty [
+			a w:Literal ;
+			w:literalValue "http://vivo.library.cornell.edu/ns/0.1#CornellemailnetId"
+			] ;
+		w:newProperty [
+			a w:Literal ;
+			w:literalValue "http://vivo.library.cornell.edu/ns/0.1#CornellemailnetId"
+			] ;
+		w:processorClass [
+			a w:Literal ;
+			w:literalValue "edu.cornell.mannlib.vitro.bjl23.ingest.hr.HRCornellEmailProcessor"
+			] ;
+		w:processorMethod [
+			a w:Literal ;
+			w:literalValue "process"
+			]
+	] ;
+	w:nextStep crw:LinkPersonToResponse .
+
+# then define as a new model in this workflow the full Jena model, with inferences
+crw:jenaVitroModel
+      a           w:Model ;
+      rdfs:label  "main data model accessible to che database"@en-US ;
+      w:modelName "vitro:jenaOntModel" .
+
+	
+# the action to link a person to a CheResponse based on a common netId
+crw:LinkPersonToResponse
+	a w:WorkflowStep ;
+	rdfs:label "Link person to response based on common net id"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheResponseModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person che:hasCheResponse ?response .
+				?response che:responseFrom ?person
+			} WHERE {
+				?person rdf:type akt:Person .
+				?response rdf:type che:CheResponse .
+				?person vivo:CornellemailnetId ?netId .
+				?response vivo:CornellemailnetId ?netId
+			}" ]
+	
+	] ;
+	w:nextStep crw:PopulateMarkedIndividualsModel .
+
+# action to populate a marked model to simplify later retractions
+crw:PopulateMarkedIndividualsModel
+	a w:WorkflowStep ;
+	rdfs:label "populate a model of marked individuals for use in later retractions"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheMarkedIndividualsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person rdf:type che:MarkedIndividual .
+			} WHERE {
+				?person rdf:type akt:Person .
+				?response rdf:type che:CheResponse .
+				?person vivo:CornellemailnetId ?netId .
+				?response vivo:CornellemailnetId ?netId
+			}" ]
+	
+	] ;
+	w:nextStep crw:TidyResponses .
+
+# The action to clean input of HTML -- note that copying from the same model will replace
+#   the originalProperty with the newProperty. Use a different model if you don't want
+#   the originals to disappear.
+crw:TidyResponses
+	a w:WorkflowStep ;
+	rdfs:label "Clean incoming response text"@en-US ;
+	w:action [
+		a w:ProcessPropertyValueStringsAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:destinationModel crw:cheTidiedResponseModel ;
+		w:originalProperty [
+			a w:Literal ;
+			w:literalValue "http://vitro.mannlib.cornell.edu/ns/ingest/CHE#cheresponse_Response"
+			] ;
+		w:newProperty [
+			a w:Literal ;
+			w:literalValue "http://vitro.mannlib.cornell.edu/ns/ingest/CHE#cheresponse_TidiedResponse"
+			] ;
+		w:processorClass [
+			a w:Literal ;
+			w:literalValue "edu.cornell.mannlib.vitro.webapp.utils.MakeTidy"
+			] ;
+		w:processorMethod [
+			a w:Literal ;
+			w:literalValue "process"
+			]
+	] ;
+	w:nextStep crw:LinkCoursesToPerson .
+
+# the action to link a person and a copy of the courses taught response
+crw:LinkCoursesToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link courses to person as recent courses taught"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:recentCoursesTaught ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question \"<STRONG>Courses Taught</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractCoursesFromPerson .
+	
+# retract any previous courses taught entry
+crw:RetractCoursesFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any recent courses taught"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:recentCoursesTaught ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:recentCoursesTaught ?valueToRetract .
+				?response che:cheresponse_Question \"<STRONG>Courses Taught</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+			}" ]
+	] ;
+	w:nextStep crw:LinkProfessionalActivitiesToPerson .
+
+
+# the action to link a person and a copy of the current professional activities response
+crw:LinkProfessionalActivitiesToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link professional activities to person"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:professionalService ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question \"<STRONG>Current Professional Activities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractProfessionalServiceFromPerson .
+	
+# the action retract any previous professional service ("current professional activities")
+crw:RetractProfessionalServiceFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any professional activities"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:professionalService ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:professionalService ?valueToRetract .
+				?response che:cheresponse_Question \"<STRONG>Current Professional Activities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+			}" ]
+	] ;
+	w:nextStep crw:LinkResearchActivitiesToPerson .
+	
+# the action to link a person and a copy of the current research activities response
+crw:LinkResearchActivitiesToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link research activities to person as research focus"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:researchFocus ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question \"<STRONG>Current Research Activities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractResearchActivitiesFromPerson .
+	
+# the action retract any previous research activities
+crw:RetractResearchActivitiesFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any previous research activities"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:researchFocus ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:researchFocus ?valueToRetract .
+				?response che:cheresponse_Question \"<STRONG>Current Research Activities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+			}" ]
+	] ;
+	w:nextStep crw:LinkExtensionActivitiesToPerson .
+
+# the action to link a person and a copy of the current extension activities response
+crw:LinkExtensionActivitiesToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link extension activities to person as outreach focus"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person mann:outreachFocus ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question \"<STRONG>Current Extension Activities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractExtensionActivitiesFromPerson .
+	
+# the action retract any previous extension activities
+crw:RetractExtensionActivitiesFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any previous extension activities"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person mann:outreachFocus ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person mann:outreachFocus ?valueToRetract .
+				?response che:cheresponse_Question \"<STRONG>Current Extension Activities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+			}" ]
+	] ;
+	w:nextStep crw:LinkAdministrativeResponsibilitiesToPerson .
+
+# the action to link a person and a copy of the administrative responsibilities response
+crw:LinkAdministrativeResponsibilitiesToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link administrativer responsibilities to person"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:administrativeResponsibilities ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question \"<STRONG>Administrative Responsibilities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractAdministrativeResponsibilitiesFromPerson .
+	
+# the action retract any previous administrative responsibilities
+crw:RetractAdministrativeResponsibilitiesFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any previous administrative responsibilities"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:administrativeResponsibilities ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:administrativeResponsibilities ?valueToRetract .
+				?response che:cheresponse_Question \"<STRONG>Administrative Responsibilities</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+			}" ]
+	] ;
+	w:nextStep crw:LinkRelatedWebsitesToPerson .
+
+# the action to link a person and a copy of the related websites response
+crw:LinkRelatedWebsitesToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link related websites to person"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:relatedWebsites ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question \"<STRONG>Related Websites</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractRelatedWebsitesFromPerson .
+	
+# the action retract any previous related websites
+crw:RetractRelatedWebsitesFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any previous related websites"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:relatedWebsites ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:relatedWebsites ?valueToRetract .
+				?response che:cheresponse_Question \"<STRONG>Related Websites</STRONG>\" .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+			}" ]
+	] ;
+	w:nextStep crw:LinkBiographicalStatementToPerson .
+	
+# the action to link a person and their biographical statement
+crw:LinkBiographicalStatementToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link biographical statement to person"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:overviewStatement ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question ?question .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue .
+				FILTER( regex(str(?question), \"Biographical Statement\", \"i\"))
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractBiographicalStatementFromPerson .
+	
+# the action retract any previous overview statement
+crw:RetractBiographicalStatementFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any previous overview statement"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:overviewStatement ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:overviewStatement ?valueToRetract .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_Question ?question .
+				FILTER( regex(str(?question), \"Biographical Statement\", \"i\"))
+			}" ]
+	] ;
+	w:nextStep crw:LinkPublicationsToPerson .
+	
+# the action to link a person and their list of publications
+crw:LinkPublicationsToPerson
+	a w:WorkflowStep ;
+	rdfs:label "Link publications to person"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheTidiedResponseModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalAssertionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:publications ?newTidiedValue
+			} WHERE {
+				?response che:cheresponse_Question ?question .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_TidiedResponse ?newTidiedValue .
+				FILTER( regex(str(?question), \"Publications\", \"i\"))
+			}" ]
+	
+	] ;
+	w:nextStep crw:RetractPublicationsFromPerson .
+	
+# the action retract any previous selected publications entries
+crw:RetractPublicationsFromPerson
+	a w:WorkflowStep ;
+	rdfs:label "Retract any previous selected publications entries"@en-US ;
+	w:action [
+		a w:SPARQLCONSTRUCTAction ;
+		w:sourceModel crw:cheResponseModel ;
+		w:sourceModel crw:cheMarkedIndividualsModel ;
+		w:sourceModel crw:jenaVitroModel ;
+		w:destinationModel crw:cheFinalRetractionsModel ;
+	    w:sparqlQuery 
+	      [ s:queryStr " 
+	            PREFIX che:  <http://vitro.mannlib.cornell.edu/ns/ingest/CHE#>
+	      	    PREFIX vivo: <http://vivo.library.cornell.edu/ns/0.1#>
+	      	    PREFIX akt:  <http://www.aktors.org/ontology/portal#>
+                PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+			CONSTRUCT { 
+				?person vivo:publications ?valueToRetract
+			} WHERE {
+				?person rdf:type che:MarkedIndividual .
+				?person vivo:publications ?valueToRetract .
+				?response che:cheresponse_Year \"2007\" .
+				?response che:responseFrom ?person .
+				?response che:cheresponse_Question ?question .
+				FILTER( regex(str(?question), \"Publications\", \"i\"))
+			}" ]
+	] .
+
+
+	
+

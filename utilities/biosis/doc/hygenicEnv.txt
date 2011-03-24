@@ -1,0 +1,39 @@
+Notes on hygenic build environment
+
+bdc34@cornell.edu
+2005-03-31
+
+The biosis project is intended to have a build environment where there
+are no jars that are have not been put in the biosis/lib directory by
+the ant build script.  This is so that we will have a good handel on
+which jars and classes the code is using and so that there will be
+fewer supprises when it is deployed.   The main sources of contanimination are the classpath and the
+jre/lib/ext directory.  There are two different times where outside non-hygenic environments
+may be influencing our processes:  compile time and run time.
+
+In general what I am trying to do is to store all of the jars in a
+centeral directory and then get them at build time.  The compile and
+run targets will then use a classpath that is built from  ./lib/*.jar
+and the build directory.  
+
+What else can be done?  
+Check that jre/lib/ext is empty?  ant is not going to do this easily 
+Display a list of jars on the classpath? 
+
+-- compile time issues and solutions --
+
+The ant javac task has an attribute executable which we will used to
+specify the java compiler to use.  There is some information in the
+ant documentation that hints that executable will be ignored if
+fork=false so fork will be set to true.  
+
+There is really nothing stoping someone from using a jdk with a ton of
+jar files in their jre/lib/ext.  What can we do about this?
+
+-- run tiime issues and solutions --
+
+The ant java can be forced to use a given jdk using the jvm
+attribute.  Then ant run -Drun.class=com.cornell.YourClass
+-Drun.args="./some/args" can be used to run the classes.  Also those
+properties can be set in the properties file.
+

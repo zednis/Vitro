@@ -1,0 +1,122 @@
+"Ginsparg, Paul"	162
+"Delaney, Terrence P."	295
+"Yona, Golan"	411
+"Van Loan, Charles F."	447
+"Richardson, Robert C."	469
+"Staiano-Coico, Lisa"	559
+"Thomas, L. Joseph"	576
+"Swieringa, Robert J."	578
+"BenDaniel, David J."	582
+"Shulman, Zachary J."	584
+"Franciosa, Joseph A."	6708
+"Constable, Robert"	761
+"Philpot, William D."	5191
+"Federer, Walter T."	6124
+"Stevenson, Dennis W."	5377
+"Ezra, Gregory S."	6068
+"Wiesner, Ulrich B."	6112
+"Foote, Robert H."	6213
+"Hogue, Douglas E."	6214
+"Oltenacu, Elizabeth A."	6216
+"Andersen, Olaf S."	6555
+"Topf, Norbert"	6590
+"Smith, Vivienne-Elizabeth"	6712
+"Ross, N. Phillip"	6713
+"Arden, James R."	6608
+"Chang, Su Pen (Bobby)"	6609
+"Levin, Serle K."	6616
+"Panchal, Sumedha"	6618
+"Panchal, Sunil J."	6619
+"Aronis, Maria"	6690
+"Laragh, John H."	6697
+"Borer, Jeffrey S."	6704
+"Zukowsky, Michael M."	6723
+"Quaegebeur, Jan M."	6724
+"Scott, Rachelle A."	6859
+"Varghese, Mathew C."	6860
+"Liu, Jennifer Erh-Ping"	6872
+"Fox, Philip"	6888
+"Rodman, John S."	6891
+"Kwon, Charles O."	6923
+"Yakobi-Shvili, Ramy"	6930
+"Wallis, Lila A"	6941
+"Brenner-Gati, Leona"	6943
+"Kan, Edwin C."	7047
+"Campbell, Lindsay"	7163
+"Bassett, William"	7199
+"Peters, H. Elizabeth"	7990
+"Harris, David R."	7992
+"Solla, Leah"	26
+"Schlabach, Martin"	471
+"Thomas, Sarah E."	496
+"Devare, Medha H."	762
+"Hillman, Diane"	6467
+"Steinhart, Gail"	7769
+"Friedlander, Blaine P."	392
+"Steele, Bill"	394
+"Segelken, Roger"	398
+"Myers, Linda"	401
+"Grace-Kobas, Linda"	402
+"Lang, Susan"	403
+"Van Ee, James I."	482
+"Williams, Roger J."	585
+"Jaquette, John P."	588
+"Mehringer, Susan"	622
+"Kelly, Brian J."	757
+"Meixler, Marci S."	6287
+"Wapner, Suzanne"	6360
+"Naisbitt, Nana"	6483
+"Olson, Ken"	6485
+"Parris, Thomas"	6487
+"Poinsett, Amy"	6488
+"Rinkevich, Margaret"	6491
+"Wall, Robert"	6492
+"Smith, T.D."	6494
+"Smith, Page"	6495
+"Zoline, Pamela"	6502
+"Coutinho, Pedro"	345
+"Wilson, Edward O."	6452
+"Collins, Dan"	6458
+"Farrell, Brian"	6460
+"Fisher, Brian"	6461
+"Fornwall, Mark"	6462
+"Garnett, Thomas"	6463
+"Hallwachs, Winnie"	6466
+"Janzen, Daniel"	6470
+"Kineman, John"	6472
+"King, Roger"	6473
+"Kunze, John"	6478
+"Mata, Erick"	6481
+"Miller, Scott"	6482
+"Naskrecki, Piotr"	6484
+"Parks, Bradley"	6486
+"Ramapriyan, H.K."	6489
+"Raven, Peter"	6490
+"Samper, Christian"	6493
+"Stein, Bruce"	6496
+"Thompson, F. Christian"	6497
+"Wagner, Warren"	6498
+"Weibel, Stu"	6499
+"Wilkerson, Richard"	6500
+"Wilson, Don"	6501
+"Bisby, Frank"	6515
+"Baillargeon, Guy"	6516
+"Blaine, Lois"	6517
+"Perez Canhos, Vanderlei"	6518
+"Ruggiero, Michael"	6519
+"Schalk, Peter"	6520
+"Shao, Kwang-Tsao"	6521
+"Shimura, Junko"	6522
+"White, Richard"	6523
+"Wilson, Crispen"	6524
+"Wilson, Karen"	6525
+"Brooks, Marjory B."	449
+"Fulton, Theresa M."	594
+"Hare, Elizabeth"	861
+"Acland, Gregory M."	864
+"Burton-Wurster, Nancy"	866
+"Kaufman, Phillip E."	5778
+"Doobay, Roopram"	6672
+"Lyons, Alita J."	6675
+"Frankel, Richard H."	6948
+"Davis, Michael"	7169

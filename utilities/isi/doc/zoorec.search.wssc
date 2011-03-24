@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-CALL>
+    <SOAP-FIELDS>
+        <service>SearchRetrieveService</service>
+        <port>SearchRetrieve</port>
+        <operation>search</operation>
+        <URL>http://wok-ws.isiknowledge.com/esti/soap/SearchRetrieve</URL>
+        <action>search</action>
+    </SOAP-FIELDS>
+    <REQUEST>
+        <SOAP-ENV:Envelope
+            xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+            <SOAP-ENV:Header/>
+            <SOAP-ENV:Body>
+                <oxy:search
+                    SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                    xmlns:oxy="http://esti.isinet.com/soap/search">
+                    <databaseID>ZOOREC</databaseID>
+                    <query>AD=(Cornell*)</query>
+                    <depth>4week</depth>
+                    <editions/>
+                    <firstRec>1</firstRec>
+                    <numRecs>20</numRecs>
+                </oxy:search>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+    </REQUEST>
+</SOAP-CALL>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by jc55 (D-LIT Cornell University) -->
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st November 2003//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_031101.dtd">
+
+<PubmedArticleSet>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15205349</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>18</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>0008-5472</ISSN>
+					<JournalIssue>
+						<Volume>64</Volume>
+						<Issue>12</Issue>
+						<PubDate>
+							<Year>2005</Year>
+							<Month>Jun</Month>
+							<Day>15</Day>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>p14ARF Expression Increases Dihydrofolate Reductase Degradation and Paradoxically Results in Resistance to Folate Antagonists in Cells with Nonfunctional p53.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>4338-4345</MedlinePgn>
+				</Pagination>
+				<Abstract>
+					<AbstractText>The p14(ARF) protein, the product of an alternate reading frame of the INK4A/ARF locus on human chromosome 9p21, disrupts the ability of MDM2 to target p53 for proteosomal degradation and causes an increase in steady-state p53 levels, leading to a G(1) and G(2) arrest of cells in the cell cycle. Although much is known about the function of p14(ARF) in the p53 pathway, not as much is known about its function in human tumor growth and chemosensitivity independently of up-regulation of p53 protein levels. To learn more about its effect on cellular proliferation and chemoresistance independent of p53 up-regulation, human HT-1080 fibrosarcoma cells null for p14(ARF) and harboring a defective p53 pathway were stably transfected with p14(ARF) cDNA under the tight control of a doxycycline-inducible promoter. Induction of p14(ARF) caused a decrease in cell proliferation rate and colony formation and a marked decrease in the level of dihydrofolate reductase (DHFR) protein. The effect of p14(ARF) on DHFR protein levels was specific, because thymidylate kinase and thymidylate synthase protein levels were not decreased nor were p53 or p21WAF1 protein levels increased. The decrease in DHFR protein was abolished when the cells were treated with the proteasome inhibitor MG132, demonstrating that p14(ARF) augments proteasomal degradation of the protein. Surprisingly, induction of p14(ARF) increased resistance to the folate antagonists methotrexate, trimetrexate, and raltitrexed. Depletion of thymidine in the medium reversed this resistance, indicating that p14(ARF) induction increases the reliance of these cells on thymidine salvage.</AbstractText>
+				</Abstract>
+				<Affiliation>Joan and Sanford I. Weill Graduate School of Medical Sciences of Cornell University, New York, New York.</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Magro</LastName>
+						<FirstName>Pellegrino G.</FirstName>
+						<Initials>PG</Initials>
+					</Author>
+					<Author>
+						<LastName>Russo</LastName>
+						<FirstName>Angelo J.</FirstName>
+						<Initials>AJ</Initials>
+					</Author>
+					<Author>
+						<LastName>Li</LastName>
+						<FirstName>Wei-Wei</FirstName>
+						<Initials>WW</Initials>
+					</Author>
+					<Author>
+						<LastName>Banerjee</LastName>
+						<FirstName>Debabrata</FirstName>
+						<Initials>D</Initials>
+					</Author>
+					<Author>
+						<LastName>Bertino</LastName>
+						<FirstName>Joseph R.</FirstName>
+						<Initials>JR</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>Cancer Res</MedlineTA>
+				<NlmUniqueID>2984705R</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15205349</ArticleId>
+				<ArticleId IdType="doi">10.1158/0008-5472.CAN-03-1045</ArticleId>
+				<ArticleId IdType="pii">64/12/4338</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15205055</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>18</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>1063-5157</ISSN>
+					<JournalIssue>
+						<Volume>53</Volume>
+						<Issue>2</Issue>
+						<PubDate>
+							<Year>2005</Year>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>Single-Copy Nuclear Genes Recover Cretaceous-Age Divergences in Bees.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>309-326</MedlinePgn>
+				</Pagination>
+				<Abstract>
+					<AbstractText>We analyzed the higher level phylogeny of the bee family Halictidae based on the coding regions of three single-copy nuclear genes (long-wavelength [LW] opsin, wingless, and elongation factor 1-α [EF-1α]). Our combined data set consisted of 2,234 aligned nucleotide sites (702 base pairs [bp] for LW opsin, 405 bp for wingless, and 1,127 bp for EF-1α) and 779 parsimony-informative sites. We included 58 species of halictid bees from 33 genera, representing all subfamilies and tribes, and rooted the trees using seven outgroups from other bee families: Colletidae, Andrenidae, Melittidae, and Apidae. We analyzed the separate and combined data sets by a variety of methods, including equal weights parsimony, maximum likelihood, and Bayesian methods. Analysis of the combined data set produced a strong phylogenetic signal with high bootstrap and Bremer support and high posterior probability well into the base of the tree. The phylogeny recovered the monophyly of the Halictidae and of all four subfamilies and both tribes, recovered relationships among the subfamilies and tribes congruent with morphology, and provided robust support for the relationships among the numerous genera in the tribe Halictini, sensu Michener (2000). Using our combined nucleotide data set, several recently described halictid fossils from the Oligocene and Eocene, and recently developed Bayesian methods, we estimated the antiquity of major clades within the family. Our results indicate that each of the four subfamilies arose well before the Cretaceous-Tertiary boundary and suggest that the early radiation of halictid bees involved substantial African-South American interchange roughly coincident with the separation of these two continents in the late Cretaceous. This combination of single-copy nuclear genes is capable of recovering Cretaceous-age divergences in bees with high levels of support. We propose that LW opsin, wingless, and EF-1α (F2 copy) may be useful in resolving relationships among bee families and other Cretaceous-age insect lineages.</AbstractText>
+				</Abstract>
+				<Affiliation>Department of Entomology, Comstock Hall, Cornell University, Ithaca, New York 14853, USA; E-mail: bnd1@cornell.edu</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Danforth</LastName>
+						<FirstName>Bryan N.</FirstName>
+						<Initials>BN</Initials>
+					</Author>
+					<Author>
+						<LastName>Brady</LastName>
+						<FirstName>Seán G.</FirstName>
+						<Initials>SG</Initials>
+					</Author>
+					<Author>
+						<LastName>Sipes</LastName>
+						<FirstName>Sedonia D.</FirstName>
+						<Initials>SD</Initials>
+					</Author>
+					<Author>
+						<LastName>Pearson</LastName>
+						<FirstName>Adam</FirstName>
+						<Initials>A</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>Syst Biol</MedlineTA>
+				<NlmUniqueID>9302532</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15205055</ArticleId>
+				<ArticleId IdType="doi">10.1080/10635150490423737</ArticleId>
+				<ArticleId IdType="pii">EHVHUDQB79YD2P7T</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15205008</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>18</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>0192-6233</ISSN>
+					<JournalIssue>
+						<Volume>31</Volume>
+						<Issue>Supplement 1</Issue>
+						<PubDate>
+							<Year>2003</Year>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>Myelodysplasia: Differentiating Neoplastic from Nonneoplastic Syndromes of Ineffective Hematopoiesis in Dogs.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>44-48</MedlinePgn>
+				</Pagination>
+				<Abstract>
+					<AbstractText>In the context of human hematopathology, the terms myelodysplasia and Myelodysplastic Syndromes (MDS) are applied to disorders of hematopoiesis that are clonal, neoplastic, and, in most forms, manifested as ineffective hematopoiesis with characteristic morphologic abnormalities in multiple cell lines. Studies of human patients have provided the conceptual framework that MDS evolve from a multipotential hematopoietic stem cell (CFU-GEMM) that has undergone neoplastic transformation as the result of acquired genetic mutations. The diagnosis of MDS in human patients is based largely on morphologic examination of marrow but can be confirmed by detection of cytogenetic abnormalities. Spontaneous, neoplastic myelodysplasia occurs in dogs, but rarely. Nonneoplastic syndromes of ineffective hematopoiesis are more common in dogs, can resemble MDS, and are probably immune mediated in many cases. Drugs and their metabolites are potential causes of dysmorphic maturation and ineffective hematopoiesis. Without methods to confirm clonality by cytogenetic analysis, the diagnosis of neoplastic myelodysplasia in dogs is based on light microscopic examination of bone marrow smears. This paper discusses and illustrates the characteristic morphologic and cytochemical features of neoplastic myelodysplasia and nonneoplastic ineffective hematopoiesis in dogs.</AbstractText>
+				</Abstract>
+				<Affiliation>College of Veterinary Medicine, Cornell University, Ithaca, New York 14853.</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Blue</LastName>
+						<FirstName>Julia T.</FirstName>
+						<Initials>JT</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>Toxicol Pathol</MedlineTA>
+				<NlmUniqueID>7905907</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15205008</ArticleId>
+				<ArticleId IdType="doi">10.1080/01926230390177659</ArticleId>
+				<ArticleId IdType="pii">CCLFVRLW802EHXAA</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15204102</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>18</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>1024-5332</ISSN>
+					<JournalIssue>
+						<Volume>9</Volume>
+						<Issue>3</Issue>
+						<PubDate>
+							<Year>2005</Year>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>Granulocyte-Macrophage Colony Stimulating Factor: An Adjuvant for Cancer Vaccines.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>207-215</MedlinePgn>
+				</Pagination>
+				<Abstract>
+					<AbstractText>Granulocyte-macrophage colony stimulating factor (GM-CSF) enhances immune responses by inducing the proliferation, maturation, and migration of dendritic cells, and the expansion and differentiation of B and T lymphocytes. There is significant data in pre-clinical animal models demonstrating the adjuvant effects of GM-CSF in a variety of cancer vaccine approaches, including cellular vaccines, viral vaccines, peptide and protein vaccines, and DNA vaccines. GM-CSF is an attractive vaccine adjuvant because of its immune modulation effects and low toxicity profile. The results in animal models have been confirmed in pilot clinical trials and several clinical trials are currently ongoing.</AbstractText>
+				</Abstract>
+				<Affiliation>Weill Medical College of Cornell University New York NY USA.</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Chang</LastName>
+						<FirstName>David Z.</FirstName>
+						<Initials>DZ</Initials>
+					</Author>
+					<Author>
+						<LastName>Lomazow</LastName>
+						<FirstName>Whitney</FirstName>
+						<Initials>W</Initials>
+					</Author>
+					<Author>
+						<LastName>Joy Somberg</LastName>
+						<FirstName>C.</FirstName>
+						<Initials>C</Initials>
+					</Author>
+					<Author>
+						<LastName>Stan</LastName>
+						<FirstName>Rodica</FirstName>
+						<Initials>R</Initials>
+					</Author>
+					<Author>
+						<LastName>Perales</LastName>
+						<FirstName>Miguel-Angel</FirstName>
+						<Initials>MA</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>Hematology</MedlineTA>
+				<NlmUniqueID>9708388</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15204102</ArticleId>
+				<ArticleId IdType="doi">10.1080/10245330410001701549</ArticleId>
+				<ArticleId IdType="pii">68YVC7LEKQBPMYHF</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15203224</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>18</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>0749-0720</ISSN>
+					<JournalIssue>
+						<Volume>20</Volume>
+						<Issue>2</Issue>
+						<PubDate>
+							<Year>2005</Year>
+							<Month>Jul</Month>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>Acquired spinal cord and peripheral nerve disease.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>231-242</MedlinePgn>
+				</Pagination>
+				<Affiliation>Large Animal Medicine, College of Veterinary Medicine, Cornell University, Ithaca, NY 14853, USA.</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Divers</LastName>
+						<FirstName>Thomas J.</FirstName>
+						<Initials>TJ</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>Vet Clin North Am Food Anim Pract</MedlineTA>
+				<NlmUniqueID>8511905</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>19</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15203224</ArticleId>
+				<ArticleId IdType="doi">10.1016/j.cvfa.2005.02.008</ArticleId>
+				<ArticleId IdType="pii">S074907200500026X</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15201773</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>17</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>0022-5347</ISSN>
+					<JournalIssue>
+						<Volume>172</Volume>
+						<Issue>1</Issue>
+						<PubDate>
+							<Year>2005</Year>
+							<Month>Jul</Month>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>URETHROPLASTY IN PATIENTS OLDER THAN 65 YEARS: INDICATIONS, RESULTS, OUTCOMES AND SUGGESTED TREATMENT MODIFICATIONS.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>201-203</MedlinePgn>
+				</Pagination>
+				<Abstract>
+					<AbstractText>PURPOSE:: Despite an aging population, the results of urethroplasty in elderly patients have not been extensively reported. We performed a multi-institutional review of urethroplasty results in 70 elderly males to determine outcomes. MATERIALS AND METHODS:: We reviewed all urethroplasties performed on males older than 64 years with at least 6 months of followup at 4 medical centers. Stricture type varied and included anastomotic urethroplasty (44%), penile fasciocutaneous onlay flap (31%), Johanson urethroplasty (stage 1, 6%, stages 1 and 2, 4%), buccal mucosa grafts (7%), foreskin grafts (6%) and meatoplasty (1%). RESULTS:: Stricture recurred in 11 (16%) patients, but was managed with a single direct visual internal urethrotomy or dilation in 5 of 11 patients, yielding a final success rate of 91%. Recurrent strictures were more common after fasciocutaneous flaps (7 of 22 cases, 32%) than end-to-end urethroplasty (2 of 31 cases, 6%, p &lt;0.05). Compared to patients younger than 65 years there were more treatment failures, but this was not statistically significant. Perioperative complications were uncommon. Moderate bladder outlet obstructive symptoms developed in 3 patients due to benign prostatic hyperplasia. Notably 6 patients treated previously for post-radiation strictures did well without complications. CONCLUSIONS:: Older men tolerate urethroplasty and these data indicate that therapy should not be withheld solely on the basis of age. The potential for impaired flap blood supply in this population is suggested but has not been proven. Benign prostatic hyperplasia must be considered in those patients who have decreased stream after stricture repair.</AbstractText>
+				</Abstract>
+				<Affiliation>Detroit Receiving Hospital (RAS) and Wayne State University School of Medicine, Detroit, Michigan (AR), San Francisco General Hospital (JWM, LAM), University of California, San Francisco, San Francisco, California, Department of Urology, State University of New York, Buffalo (AKC, KSM), Weill Cornell Medical School and Lenox Hill Hospital, New York (NAA), New York, and Brooke Army Medical Center, San Antonio, Texas (EBT, AFM).</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Santucci</LastName>
+						<FirstName>RICHARD</FirstName>
+						<MiddleName>A.</MiddleName>
+						<Initials>RA</Initials>
+					</Author>
+					<Author>
+						<LastName>McAninch</LastName>
+						<FirstName>JACK</FirstName>
+						<MiddleName>W.</MiddleName>
+						<Initials>JW</Initials>
+					</Author>
+					<Author>
+						<LastName>Mario</LastName>
+						<FirstName>LAYLA</FirstName>
+						<MiddleName>A.</MiddleName>
+						<Initials>LA</Initials>
+					</Author>
+					<Author>
+						<LastName>Rajpurkar</LastName>
+						<FirstName>ATUL</FirstName>
+						<Initials>A</Initials>
+					</Author>
+					<Author>
+						<LastName>Chopra</LastName>
+						<FirstName>ANUJ</FirstName>
+						<MiddleName>K.</MiddleName>
+						<Initials>AK</Initials>
+					</Author>
+					<Author>
+						<LastName>Miller</LastName>
+						<FirstName>KENNON</FirstName>
+						<MiddleName>S.</MiddleName>
+						<Initials>KS</Initials>
+					</Author>
+					<Author>
+						<LastName>Armenakas</LastName>
+						<FirstName>NOEL</FirstName>
+						<MiddleName>A.</MiddleName>
+						<Initials>NA</Initials>
+					</Author>
+					<Author>
+						<LastName>Tieng</LastName>
+						<FirstName>EDWARD</FirstName>
+						<MiddleName>B.</MiddleName>
+						<Initials>EB</Initials>
+					</Author>
+					<Author>
+						<LastName>Morey</LastName>
+						<FirstName>ALLEN</FirstName>
+						<MiddleName>F.</MiddleName>
+						<Initials>AF</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>J Urol</MedlineTA>
+				<NlmUniqueID>0376374</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>18</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>18</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15201773</ArticleId>
+				<ArticleId IdType="pii">00005392-200507000-00051</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+	<PubmedArticle>
+		<MedlineCitation Status="Publisher">
+			<PMID>15201622</PMID>
+			<DateCreated>
+				<Year>2005</Year>
+				<Month>Jun</Month>
+				<Day>17</Day>
+			</DateCreated>
+			<Article>
+				<Journal>
+					<ISSN>0954-6928</ISSN>
+					<JournalIssue>
+						<Volume>15</Volume>
+						<Issue>1</Issue>
+						<PubDate>
+							<Year>2005</Year>
+							<Month>Feb</Month>
+						</PubDate>
+					</JournalIssue>
+				</Journal>
+				<ArticleTitle>Platelet-derived growth factor improves cardiac function in a rodent myocardial infarction model.</ArticleTitle>
+				<Pagination>
+					<MedlinePgn>59-64</MedlinePgn>
+				</Pagination>
+				<Abstract>
+					<AbstractText>OBJECTIVES: The translation of cardioprotective therapies for myocardial infarction requires a preclinical demonstration of improved cardiovascular function following acute coronary occlusion. We previously showed that pretreatment of rodent hearts with platelet-derived growth factor (PDGF) promotes angiogenesis and decreases the extent of myocardial injury measured by histology. The present study aimed to determine the correlation of these histological findings with noninvasive measures of improvement in cardiac function. METHODS: Rats were treated with intramyocardial injections of PDGF (100 ng) or phosphate buffer solution (PBS) (n=6 per group) 24 h prior to acute, permanent ligation of the left anterior descending artery and the extent of myocardial injury was assessed by Massonʼs trichrome staining 14 days later. To assess the physiological effects of PDGF pretreatment after coronary occlusion, cardiac function was assessed noninvasively by electrocardiography, exercise testing and echocardiography and correlated with direct histological measures. RESULTS: Physiological studies demonstrated that PDGF resulted in lower ST-segment elevation at the time of coronary occlusion (0.12±0.02 mV above baseline) than in PBS control rats (0.35±0.05 mV; P&lt;0.05). Exercise testing 14 days after coronary occlusion revealed that PDGF pretreatment resulted in faster maximal exercise speeds (28.54±3.98 m/min) than in control rats (24.98±3.13 m/min; P&lt;0.05). Echocardiography also revealed that the left ventricular factional shortening in the PDGF-pretreated rats was significantly greater (18.47±12.21%) than in control animals (4.91±7.21%; P&lt;0.05). CONCLUSIONS: These studies demonstrate that PDGF pretreatment improves cardiac function following acute coronary occlusion. Strategies based on the cardioprotective actions of PDGF may provide a significant advance in the treatment of myocardial infarction.</AbstractText>
+				</Abstract>
+				<Affiliation>Departments of Medicine and Cell and Developmental Biology, Weill Medical College of Cornell University, New York, USA.</Affiliation>
+				<AuthorList>
+					<Author>
+						<LastName>Zheng</LastName>
+						<FirstName>Jingang</FirstName>
+						<Initials>J</Initials>
+					</Author>
+					<Author>
+						<LastName>Shin</LastName>
+						<FirstName>Jin</FirstName>
+						<MiddleName>H.</MiddleName>
+						<Initials>JH</Initials>
+					</Author>
+					<Author>
+						<LastName>Xaymardan</LastName>
+						<FirstName>Munira</FirstName>
+						<Initials>M</Initials>
+					</Author>
+					<Author>
+						<LastName>Chin</LastName>
+						<FirstName>Andrew</FirstName>
+						<Initials>A</Initials>
+					</Author>
+					<Author>
+						<LastName>Duignan</LastName>
+						<FirstName>Inga</FirstName>
+						<Initials>I</Initials>
+					</Author>
+					<Author>
+						<LastName>Hong</LastName>
+						<FirstName>Mun</FirstName>
+						<MiddleName>K.</MiddleName>
+						<Initials>MK</Initials>
+					</Author>
+					<Author>
+						<LastName>Edelberg</LastName>
+						<FirstName>Jay</FirstName>
+						<MiddleName>M.</MiddleName>
+						<Initials>JM</Initials>
+					</Author>
+				</AuthorList>
+				<Language>ENG</Language>
+				<PublicationTypeList>
+					<PublicationType>JOURNAL ARTICLE</PublicationType>
+				</PublicationTypeList>
+			</Article>
+			<MedlineJournalInfo>
+				<Country/>
+				<MedlineTA>Coron Artery Dis</MedlineTA>
+				<NlmUniqueID>9011445</NlmUniqueID>
+			</MedlineJournalInfo>
+		</MedlineCitation>
+		<PubmedData>
+			<History>
+				<PubMedPubDate PubStatus="pubmed">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>18</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+				<PubMedPubDate PubStatus="medline">
+					<Year>2005</Year>
+					<Month>6</Month>
+					<Day>18</Day>
+					<Hour>5</Hour>
+					<Minute>0</Minute>
+				</PubMedPubDate>
+			</History>
+			<PublicationStatus>ppublish</PublicationStatus>
+			<ArticleIdList>
+				<ArticleId IdType="pubmed">15201622</ArticleId>
+				<ArticleId IdType="pii">00019501-200502000-00009</ArticleId>
+			</ArticleIdList>
+		</PubmedData>
+	</PubmedArticle>
+</PubmedArticleSet>

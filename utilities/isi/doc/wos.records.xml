@@ -1,0 +1,3716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RECORDS>
+    <REC inst_id="0" recid="153666064" hot="yes" sortkey="3103761822" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153666044" recid="153666064" coverdate="200612" sortkey="3103761822"
+            refkey="5451046" dbyear="2007">
+            <ut>000242707200008</ut>
+            <i_ckey>PERE0645060024WM</i_ckey>
+            <i_cid>0113018410</i_cid>
+            <source_title>WORLD JOURNAL OF UROLOGY</source_title>
+            <source_abbrev>WORLD J UROL</source_abbrev>
+            <item_title>Retarded ejaculation</item_title>
+            <sq>05870J0</sq>
+            <bib_id>24 (6): 645-652 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1007/s00345-006-0127-6</article_no>
+            </article_nos>
+            <bib_pages begin="645" end="652" pages="8">645-652</bib_pages>
+            <bib_issue year="2006" vol="24"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI SSCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="2">
+                <primaryauthor>Perelman, MA</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Perelman</AuLastName>
+                    <AuFirstName>Michael A.</AuFirstName>
+                    <AuCollectiveName>Perelman, Michael A.</AuCollectiveName>
+                </fullauthorname>
+                <author key="5989617">Rowland, DL</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Rowland</AuLastName>
+                    <AuFirstName>David L.</AuFirstName>
+                    <AuCollectiveName>Rowland, David L.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="2">
+                <email>
+                    <name>Perelman, MA</name>
+                    <email_addr>perelman@earthlink.net</email_addr>
+                </email>
+                <email>
+                    <name>Rowland, DL</name>
+                    <email_addr>david.rowland@valpo.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="7">
+                <keyword>PREMATURE EJACULATION</keyword>
+                <keyword>COMBINATION TREATMENT</keyword>
+                <keyword>PENILE SENSITIVITY</keyword>
+                <keyword>MEN</keyword>
+                <keyword>DYSFUNCTION</keyword>
+                <keyword>PREVALENCE</keyword>
+                <keyword>PARTNER</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Perelman, MA</rp_author>
+                <rp_address>NY Presbyterian Weill Cornell Med Ctr, Dept Psychiat, 70E 77th St,Suite
+                    1C, New York, NY 10021 USA</rp_address>
+                <rp_organization>NY Presbyterian Weill Cornell Med Ctr</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Psychiat</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>70E 77th St,Suite 1C</rp_street>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10021</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="2">
+                <research>
+                    <rs_address>NY Presbyterian Weill Cornell Med Ctr, Dept Psychiat, New York, NY
+                        10021 USA</rs_address>
+                    <rs_organization>NY Presbyterian Weill Cornell Med Ctr</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Psychiat</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Valparaiso Univ, Dept Psychol, Valparaiso, IN 46383 USA</rs_address>
+                    <rs_organization>Valparaiso Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Psychol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Valparaiso</rs_city>
+                    <rs_state>IN</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">46383</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>Retarded ejaculation (RE) has a relatively low prevalence (&lt; 3%), yet this
+                    condition results in considerable distress, anxiety, and lack of sexual
+                    confidence for those suffering from it. Furthermore, men with partners often
+                    experience impairment of both the sexual and nonsexual aspects of their
+                    relationships, with such negative effects compounded when procreation is a
+                    consideration. The definition of RE is ambiguous, due to the variability and
+                    paucity of data regarding normal coital ejaculatory latency. RE is influenced by
+                    both biogenic and psychogenic components, which may vary over time both between
+                    and within individuals. While specific pathophysiology can often be identified,
+                    further elucidation of the biogenic components of this dysfunction will require
+                    greater understanding of the physiological mechanisms underlying ejaculation.
+                    Yet, the most useful strategies for understanding RE will integrate rather than
+                    isolate the various biogenic and psychogenic aspects of this dysfunction.
+                    Evidence based evaluation and treatment protocols for this disorder are lower
+                    than for other sexual dysfunctions, but reports suggest better treatment
+                    efficacy when the etiology is predominantly psychogenic. As with erectile
+                    dysfunction (ED) and premature ejaculation (PE), if safe and efficacious oral
+                    pharmaceuticals are eventually developed for this condition, the treatment
+                    algorithm is likely to undergo significant alteration. Even then, however, the
+                    most effective treatments are likely to result from a combination treatment that
+                    integrates sex coaching with pharmacotherapy.</p>
+            </abstract>
+            <refs count="39">
+                <ref>117596218</ref>
+                <ref>147356695</ref>
+                <ref>126999812</ref>
+                <ref>153666065</ref>
+                <ref>119485738</ref>
+                <ref>153666066</ref>
+                <ref>123857901</ref>
+                <ref>153666067</ref>
+                <ref>17562195</ref>
+                <ref>120198031</ref>
+                <ref>144674066</ref>
+                <ref>148335298</ref>
+                <ref>147195680</ref>
+                <ref>108173453</ref>
+                <ref>129263068</ref>
+                <ref>151740993</ref>
+                <ref>130254093</ref>
+                <ref>150769920</ref>
+                <ref>143712118</ref>
+                <ref>153666068</ref>
+                <ref>149536319</ref>
+                <ref>153666069</ref>
+                <ref>130254095</ref>
+                <ref>153666070</ref>
+                <ref>147776528</ref>
+                <ref>123857895</ref>
+                <ref>131647009</ref>
+                <ref>152911071</ref>
+                <ref>144813838</ref>
+                <ref>132588538</ref>
+                <ref>107906701</ref>
+                <ref>153666071</ref>
+                <ref>135058786</ref>
+                <ref>113801336</ref>
+                <ref>103831544</ref>
+                <ref>119396455</ref>
+                <ref>109654288</ref>
+                <ref>83903651</ref>
+                <ref>87413763</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153664984" hot="yes" sortkey="3103761961" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153664925" recid="153664984" coverdate="200610" sortkey="3103761961"
+            refkey="1995363" dbyear="2007">
+            <ut>000242674500004</ut>
+            <i_ckey>ERON0293060044VS</i_ckey>
+            <i_cid>0113047564</i_cid>
+            <source_title>VICTORIAN POETRY</source_title>
+            <source_abbrev>VICTORIAN POETRY</source_abbrev>
+            <item_title>Circles and the in-between: Shaping time, space, and paradox in Swinburnian
+                verse</item_title>
+            <sq>00159J0</sq>
+            <bib_id>44 (3): 293-309 FAL 2006</bib_id>
+            <bib_pages begin="293" end="309" pages="17">293-309</bib_pages>
+            <bib_issue year="2006" vol="44"/>
+            <doctype code="@">Article</doctype>
+            <editions full="AHCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="1">
+                <primaryauthor>Eron, S</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Eron</AuLastName>
+                    <AuFirstName>Sarah</AuFirstName>
+                    <AuCollectiveName>Eron, Sarah</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <reprint>
+                <rp_author>Eron, S</rp_author>
+                <rp_address>Cornell Univ, Ithaca, NY 14853 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_city>Ithaca</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">14853</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="1">
+                <research>
+                    <rs_address>Cornell Univ, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="N"/>
+            <refs count="6">
+                <ref>153664985</ref>
+                <ref>26066273</ref>
+                <ref>53310494</ref>
+                <ref>65192257</ref>
+                <ref>26136756</ref>
+                <ref>35124693</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153661095" hot="yes" sortkey="3103762765" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153661034" recid="153661095" coverdate="200612" sortkey="3103762765"
+            refkey="7164035" dbyear="2007">
+            <ut>000242996800044</ut>
+            <i_ckey>VALL1914060314ST</i_ckey>
+            <i_cid>0113011859</i_cid>
+            <source_title>SCIENCE</source_title>
+            <source_abbrev>SCIENCE</source_abbrev>
+            <item_title>The ground state of the pseudogap in cuprate superconductors</item_title>
+            <sq>87604J0</sq>
+            <bib_id>314 (5807): 1914-1916 DEC 22 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1126/science.1134742</article_no>
+            </article_nos>
+            <bib_pages begin="1914" end="1916" pages="3">1914-1916</bib_pages>
+            <bib_issue year="2006" vol="314"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="5">
+                <primaryauthor>Valla, T</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Valla</AuLastName>
+                    <AuFirstName>T.</AuFirstName>
+                    <AuCollectiveName>Valla, T.</AuCollectiveName>
+                </fullauthorname>
+                <author key="2079040">Fedorov, AV</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Fedorov</AuLastName>
+                    <AuFirstName>A. V.</AuFirstName>
+                    <AuCollectiveName>Fedorov, A. V.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4056939">Lee, J</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Lee</AuLastName>
+                    <AuFirstName>Jinho</AuFirstName>
+                    <AuCollectiveName>Lee, Jinho</AuCollectiveName>
+                </fullauthorname>
+                <author key="1570098">Davis, JC</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Davis</AuLastName>
+                    <AuFirstName>J. C.</AuFirstName>
+                    <AuCollectiveName>Davis, J. C.</AuCollectiveName>
+                </fullauthorname>
+                <author key="2675525">Gu, GD</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Gu</AuLastName>
+                    <AuFirstName>G. D.</AuFirstName>
+                    <AuCollectiveName>Gu, G. D.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Valla, T</name>
+                    <email_addr>valla@bnl.gov</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="6">
+                <keyword>HIGH-TEMPERATURE SUPERCONDUCTORS</keyword>
+                <keyword>COPPER-OXIDE SUPERCONDUCTORS</keyword>
+                <keyword>QUASI-PARTICLES</keyword>
+                <keyword>BI2SR2CACU2O8+DELTA</keyword>
+                <keyword>CA2-XNAXCUO2CL2</keyword>
+                <keyword>SPINS</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Valla, T</rp_author>
+                <rp_address>Brookhaven Natl Lab, Condensed Matter Phys &amp; Mat Sci Dept,
+                    Upton, NY 11973 USA</rp_address>
+                <rp_organization>Brookhaven Natl Lab</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Condensed Matter Phys &amp; Mat Sci
+                    Dept</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>Upton</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">11973</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="3">
+                <research>
+                    <rs_address>Brookhaven Natl Lab, Condensed Matter Phys &amp; Mat Sci Dept,
+                        Upton, NY 11973 USA</rs_address>
+                    <rs_organization>Brookhaven Natl Lab</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Condensed Matter Phys &amp; Mat Sci
+                        Dept</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Upton</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">11973</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Calif Berkeley, Lawrence Berkeley Lab, Adv Light Source,
+                        Berkeley, CA 94720 USA</rs_address>
+                    <rs_organization>Univ Calif Berkeley</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Lawrence Berkeley Lab</rs_suborganization>
+                        <rs_suborganization>Adv Light Source</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Berkeley</rs_city>
+                    <rs_state>CA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">94720</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Dept Phys, Lab Atom &amp; Solid State Phys,
+                        Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Dept Phys</rs_suborganization>
+                        <rs_suborganization>Lab Atom &amp; Solid State Phys</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>We present studies of the electronic structure of La2-xBaxCuO4, a system where
+                    the superconductivity is strongly suppressed as static spin and charge orders or
+                    "stripes" develop near the doping level of x = 1/8. Using angle-resolved
+                    photoemission and scanning tunneling microscopy, we detect an energy gap at the
+                    Fermi surface with magnitude consistent with d-wave symmetry and with linear
+                    density of states, vanishing only at four nodal points, even when
+                    superconductivity disappears at x = 1/8. Thus, the nonsuperconducting, striped
+                    state at x = 1/8 is consistent with a phase-incoherent d-wave superconductor
+                    whose Cooper pairs form spin-charge-ordered structures instead of becoming
+                    superconducting.</p>
+            </abstract>
+            <refs count="31">
+                <ref>149328276</ref>
+                <ref>63292550</ref>
+                <ref>153661111</ref>
+                <ref>137084605</ref>
+                <ref>129511231</ref>
+                <ref>90709861</ref>
+                <ref>89863393</ref>
+                <ref>122885140</ref>
+                <ref>136074273</ref>
+                <ref>123617054</ref>
+                <ref>122012907</ref>
+                <ref>135864044</ref>
+                <ref>123166531</ref>
+                <ref>151069890</ref>
+                <ref>151281037</ref>
+                <ref>118886886</ref>
+                <ref>148630071</ref>
+                <ref>144415202</ref>
+                <ref>66832168</ref>
+                <ref>104246512</ref>
+                <ref>129058326</ref>
+                <ref>142876032</ref>
+                <ref>143850721</ref>
+                <ref>137290587</ref>
+                <ref>108855100</ref>
+                <ref>99772616</ref>
+                <ref>91662374</ref>
+                <ref>134697150</ref>
+                <ref>133787796</ref>
+                <ref>70435758</ref>
+                <ref>134596449</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153661126" hot="yes" sortkey="3103762770" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153661034" recid="153661126" coverdate="200612" sortkey="3103762770"
+            refkey="798455" dbyear="2007">
+            <ut>000242996800049</ut>
+            <i_ckey>BOUT1928060314SS</i_ckey>
+            <i_cid>0113011894</i_cid>
+            <source_title>SCIENCE</source_title>
+            <source_abbrev>SCIENCE</source_abbrev>
+            <item_title>Anticipatory reproduction and population growth in seed predators</item_title>
+            <sq>87604J0</sq>
+            <bib_id>314 (5807): 1928-1930 DEC 22 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1126/science.1135520</article_no>
+            </article_nos>
+            <bib_pages begin="1928" end="1930" pages="3">1928-1930</bib_pages>
+            <bib_issue year="2006" vol="314"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="6">
+                <primaryauthor>Boutin, S</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Boutin</AuLastName>
+                    <AuFirstName>Stan</AuFirstName>
+                    <AuCollectiveName>Boutin, Stan</AuCollectiveName>
+                </fullauthorname>
+                <author key="7421980">Wauters, LA</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Wauters</AuLastName>
+                    <AuFirstName>Lucas A.</AuFirstName>
+                    <AuCollectiveName>Wauters, Lucas A.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4574517">McAdam, AG</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>McAdam</AuLastName>
+                    <AuFirstName>Andrew G.</AuFirstName>
+                    <AuCollectiveName>McAdam, Andrew G.</AuCollectiveName>
+                </fullauthorname>
+                <author key="3184490">Humphries, MM</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Humphries</AuLastName>
+                    <AuFirstName>Murray M.</AuFirstName>
+                    <AuCollectiveName>Humphries, Murray M.</AuCollectiveName>
+                </fullauthorname>
+                <author key="7020243">Tosi, G</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Tosi</AuLastName>
+                    <AuFirstName>Guido</AuFirstName>
+                    <AuCollectiveName>Tosi, Guido</AuCollectiveName>
+                </fullauthorname>
+                <author key="1703650">Dhondt, AA</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Dhondt</AuLastName>
+                    <AuFirstName>Andre A.</AuFirstName>
+                    <AuCollectiveName>Dhondt, Andre A.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Boutin, S</name>
+                    <email_addr>stan.boutin@ualberta.ca</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="9">
+                <keyword>SQUIRRELS TAMIASCIURUS-HUDSONICUS</keyword>
+                <keyword>RED SQUIRRELS</keyword>
+                <keyword>SCIURUS-VULGARIS</keyword>
+                <keyword>NEW-ZEALAND</keyword>
+                <keyword>LIFE-HISTORY</keyword>
+                <keyword>RESPONSES</keyword>
+                <keyword>HABITATS</keyword>
+                <keyword>DYNAMICS</keyword>
+                <keyword>ACORNS</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Boutin, S</rp_author>
+                <rp_address>Univ Alberta, Dept Biol Sci, Edmonton, AB T6G 2E9, Canada</rp_address>
+                <rp_organization>Univ Alberta</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Biol Sci</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>Edmonton</rp_city>
+                <rp_state>AB</rp_state>
+                <rp_country>Canada</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">T6G 2E9</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="6">
+                <research>
+                    <rs_address>Univ Alberta, Dept Biol Sci, Edmonton, AB T6G 2E9, Canada</rs_address>
+                    <rs_organization>Univ Alberta</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Biol Sci</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Edmonton</rs_city>
+                    <rs_state>AB</rs_state>
+                    <rs_country>Canada</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">T6G 2E9</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Insubria, Dept Environm Hlth &amp; Safety, I-21100 Varese,
+                        Italy</rs_address>
+                    <rs_organization>Univ Insubria</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Environm Hlth &amp; Safety</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Varese</rs_city>
+                    <rs_country>Italy</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="BC">I-21100</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Michigan State Univ, Dept Zool, Dept Fisheries &amp; Wildlife,
+                        Ecol Evolutionary Biol &amp; Behav Program, E Lansing, MI 48824 USA</rs_address>
+                    <rs_organization>Michigan State Univ</rs_organization>
+                    <rs_suborganizations count="3">
+                        <rs_suborganization>Dept Zool</rs_suborganization>
+                        <rs_suborganization>Dept Fisheries &amp; Wildlife</rs_suborganization>
+                        <rs_suborganization>Ecol Evolutionary Biol &amp; Behav
+                        Program</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>E Lansing</rs_city>
+                    <rs_state>MI</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">48824</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>McGill Univ, Ste Anne De Bellevue, PQ H9X 3V9, Canada</rs_address>
+                    <rs_organization>McGill Univ</rs_organization>
+                    <rs_city>Ste Anne De Bellevue</rs_city>
+                    <rs_state>PQ</rs_state>
+                    <rs_country>Canada</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">H9X 3V9</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Ornithol Lab, Ithaca, NY 14850 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Ornithol Lab</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14850</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Antwerp, Dept Biol, B-2610 Antwerp, Belgium</rs_address>
+                    <rs_organization>Univ Antwerp</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Biol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Antwerp</rs_city>
+                    <rs_country>Belgium</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="BC">B-2610</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>Mast seeding, the intermittent, synchronous production of large seed crops by a
+                    population of plants, is a well-known example of resource pulses that create
+                    lagged responses in successive trophic levels of ecological communities. These
+                    lags arise because seed predators are thought capable of increasing reproduction
+                    and population size only after the resource pulse is available for consumption.
+                    The resulting satiation of predators is a widely cited explanation for the
+                    evolution of masting. Our study shows that both American and Eurasian tree
+                    squirrels anticipate resource pulses and increase reproductive output before a
+                    masting event, thereby increasing population size in synchrony with the resource
+                    pulse and eliminating the population lag thought to be universal in resource
+                    pulse systems.</p>
+            </abstract>
+            <refs count="31">
+                <ref>126771690</ref>
+                <ref>84558895</ref>
+                <ref>43847450</ref>
+                <ref>153661127</ref>
+                <ref>153661128</ref>
+                <ref>153661129</ref>
+                <ref>95354523</ref>
+                <ref>113685416</ref>
+                <ref>34388338</ref>
+                <ref>135693389</ref>
+                <ref>66972888</ref>
+                <ref>12204383</ref>
+                <ref>117093694</ref>
+                <ref>21219080</ref>
+                <ref>103960968</ref>
+                <ref>127725560</ref>
+                <ref>144766722</ref>
+                <ref>99456105</ref>
+                <ref>25043231</ref>
+                <ref>130717308</ref>
+                <ref>119817327</ref>
+                <ref>123974900</ref>
+                <ref>115154612</ref>
+                <ref>149391314</ref>
+                <ref>35113806</ref>
+                <ref>15174359</ref>
+                <ref>68590533</ref>
+                <ref>132700236</ref>
+                <ref>79728102</ref>
+                <ref>103210374</ref>
+                <ref>97169508</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153660076" hot="yes" sortkey="3103762977" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153660065" recid="153660076" coverdate="200701" sortkey="3103762977"
+            refkey="6762056" dbyear="2007">
+            <ut>000242670500002</ut>
+            <i_ckey>SUIT0032070029RJ</i_ckey>
+            <i_cid>0113025817</i_cid>
+            <source_title>RESEARCH ON AGING</source_title>
+            <source_abbrev>RES AGING</source_abbrev>
+            <item_title>Mothers' favoritism in later life - The role of children's birth order</item_title>
+            <sq>03605J0</sq>
+            <bib_id>29 (1): 32-55 JAN 2007</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1177/0164027506291750</article_no>
+            </article_nos>
+            <bib_pages begin="32" end="55" pages="24">32-55</bib_pages>
+            <bib_issue year="2007" vol="29"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SSCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="2">
+                <primaryauthor>Suitor, JJ</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Suitor</AuLastName>
+                    <AuFirstName>J. Jill</AuFirstName>
+                    <AuCollectiveName>Suitor, J. Jill</AuCollectiveName>
+                </fullauthorname>
+                <author key="5528120">Pillemer, K</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Pillemer</AuLastName>
+                    <AuFirstName>Karl</AuFirstName>
+                    <AuCollectiveName>Pillemer, Karl</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Suitor, JJ</name>
+                    <email_addr>jsuitor@purdue.edu</email_addr>
+                </email>
+            </emails>
+            <keywords count="3">
+                <keyword>birth order</keyword>
+                <keyword>parent-adult child relations</keyword>
+                <keyword>parental favoritism</keyword>
+            </keywords>
+            <keywords_plus count="10">
+                <keyword>PARENTAL DIFFERENTIAL TREATMENT</keyword>
+                <keyword>ADULT CHILDREN</keyword>
+                <keyword>INTERGENERATIONAL SOLIDARITY</keyword>
+                <keyword>SIBLING RELATIONSHIPS</keyword>
+                <keyword>AMERICAN FAMILIES</keyword>
+                <keyword>AGING PARENTS</keyword>
+                <keyword>SEX</keyword>
+                <keyword>GENDER</keyword>
+                <keyword>BEHAVIOR</keyword>
+                <keyword>MIDDLEBORNS</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Suitor, JJ</rp_author>
+                <rp_address>Purdue Univ, Dept Sociol &amp; Anthropol, 700 Stone Hall, W
+                    Lafayette, IN 47907 USA</rp_address>
+                <rp_organization>Purdue Univ</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Sociol &amp; Anthropol</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>700 Stone Hall</rp_street>
+                <rp_city>W Lafayette</rp_city>
+                <rp_state>IN</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">47907</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="2">
+                <research>
+                    <rs_address>Purdue Univ, Dept Sociol &amp; Anthropol, W Lafayette, IN 47907
+                        USA</rs_address>
+                    <rs_organization>Purdue Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Sociol &amp; Anthropol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>W Lafayette</rs_city>
+                    <rs_state>IN</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">47907</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Ithaca, NY USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>The authors used data on 426 older mothers' relationships with their 1,823 adult
+                    children to explore the relationship between birth order and parental
+                    favoritism. The findings demonstrate that birth order continues to play an
+                    important role in explaining favoritism when families enter later stages of the
+                    life course. Last-born adult children were most likely to be named as those to
+                    whom their mothers were most emotionally close; firstborn children were most
+                    likely to be chosen as those to whom mothers would turn when facing personal
+                    problems or crises. Further analyses revealed that these patterns remained
+                    largely unaffected by family size, race, and child spacing. Middleborn children
+                    were substantially underrepresented in mothers' choices; such a pattern is
+                    particularly striking considering that the number of middle-born children far
+                    exceeded that of firstborn and last-born children in the sample.</p>
+            </abstract>
+            <refs count="71">
+                <ref>55605926</ref>
+                <ref>30078925</ref>
+                <ref>130678872</ref>
+                <ref>113215556</ref>
+                <ref>68828437</ref>
+                <ref>78718810</ref>
+                <ref>89130995</ref>
+                <ref>77910252</ref>
+                <ref>69492978</ref>
+                <ref>115002505</ref>
+                <ref>62309036</ref>
+                <ref>80763528</ref>
+                <ref>78560397</ref>
+                <ref>40303428</ref>
+                <ref>121471251</ref>
+                <ref>133142172</ref>
+                <ref>79357988</ref>
+                <ref>93430413</ref>
+                <ref>121105549</ref>
+                <ref>153660077</ref>
+                <ref>77169745</ref>
+                <ref>44700326</ref>
+                <ref>133449741</ref>
+                <ref>107959139</ref>
+                <ref>109834880</ref>
+                <ref>126072150</ref>
+                <ref>83584304</ref>
+                <ref>127750193</ref>
+                <ref>69290673</ref>
+                <ref>43038802</ref>
+                <ref>102056515</ref>
+                <ref>99771311</ref>
+                <ref>127784007</ref>
+                <ref>91531201</ref>
+                <ref>153660078</ref>
+                <ref>90532878</ref>
+                <ref>111177191</ref>
+                <ref>115045572</ref>
+                <ref>46634225</ref>
+                <ref>103541586</ref>
+                <ref>151856903</ref>
+                <ref>34797636</ref>
+                <ref>108119405</ref>
+                <ref>113334529</ref>
+                <ref>78833869</ref>
+                <ref>125884963</ref>
+                <ref>128843006</ref>
+                <ref>73785362</ref>
+                <ref>147395512</ref>
+                <ref>129109401</ref>
+                <ref>130806216</ref>
+                <ref>72754523</ref>
+                <ref>107610488</ref>
+                <ref>107302234</ref>
+                <ref>110502920</ref>
+                <ref>129675074</ref>
+                <ref>91531197</ref>
+                <ref>101952158</ref>
+                <ref>87311916</ref>
+                <ref>126615516</ref>
+                <ref>125884967</ref>
+                <ref>151491220</ref>
+                <ref>153660079</ref>
+                <ref>135282081</ref>
+                <ref>68816951</ref>
+                <ref>106971875</ref>
+                <ref>105436167</ref>
+                <ref>127758740</ref>
+                <ref>80763546</ref>
+                <ref>83574614</ref>
+                <ref>130934334</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153658643" hot="yes" sortkey="3103763260" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153658624" recid="153658643" coverdate="200612" sortkey="3103763260"
+            refkey="6113647" dbyear="2007">
+            <ut>000242684800009</ut>
+            <i_ckey>SANT3085060273PN</i_ckey>
+            <i_cid>0113027296</i_cid>
+            <source_title>PROCEEDINGS OF THE ROYAL SOCIETY B-BIOLOGICAL SCIENCES</source_title>
+            <source_abbrev>P R SOC B</source_abbrev>
+            <item_title>New insights into neuropeptide modulation of aggression: field studies of
+                arginine vasotocin in a territorial tropical damselfish</item_title>
+            <sq>80256J0</sq>
+            <bib_id>273 (1605): 3085-3092 DEC 22 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1098/rspb.2006.3683</article_no>
+            </article_nos>
+            <bib_pages begin="3085" end="3092" pages="8">3085-3092</bib_pages>
+            <bib_issue year="2006" vol="273"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="2">
+                <primaryauthor>Santangelo, N</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Santangelo</AuLastName>
+                    <AuFirstName>Nick</AuFirstName>
+                    <AuCollectiveName>Santangelo, Nick</AuCollectiveName>
+                </fullauthorname>
+                <author key="454095">Bass, AH</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Bass</AuLastName>
+                    <AuFirstName>Andrew H.</AuFirstName>
+                    <AuCollectiveName>Bass, Andrew H.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Santangelo, N</name>
+                    <email_addr>nicholas.santangelo@eku.edu</email_addr>
+                </email>
+            </emails>
+            <keywords count="5">
+                <keyword>aggression</keyword>
+                <keyword>vasotocin</keyword>
+                <keyword>V1-type receptor</keyword>
+                <keyword>neuroendocrine</keyword>
+                <keyword>teleost</keyword>
+            </keywords>
+            <keywords_plus count="10">
+                <keyword>VASOACTIVE INTESTINAL POLYPEPTIDE</keyword>
+                <keyword>BEAUGREGORY DAMSELFISH</keyword>
+                <keyword>REPRODUCTIVE SUCCESS</keyword>
+                <keyword>PORICHTHYS-NOTATUS</keyword>
+                <keyword>SEXUAL-BEHAVIOR</keyword>
+                <keyword>BLUEHEAD WRASSE</keyword>
+                <keyword>TELEOST FISH</keyword>
+                <keyword>VASOPRESSIN</keyword>
+                <keyword>RECEPTORS</keyword>
+                <keyword>COURTSHIP</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Santangelo, N</rp_author>
+                <rp_address>Eastern Kentucky Univ, Dept Biol Sci, Moore 235,531 Lancaster Ave,
+                    Richmond, KY 40475 USA</rp_address>
+                <rp_organization>Eastern Kentucky Univ</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Biol Sci</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>Moore 235,531 Lancaster Ave</rp_street>
+                <rp_city>Richmond</rp_city>
+                <rp_state>KY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">40475</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="1">
+                <research>
+                    <rs_address>Cornell Univ, Dept Neurobiol &amp; Behav, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Neurobiol &amp; Behav</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>The neuropeptides arginine vasotocin (AVT) and arginine vasopressin are key
+                    modulators of affiliation and aggression among non-mammalian and mammalian
+                    vertebrates, respectively. Here, we explored AVT's effect on aggression in a
+                    wild population of beaugregory damselfish, Stegastes leucostictus, a highly
+                    territorial species. Aggression by territorial males towards 'intruders'
+                    (bottled fishes) was assessed before and after each male received intramuscular
+                    injections of either AVT, Manning compound (an AVT V1a receptor antagonist),
+                    isotocin (the teleost homologue of mammalian oxytocin differing from AVT by two
+                    amino acids) or saline (vehicle control). Compared to saline controls, AVT and
+                    Manning increased and decreased aggression, respectively, while isotocin had no
+                    effect. Response selectivity was further established in a dose-response study
+                    that revealed an inverted U-shaped function. Compared to saline controls,
+                    aggression levels for low and high AVT doses were similar, while medium dose
+                    treatments were significantly greater. This type of behavioural response, the
+                    first that we know of for a vertebrate neuropeptide, could depend on the binding
+                    of AVT to both V1-type and other AVT or non-AVT receptors. The pattern revealed
+                    here for damselfish may be symptomatic of species- and context-dependent
+                    specificity of AVT's modulation of aggression across teleosts, as is currently
+                    proposed for tetrapods.</p>
+            </abstract>
+            <refs count="48">
+                <ref>153658644</ref>
+                <ref>94814564</ref>
+                <ref>110999293</ref>
+                <ref>74368912</ref>
+                <ref>96158027</ref>
+                <ref>153658645</ref>
+                <ref>135396897</ref>
+                <ref>88040444</ref>
+                <ref>91372083</ref>
+                <ref>105880814</ref>
+                <ref>104185836</ref>
+                <ref>132663324</ref>
+                <ref>87571856</ref>
+                <ref>147071928</ref>
+                <ref>120716485</ref>
+                <ref>108490002</ref>
+                <ref>106827985</ref>
+                <ref>113812359</ref>
+                <ref>136929670</ref>
+                <ref>106356402</ref>
+                <ref>143310906</ref>
+                <ref>115293003</ref>
+                <ref>128275244</ref>
+                <ref>96577949</ref>
+                <ref>75080075</ref>
+                <ref>57910661</ref>
+                <ref>111901875</ref>
+                <ref>117554441</ref>
+                <ref>76443999</ref>
+                <ref>39668996</ref>
+                <ref>137497663</ref>
+                <ref>86145747</ref>
+                <ref>48904511</ref>
+                <ref>41658613</ref>
+                <ref>40713991</ref>
+                <ref>143174426</ref>
+                <ref>25480154</ref>
+                <ref>153658646</ref>
+                <ref>93283599</ref>
+                <ref>126348997</ref>
+                <ref>114615620</ref>
+                <ref>120939216</ref>
+                <ref>153658647</ref>
+                <ref>81342231</ref>
+                <ref>134846124</ref>
+                <ref>100752703</ref>
+                <ref>102693215</ref>
+                <ref>111238520</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153658267" hot="yes" sortkey="3103763315" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153658219" recid="153658267" coverdate="200612" sortkey="3103763315"
+            refkey="785257" dbyear="2007">
+            <ut>000242688300008</ut>
+            <i_ckey>BOTV0403060007PG</i_ckey>
+            <i_cid>0113027911</i_cid>
+            <source_title>PREVENTION SCIENCE</source_title>
+            <source_abbrev>PREV SCI</source_abbrev>
+            <item_title>Preventing youth violence and delinquency through a universal school-based
+                prevention approach</item_title>
+            <sq>C1016J0</sq>
+            <bib_id>7 (4): 403-408 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1007/s11121-006-0057-y</article_no>
+            </article_nos>
+            <bib_pages begin="403" end="408" pages="6">403-408</bib_pages>
+            <bib_issue year="2006" vol="7"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SSCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="3">
+                <primaryauthor>Botvin, GJ</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Botvin</AuLastName>
+                    <AuFirstName>Gilbert J.</AuFirstName>
+                    <AuCollectiveName>Botvin, Gilbert J.</AuCollectiveName>
+                </fullauthorname>
+                <author key="2638647">Griffin, KW</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Griffin</AuLastName>
+                    <AuFirstName>Kenneth W.</AuFirstName>
+                    <AuCollectiveName>Griffin, Kenneth W.</AuCollectiveName>
+                </fullauthorname>
+                <author key="5087566">Nichols, TD</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Nichols</AuLastName>
+                    <AuFirstName>Tracy Diaz</AuFirstName>
+                    <AuCollectiveName>Nichols, Tracy Diaz</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <keywords count="5">
+                <keyword>adolescence</keyword>
+                <keyword>violence</keyword>
+                <keyword>aggression</keyword>
+                <keyword>prevention</keyword>
+                <keyword>substance use</keyword>
+            </keywords>
+            <keywords_plus count="9">
+                <keyword>ABUSE PREVENTION</keyword>
+                <keyword>DRUG-ABUSE</keyword>
+                <keyword>PROTECTIVE FACTORS</keyword>
+                <keyword>PROBLEM BEHAVIORS</keyword>
+                <keyword>SUBSTANCE USE</keyword>
+                <keyword>PROGRAM</keyword>
+                <keyword>RISK</keyword>
+                <keyword>ADOLESCENTS</keyword>
+                <keyword>ADULTHOOD</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Botvin, GJ</rp_author>
+                <rp_address>Cornell Univ, Weill Med Coll, Dept Publ Hlth, 411 E 69th St, New York,
+                    NY 10021 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="2">
+                    <rp_suborganization>Weill Med Coll</rp_suborganization>
+                    <rp_suborganization>Dept Publ Hlth</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>411 E 69th St</rp_street>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10021</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="1">
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Dept Publ Hlth, New York, NY 10021 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                        <rs_suborganization>Dept Publ Hlth</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>Violence is an important public health problem among adolescents in the United
+                    States. Substance use and violence tend to co-occur among adolescents and appear
+                    to have similar etiologies. The present study examined the extent to which a
+                    comprehensive prevention approach targeting an array of individual-level risk
+                    and protective factors and previously found effective in preventing tobacco,
+                    alcohol, and illicit drug use is capable of decreasing violence and delinquency.
+                    Schools (N=41) were randomly assigned to intervention and control conditions.
+                    Participants in the 20 intervention schools received the Life Skills Training
+                    prevention program including material focusing on violence and the media, anger
+                    management, and conflict resolution skills. Survey data were collected from
+                    4,858 sixth grade students prior to the intervention and three months later
+                    after the intervention. Findings showed significant reductions in violence and
+                    delinquency for intervention participants relative to controls. Stronger
+                    prevention effects were found for students who received at least half of the
+                    preventive intervention. These effects include less verbal and physical
+                    aggression, fighting, and delinquency. The results of this study indicate that a
+                    school-based prevention approach previously found to prevent tobacco, alcohol,
+                    and illicit drug use can also prevent violence and delinquency.</p>
+            </abstract>
+            <refs count="24">
+                <ref>153109635</ref>
+                <ref>153658268</ref>
+                <ref>121048919</ref>
+                <ref>127277144</ref>
+                <ref>137315869</ref>
+                <ref>144847685</ref>
+                <ref>122655966</ref>
+                <ref>90855454</ref>
+                <ref>117417415</ref>
+                <ref>73329089</ref>
+                <ref>153658269</ref>
+                <ref>81034548</ref>
+                <ref>89938346</ref>
+                <ref>127046447</ref>
+                <ref>82983671</ref>
+                <ref>150069947</ref>
+                <ref>135976226</ref>
+                <ref>82377458</ref>
+                <ref>80139956</ref>
+                <ref>151351989</ref>
+                <ref>103265098</ref>
+                <ref>133826819</ref>
+                <ref>97816213</ref>
+                <ref>59844755</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153655399" hot="yes" sortkey="3103763878" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153655346" recid="153655399" coverdate="200612" sortkey="3103763878"
+            refkey="3857560" dbyear="2007">
+            <ut>000242670600022</ut>
+            <i_ckey>KRIS0937060135OP</i_ckey>
+            <i_cid>0113015370</i_cid>
+            <source_title>OTOLARYNGOLOGY-HEAD AND NECK SURGERY</source_title>
+            <source_abbrev>OTOLARYNG HEAD NECK</source_abbrev>
+            <item_title>Primed fibroblasts and exogenous decorin: Potential treatments for subacute
+                vocal fold scar</item_title>
+            <sq>01927J0</sq>
+            <bib_id>135 (6): 937-945 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1016/j.otohns.2006.07.011</article_no>
+            </article_nos>
+            <bib_pages begin="937" end="945" pages="9">937-945</bib_pages>
+            <bib_issue year="2006" vol="135"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="5">
+                <primaryauthor>Krishna, P</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Krishna</AuLastName>
+                    <AuFirstName>Priya</AuFirstName>
+                    <AuCollectiveName>Krishna, Priya</AuCollectiveName>
+                </fullauthorname>
+                <author key="5950273">Rosen, CA</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Rosen</AuLastName>
+                    <AuFirstName>Clark A.</AuFirstName>
+                    <AuCollectiveName>Rosen, Clark A.</AuCollectiveName>
+                </fullauthorname>
+                <author key="834523">Branski, RC</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Branski</AuLastName>
+                    <AuFirstName>Ryan C.</AuFirstName>
+                    <AuCollectiveName>Branski, Ryan C.</AuCollectiveName>
+                </fullauthorname>
+                <author key="7467445">Wells, A</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Wells</AuLastName>
+                    <AuFirstName>Alan</AuFirstName>
+                    <AuCollectiveName>Wells, Alan</AuCollectiveName>
+                </fullauthorname>
+                <author key="2906891">Hebda, PA</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Hebda</AuLastName>
+                    <AuFirstName>Patricia A.</AuFirstName>
+                    <AuCollectiveName>Hebda, Patricia A.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Krishna, P</name>
+                    <email_addr>krishnpd@upmc.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="4">
+                <keyword>HEPATOCYTE GROWTH-FACTOR</keyword>
+                <keyword>RABBIT MODEL</keyword>
+                <keyword>TRANSPLANTATION</keyword>
+                <keyword>CELLS</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Krishna, P</rp_author>
+                <rp_address>200 Lothrop St,Suite 500 EEINS, Pittsburgh, PA 15213 USA</rp_address>
+                <rp_street>200 Lothrop St,Suite 500 EEINS</rp_street>
+                <rp_city>Pittsburgh</rp_city>
+                <rp_state>PA</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">15213</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="3">
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Pittsburgh, Voice Ctr, Dept Otolaryngol, Pittsburgh, PA 15260
+                        USA</rs_address>
+                    <rs_organization>Univ Pittsburgh</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Voice Ctr</rs_suborganization>
+                        <rs_suborganization>Dept Otolaryngol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Pittsburgh</rs_city>
+                    <rs_state>PA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">15260</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Mem Sloan Kettering Canc Ctr, Pittsburgh, PA 15260 USA</rs_address>
+                    <rs_organization>Mem Sloan Kettering Canc Ctr</rs_organization>
+                    <rs_city>Pittsburgh</rs_city>
+                    <rs_state>PA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">15260</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="4">
+                <p>OBJECTIVE: To investigate hepatocyte growth factor (HGF) primed fibroblasts and
+                    decorin application on skin and vocal fold fibroblasts in vitro and in vivo in
+                    rabbit vocal fold scar model.</p>
+                <p>STUDY DESIGN AND SETTING: Vocal fold and skin fibroblasts underwent five in vitro
+                    treatment conditions: control, epidermal growth factor, HGF, both decorin and
+                    HGF, and decorin alone. Hyalurome acid and collagen enzyme-linked immunosorbent
+                    assays were performed. In vivo, 12 rabbits underwent unilateral vocal fold
+                    stripping. Injured vocal folds were then injected with skin fibroblasts, HGF,
+                    HGF-primed fibroblasts and decorin, or decorin. Outcomes included histologic and
+                    lamina propria height analyses.</p>
+                <p>RESULTS: in vitro, HGF increased hyaluronic acid synthesis in vocal fold
+                    fibroblasts (P &lt; 0.001). HGF and decorin treatment diminished collagen
+                    secretion (P &lt; 0.01). In vivo, histologic findings indicated minimal
+                    difference in collagen amount between treatment groups.</p>
+                <p>CONCLUSION: HGF and decorin together may decrease collagen production by skin and
+                    vocal fold fibroblasts. Fibroblast transplantation into scarred vocal folds has
+                    equivocal benefit. (c) 2006 American Academy of Otolaryngology-Head and Neck
+                    Surgery Foundation. All rights reserved.</p>
+            </abstract>
+            <refs count="20">
+                <ref>142373759</ref>
+                <ref>142203978</ref>
+                <ref>71567071</ref>
+                <ref>110441268</ref>
+                <ref>95429620</ref>
+                <ref>134316134</ref>
+                <ref>128091084</ref>
+                <ref>153616198</ref>
+                <ref>142638360</ref>
+                <ref>112115283</ref>
+                <ref>117956914</ref>
+                <ref>145123894</ref>
+                <ref>85384447</ref>
+                <ref>97927926</ref>
+                <ref>133938646</ref>
+                <ref>147711020</ref>
+                <ref>119039926</ref>
+                <ref>132465764</ref>
+                <ref>98512806</ref>
+                <ref>136267380</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153654901" hot="yes" sortkey="3103763997" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153654879" recid="153654901" coverdate="200600" sortkey="3103763997"
+            refkey="1215188" dbyear="2007">
+            <ut>000242736400005</ut>
+            <i_ckey>CHEN1477060037OC</i_ckey>
+            <i_cid>0113053118</i_cid>
+            <source_title>ORGANIC GEOCHEMISTRY</source_title>
+            <source_abbrev>ORG GEOCHEM</source_abbrev>
+            <item_title>Oxidation of black carbon by biotic and abiotic processes</item_title>
+            <sq>06423J0</sq>
+            <bib_id>37 (11): 1477-1488 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1016/j.oeggeochem.2006.06.022</article_no>
+            </article_nos>
+            <bib_pages begin="1477" end="1488" pages="12">1477-1488</bib_pages>
+            <bib_issue year="2006" vol="37"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="5">
+                <primaryauthor>Cheng, CH</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Cheng</AuLastName>
+                    <AuFirstName>Chih-Hsin</AuFirstName>
+                    <AuCollectiveName>Cheng, Chih-Hsin</AuCollectiveName>
+                </fullauthorname>
+                <author key="4079815">Lehmann, J</author>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Lehmann</AuLastName>
+                    <AuFirstName>Johannes</AuFirstName>
+                    <AuCollectiveName>Lehmann, Johannes</AuCollectiveName>
+                </fullauthorname>
+                <author key="6937570">Thies, JE</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Thies</AuLastName>
+                    <AuFirstName>Janice E.</AuFirstName>
+                    <AuCollectiveName>Thies, Janice E.</AuCollectiveName>
+                </fullauthorname>
+                <author key="986556">Burton, SD</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Burton</AuLastName>
+                    <AuFirstName>Sarah D.</AuFirstName>
+                    <AuCollectiveName>Burton, Sarah D.</AuCollectiveName>
+                </fullauthorname>
+                <author key="1968696">Engelhard, MH</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Engelhard</AuLastName>
+                    <AuFirstName>Mark H.</AuFirstName>
+                    <AuCollectiveName>Engelhard, Mark H.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Lehmann, J</name>
+                    <email_addr>CL273@cornell.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="10">
+                <keyword>SURFACE-CHEMISTRY</keyword>
+                <keyword>ACTIVATED CARBONS</keyword>
+                <keyword>FUNCTIONAL-GROUPS</keyword>
+                <keyword>ORGANIC-MATTER</keyword>
+                <keyword>SOILS</keyword>
+                <keyword>OXYGEN</keyword>
+                <keyword>CHARCOAL</keyword>
+                <keyword>OZONE</keyword>
+                <keyword>CHEMISORPTION</keyword>
+                <keyword>DEGRADATION</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Lehmann, J</rp_author>
+                <rp_address>Cornell Univ, Dept Crop &amp; Soil Sci, 909 Bradfield Hall, Ithaca,
+                    NY 14853 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Crop &amp; Soil Sci</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>909 Bradfield Hall</rp_street>
+                <rp_city>Ithaca</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">14853</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="2">
+                <research>
+                    <rs_address>Cornell Univ, Dept Crop &amp; Soil Sci, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Crop &amp; Soil Sci</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Pacific NW Natl Lab, Environm Mol &amp; Sci Lab, Richland, WA
+                        99352 USA</rs_address>
+                    <rs_organization>Pacific NW Natl Lab</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Environm Mol &amp; Sci Lab</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Richland</rs_city>
+                    <rs_state>WA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">99352</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>The objectives of this study were to assess the relative importance of either
+                    biotic or abiotic oxidation of biomass-derived black carbon (BC) and to
+                    characterize the surface properties and charge characteristics of oxidized BC.
+                    We incubated BC and BC-soil mixtures at two temperatures (30 degrees C and 70
+                    degrees C), with and without microbial inoculation, nutrient addition, or manure
+                    amendment for four months. Abiotic processes were more important for oxidation
+                    of BC than biotic processes during this short-term incubation, as inoculation
+                    with microorganisms at 30 degrees C did not change any of the measured
+                    indicators of surface oxidation. Black C incubated at both 30 degrees C and 70
+                    degrees C without microbial activity showed a decrease in pH (in water) from 5.4
+                    to 5.2 and 3.4, as well as an increase in cation exchange capacity (CEC at pH 7)
+                    by 53% and 538% and in oxygen (O) content by 4% and 38%, respectively. Boehm
+                    titration and Fourier-transform infrared (FT-IR) spectroscopy suggested that
+                    formation of carboxylic functional groups was the reason for the enhanced CEC
+                    during oxidation. Analysis of surface properties of BC using X-ray photoelectron
+                    spectroscopy (XPS) indicated that the oxidation of BC particles was initiated on
+                    the surface. Incubation at 30 degrees C only enhanced oxidation on particle
+                    surfaces, while oxidation during incubation at 70 degrees C penetrated into the
+                    interior of particles. Such short-term oxidation of BC has significance for the
+                    stability of BC in soils as well as for its effects on soil fertility and
+                    biogeochemistry. (c) 2006 Elsevier Ltd. All rights reserved.</p>
+            </abstract>
+            <refs count="50">
+                <ref>66245811</ref>
+                <ref>113816952</ref>
+                <ref>126474991</ref>
+                <ref>55244828</ref>
+                <ref>113193653</ref>
+                <ref>12208574</ref>
+                <ref>88188475</ref>
+                <ref>39744276</ref>
+                <ref>130032459</ref>
+                <ref>143047527</ref>
+                <ref>111166254</ref>
+                <ref>125361340</ref>
+                <ref>118956291</ref>
+                <ref>153654902</ref>
+                <ref>107664445</ref>
+                <ref>135489765</ref>
+                <ref>143712967</ref>
+                <ref>93685910</ref>
+                <ref>143478208</ref>
+                <ref>59508239</ref>
+                <ref>153654903</ref>
+                <ref>143048455</ref>
+                <ref>153654904</ref>
+                <ref>153654905</ref>
+                <ref>125481439</ref>
+                <ref>118918902</ref>
+                <ref>153654906</ref>
+                <ref>120049910</ref>
+                <ref>116989483</ref>
+                <ref>51373282</ref>
+                <ref>47556643</ref>
+                <ref>119758510</ref>
+                <ref>112203273</ref>
+                <ref>153654907</ref>
+                <ref>20564810</ref>
+                <ref>153654908</ref>
+                <ref>14844449</ref>
+                <ref>1295148</ref>
+                <ref>116527200</ref>
+                <ref>62021283</ref>
+                <ref>78594711</ref>
+                <ref>11805632</ref>
+                <ref>95144848</ref>
+                <ref>85515459</ref>
+                <ref>108475866</ref>
+                <ref>110689792</ref>
+                <ref>3256423</ref>
+                <ref>153654909</ref>
+                <ref>99579005</ref>
+                <ref>130727245</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153653768" hot="yes" sortkey="3103764369" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153653767" recid="153653768" coverdate="200612" sortkey="3103764369"
+            refkey="2266783" dbyear="2007">
+            <ut>000243110500001</ut>
+            <i_ckey>FRIE2717060355NR</i_ckey>
+            <i_cid>0113048406</i_cid>
+            <source_title>NEW ENGLAND JOURNAL OF MEDICINE</source_title>
+            <source_abbrev>NEW ENGL J MED</source_abbrev>
+            <item_title>Uncovering an epidemic - Screening for mental illness in teens</item_title>
+            <sq>70224J0</sq>
+            <bib_id>355 (26): 2717-2719 DEC 28 2006</bib_id>
+            <bib_pages begin="2717" end="2719" pages="3">2717-2719</bib_pages>
+            <bib_issue year="2006" vol="355"/>
+            <doctype code="E">Editorial Material</doctype>
+            <editions full="SCI
+                SSCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="1">
+                <primaryauthor>Friedman, RA</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Friedman</AuLastName>
+                    <AuFirstName>Richard A.</AuFirstName>
+                    <AuCollectiveName>Friedman, Richard A.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <keywords_plus count="3">
+                <keyword>PREVALENCE</keyword>
+                <keyword>CHILDREN</keyword>
+                <keyword>SUICIDE</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Friedman, RA</rp_author>
+                <rp_address>Weill Cornell Med Coll, Psychopharmacol Clin, New York, NY 10021 USA</rp_address>
+                <rp_organization>Weill Cornell Med Coll</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Psychopharmacol Clin</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10021</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="1">
+                <research>
+                    <rs_address>Weill Cornell Med Coll, Psychopharmacol Clin, New York, NY 10021 USA</rs_address>
+                    <rs_organization>Weill Cornell Med Coll</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Psychopharmacol Clin</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="N"/>
+            <refs count="6">
+                <ref>71095709</ref>
+                <ref>143581215</ref>
+                <ref>144670568</ref>
+                <ref>145228460</ref>
+                <ref>96402206</ref>
+                <ref>65757250</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153653646" hot="yes" sortkey="3103764424" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153653629" recid="153653646" coverdate="200612" sortkey="3103764424"
+            refkey="2239043" dbyear="2007">
+            <ut>000242602500009</ut>
+            <i_ckey>FRAS1157060059NJ</i_ckey>
+            <i_cid>0113023111</i_cid>
+            <source_title>NEUROSURGERY</source_title>
+            <source_abbrev>NEUROSURGERY</source_abbrev>
+            <item_title>Treatment of ruptured intracranial aneurysms: Looking to the past to
+                register the future</item_title>
+            <sq>01183J0</sq>
+            <bib_id>59 (6): 1157-1166 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1227/01.NEU.0000245623.70344.F7</article_no>
+            </article_nos>
+            <bib_pages begin="1157" end="1166" pages="10">1157-1166</bib_pages>
+            <bib_issue year="2006" vol="59"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="6">
+                <primaryauthor>Fraser, JF</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Fraser</AuLastName>
+                    <AuFirstName>Justin F.</AuFirstName>
+                    <AuCollectiveName>Fraser, Justin F.</AuCollectiveName>
+                </fullauthorname>
+                <author key="5859558">Riina, H</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Riina</AuLastName>
+                    <AuFirstName>Howard</AuFirstName>
+                    <AuCollectiveName>Riina, Howard</AuCollectiveName>
+                </fullauthorname>
+                <author key="4787393">Mitra, N</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Mitra</AuLastName>
+                    <AuFirstName>Nandita</AuFirstName>
+                    <AuCollectiveName>Mitra, Nandita</AuCollectiveName>
+                </fullauthorname>
+                <author key="2500516">Gobin, YP</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Gobin</AuLastName>
+                    <AuFirstName>Y. Pierre</AuFirstName>
+                    <AuCollectiveName>Gobin, Y. Pierre</AuCollectiveName>
+                </fullauthorname>
+                <author key="6454960">Simon, AS</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Simon</AuLastName>
+                    <AuFirstName>Arlene Stolper</AuFirstName>
+                    <AuCollectiveName>Simon, Arlene Stolper</AuCollectiveName>
+                </fullauthorname>
+                <author key="6695985">Stieg, PE</author>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Stieg</AuLastName>
+                    <AuFirstName>Philip E.</AuFirstName>
+                    <AuCollectiveName>Stieg, Philip E.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Stieg, PE</name>
+                    <email_addr>pes2008@med.cornell.edu</email_addr>
+                </email>
+            </emails>
+            <keywords count="5">
+                <keyword>aneurysm</keyword>
+                <keyword>endovascular coiling</keyword>
+                <keyword>registry</keyword>
+                <keyword>ruptured aneurysm</keyword>
+                <keyword>surgical clipping</keyword>
+            </keywords>
+            <keywords_plus count="10">
+                <keyword>GUGLIELMI DETACHABLE COILS</keyword>
+                <keyword>POSTERIOR CIRCULATION ANEURYSMS</keyword>
+                <keyword>BASILAR TIP ANEURYSMS</keyword>
+                <keyword>ENDOVASCULAR TREATMENT</keyword>
+                <keyword>SUBARACHNOID HEMORRHAGE</keyword>
+                <keyword>CEREBROVASCULAR-DISEASE</keyword>
+                <keyword>CAROTID ENDARTERECTOMY</keyword>
+                <keyword>CEREBRAL-ANGIOGRAPHY</keyword>
+                <keyword>ARTERY ANEURYSMS</keyword>
+                <keyword>COMMUNITY STROKE</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Stieg, PE</rp_author>
+                <rp_address>Cornell Univ, Weill Med Coll, Dept Neurol Surg, 525 E 68th St,Box 99,
+                    New York, NY 10021 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="2">
+                    <rp_suborganization>Weill Med Coll</rp_suborganization>
+                    <rp_suborganization>Dept Neurol Surg</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>525 E 68th St,Box 99</rp_street>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10021</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="3">
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Dept Neurol Surg, New York, NY 10021
+                        USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                        <rs_suborganization>Dept Neurol Surg</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>New York Presbyterian Hosp, New York, NY USA</rs_address>
+                    <rs_organization>New York Presbyterian Hosp</rs_organization>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                </research>
+                <research>
+                    <rs_address>Univ Penn, Dept Biostat, Philadelphia, PA 19104 USA</rs_address>
+                    <rs_organization>Univ Penn</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Biostat</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Philadelphia</rs_city>
+                    <rs_state>PA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">19104</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="4">
+                <p>OBJECTIVE: The outcomes reported in the International Subarachnoid Aneurysm Trial
+                    (ISAT), a multicenter, prospective, randomized trial to directly compare
+                    surgical clipping with endovascular coiling as treatments for ruptured
+                    intracranial aneurysms, have been misinterpreted by many to indicate the
+                    superiority of coiling to surgical clipping in all instances. To better
+                    understand the results of ISAT and their implications for practice patterns, we
+                    compared the ISAT results with the results of other published studies regarding
+                    the treatment of ruptured intracranial aneurysms.</p>
+                <p>METHODS: Data from 19 published studies were compared with each other and with
+                    ISAT results. Outcomes examined were overall rates of mortality, rebleeding,
+                    poor outcome (disability and death), procedural complication rates, and rates of
+                    reoperation and nontotal occlusion.</p>
+                <p>RESULTS: In the 19 published studies, mean procedural complication rates were
+                    similar (surgical clipping, 11 %; endovascular coiling, 9%); ISAT did not report
+                    procedural complications. ISAT rates were within the range of the other studies
+                    for overall mortality, total rebleeding, and poor outcome. Reoperation rates in
+                    the other studies were similar to those of ISAT (enclovascular coiling, 12.5%;
+                    surgical clipping, 3.4%). The ISAT rate for less than 100% occlusion for
+                    endovascular coiling (6%) was below the range in the other studies (8.3-70.4%).</p>
+                <p>CONCLUSION: Discrepancies with the results of other published studies, procedural
+                    limitations in study design, and lack of some data endpoints and subgroup
+                    analysis raise concerns regarding extracting generalizations from the
+                    conclusions of ISAT. We think that the creation of a national registry would
+                    further the study of treatment of ruptured intracranial aneurysms.</p>
+            </abstract>
+            <refs count="44">
+                <ref>153653647</ref>
+                <ref>76233073</ref>
+                <ref>76796427</ref>
+                <ref>123405960</ref>
+                <ref>82140358</ref>
+                <ref>71324848</ref>
+                <ref>118804772</ref>
+                <ref>109487349</ref>
+                <ref>64370585</ref>
+                <ref>51392664</ref>
+                <ref>105757912</ref>
+                <ref>132560888</ref>
+                <ref>71610113</ref>
+                <ref>116827294</ref>
+                <ref>144405485</ref>
+                <ref>78917702</ref>
+                <ref>122647820</ref>
+                <ref>126045586</ref>
+                <ref>12049580</ref>
+                <ref>83114467</ref>
+                <ref>113529854</ref>
+                <ref>127198382</ref>
+                <ref>122958666</ref>
+                <ref>124786058</ref>
+                <ref>146063353</ref>
+                <ref>133183442</ref>
+                <ref>126760377</ref>
+                <ref>98430466</ref>
+                <ref>129474510</ref>
+                <ref>101874186</ref>
+                <ref>108766566</ref>
+                <ref>120808232</ref>
+                <ref>133258872</ref>
+                <ref>116069564</ref>
+                <ref>103017812</ref>
+                <ref>132336533</ref>
+                <ref>127128432</ref>
+                <ref>117694069</ref>
+                <ref>121799795</ref>
+                <ref>109908351</ref>
+                <ref>99374060</ref>
+                <ref>78149116</ref>
+                <ref>130169395</ref>
+                <ref>98536368</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153653391" hot="yes" sortkey="3103764541" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153653368" recid="153653391" coverdate="200612" sortkey="3103764541"
+            refkey="7482113" dbyear="2007">
+            <ut>000242125200011</ut>
+            <i_ckey>WESK1293060007NG</i_ckey>
+            <i_cid>0113021379</i_cid>
+            <source_title>NATURE IMMUNOLOGY</source_title>
+            <source_abbrev>NAT IMMUNOL</source_abbrev>
+            <item_title>ADAM10 is a principal 'sheddase' of the low-affinity immunoglobulin E
+                receptor CD23</item_title>
+            <sq>13430J0</sq>
+            <bib_id>7 (12): 1293-1298 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1038/ni1399</article_no>
+            </article_nos>
+            <bib_pages begin="1293" end="1298" pages="6">1293-1298</bib_pages>
+            <bib_issue year="2006" vol="7"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="16">
+                <primaryauthor>Weskamp, G</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Weskamp</AuLastName>
+                    <AuFirstName>Gisela</AuFirstName>
+                    <AuCollectiveName>Weskamp, Gisela</AuCollectiveName>
+                </fullauthorname>
+                <author key="2195741">Ford, JW</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Ford</AuLastName>
+                    <AuFirstName>Jill W.</AuFirstName>
+                    <AuCollectiveName>Ford, Jill W.</AuCollectiveName>
+                </fullauthorname>
+                <author key="6744731">Sturgill, J</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Sturgill</AuLastName>
+                    <AuFirstName>Jamie</AuFirstName>
+                    <AuCollectiveName>Sturgill, Jamie</AuCollectiveName>
+                </fullauthorname>
+                <author key="4497394">Martin, S</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Martin</AuLastName>
+                    <AuFirstName>Steve</AuFirstName>
+                    <AuCollectiveName>Martin, Steve</AuCollectiveName>
+                </fullauthorname>
+                <author key="1753905">Docherty, AJP</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Docherty</AuLastName>
+                    <AuFirstName>Andrew J. P.</AuFirstName>
+                    <AuCollectiveName>Docherty, Andrew J. P.</AuCollectiveName>
+                </fullauthorname>
+                <author key="6805486">Swendeman, S</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Swendeman</AuLastName>
+                    <AuFirstName>Steven</AuFirstName>
+                    <AuCollectiveName>Swendeman, Steven</AuCollectiveName>
+                </fullauthorname>
+                <author key="876903">Broadway, N</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Broadway</AuLastName>
+                    <AuFirstName>Neil</AuFirstName>
+                    <AuCollectiveName>Broadway, Neil</AuCollectiveName>
+                </fullauthorname>
+                <author key="2851213">Hartmann, D</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Hartmann</AuLastName>
+                    <AuFirstName>Dieter</AuFirstName>
+                    <AuCollectiveName>Hartmann, Dieter</AuCollectiveName>
+                </fullauthorname>
+                <author key="6055687">Saftig, P</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Saftig</AuLastName>
+                    <AuFirstName>Paul</AuFirstName>
+                    <AuCollectiveName>Saftig, Paul</AuCollectiveName>
+                </fullauthorname>
+                <author key="7120745">Umland, S</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Umland</AuLastName>
+                    <AuFirstName>Shelby</AuFirstName>
+                    <AuCollectiveName>Umland, Shelby</AuCollectiveName>
+                </fullauthorname>
+                <author key="6290303">Sehara-Fujisawa, A</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Sehara-Fujisawa</AuLastName>
+                    <AuFirstName>Atsuko</AuFirstName>
+                    <AuCollectiveName>Sehara-Fujisawa, Atsuko</AuCollectiveName>
+                </fullauthorname>
+                <author key="672822">Black, RA</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Black</AuLastName>
+                    <AuFirstName>Roy A.</AuFirstName>
+                    <AuCollectiveName>Black, Roy A.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4308487">Ludwig, A</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Ludwig</AuLastName>
+                    <AuFirstName>Andreas</AuFirstName>
+                    <AuCollectiveName>Ludwig, Andreas</AuCollectiveName>
+                </fullauthorname>
+                <author key="496184">Becherer, JD</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Becherer</AuLastName>
+                    <AuFirstName>J. David</AuFirstName>
+                    <AuCollectiveName>Becherer, J. David</AuCollectiveName>
+                </fullauthorname>
+                <author key="1379100">Conrad, DH</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Conrad</AuLastName>
+                    <AuFirstName>Daniel H.</AuFirstName>
+                    <AuCollectiveName>Conrad, Daniel H.</AuCollectiveName>
+                </fullauthorname>
+                <author key="694856">Blobel, CP</author>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Blobel</AuLastName>
+                    <AuFirstName>Carl P.</AuFirstName>
+                    <AuCollectiveName>Blobel, Carl P.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Blobel, CP</name>
+                    <email_addr>blobelc@hss.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="10">
+                <keyword>FC-EPSILON-RII</keyword>
+                <keyword>METALLOPROTEASE-DISINTEGRIN MDC9</keyword>
+                <keyword>REGULATES MONOCYTE ACTIVATION</keyword>
+                <keyword>CHRONIC LYMPHOCYTIC-LEUKEMIA</keyword>
+                <keyword>COLLAGEN-INDUCED ARTHRITIS</keyword>
+                <keyword>AMYLOID PRECURSOR PROTEIN</keyword>
+                <keyword>CELL-CELL ADHESION</keyword>
+                <keyword>IGE PRODUCTION</keyword>
+                <keyword>SOLUBLE CD23</keyword>
+                <keyword>CATALYTIC-ACTIVITY</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Blobel, CP</rp_author>
+                <rp_address>Cornell Univ, Weill Med Coll, Hosp Special Surg, Arthrit &amp;
+                    Tissue Regenerat Program, New York, NY 10021 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="3">
+                    <rp_suborganization>Weill Med Coll</rp_suborganization>
+                    <rp_suborganization>Hosp Special Surg</rp_suborganization>
+                    <rp_suborganization>Arthrit &amp; Tissue Regenerat
+                    Program</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10021</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="13">
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Hosp Special Surg, Arthrit &amp;
+                        Tissue Regenerat Program, New York, NY 10021 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="3">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                        <rs_suborganization>Hosp Special Surg</rs_suborganization>
+                        <rs_suborganization>Arthrit &amp; Tissue Regenerat
+                        Program</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Dept Med, New York, NY 10021 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                        <rs_suborganization>Dept Med</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Dept Physiol &amp; Biophys, New
+                        York, NY 10021 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                        <rs_suborganization>Dept Physiol &amp; Biophys</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Virginia Commonwealth Univ, Dept Immunol &amp; Microbiol,
+                        Richmond, VA 23298 USA</rs_address>
+                    <rs_organization>Virginia Commonwealth Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Immunol &amp; Microbiol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Richmond</rs_city>
+                    <rs_state>VA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">23298</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>GlaxoSmithKline Inc, Discovery Res, Stevenage SG1 2NY, Herts,
+                        England</rs_address>
+                    <rs_organization>GlaxoSmithKline Inc</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Discovery Res</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Stevenage</rs_city>
+                    <rs_state>Herts</rs_state>
+                    <rs_country>England</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AC">SG1 2NY</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Celltech Ltd, Slough SL1 4EN, Berks, England</rs_address>
+                    <rs_organization>Celltech Ltd</rs_organization>
+                    <rs_city>Slough</rs_city>
+                    <rs_state>Berks</rs_state>
+                    <rs_country>England</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AC">SL1 4EN</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Katholieke Univ Leuven VIB, Dept Human Genet, B-3000 Louvain,
+                        Belgium</rs_address>
+                    <rs_organization>Katholieke Univ Leuven VIB</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Human Genet</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Louvain</rs_city>
+                    <rs_country>Belgium</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="BC">B-3000</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Kiel, Inst Biochem, D-24089 Kiel, Germany</rs_address>
+                    <rs_organization>Univ Kiel</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Inst Biochem</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Kiel</rs_city>
+                    <rs_country>Germany</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="BC">D-24089</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Schering Plough Corp, Inst Res, Kenilworth, NJ 07033 USA</rs_address>
+                    <rs_organization>Schering Plough Corp</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Inst Res</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Kenilworth</rs_city>
+                    <rs_state>NJ</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">07033</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Kyoto Univ, Inst Frontier Med Sci, Dept Growth Regulat, Kyoto
+                        6068507, Japan</rs_address>
+                    <rs_organization>Kyoto Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Inst Frontier Med Sci</rs_suborganization>
+                        <rs_suborganization>Dept Growth Regulat</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Kyoto</rs_city>
+                    <rs_country>Japan</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AC">6068507</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Amgen Inc, Seattle, WA 98119 USA</rs_address>
+                    <rs_organization>Amgen Inc</rs_organization>
+                    <rs_city>Seattle</rs_city>
+                    <rs_state>WA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">98119</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Rhein Westphalian Tech Univ, Inst Mol Cardiovasc Res, Aachen,
+                        Germany</rs_address>
+                    <rs_organization>Rhein Westphalian Tech Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Inst Mol Cardiovasc Res</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Aachen</rs_city>
+                    <rs_country>Germany</rs_country>
+                </research>
+                <research>
+                    <rs_address>GlaxoSmithKline Inc, Dept Biochem &amp; Analyt Pharmacol, Res
+                        Triangle Pk, NC 27709 USA</rs_address>
+                    <rs_organization>GlaxoSmithKline Inc</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Biochem &amp; Analyt
+                        Pharmacol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Res Triangle Pk</rs_city>
+                    <rs_state>NC</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">27709</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>CD23, the low-affinity immunoglobulin E receptor, is an important modulator of
+                    the allergic response and of diseases such as rheumatoid arthritis. The
+                    proteolytic release of CD23 from cells is considered a key event in the allergic
+                    response. Here we used loss-of-function and gain-of-function experiments with
+                    cells lacking or overexpressing candidate CD23-releasing enzymes (ADAM8, ADAM9,
+                    ADAM10, ADAM12, ADAM15, ADAM17, ADAM19 and ADAM33), ADAM-knockout mice and a
+                    selective inhibitor to identify ADAM10 as the main CD23-releasing enzyme in
+                    vivo. Our findings provide a likely target for the treatment 5 of allergic
+                    reactions and set the stage for further studies of the involvement of ADAM10 in
+                    CD23-dependent pathologies.</p>
+            </abstract>
+            <refs count="46">
+                <ref>142460923</ref>
+                <ref>150005268</ref>
+                <ref>103446971</ref>
+                <ref>51258837</ref>
+                <ref>91267984</ref>
+                <ref>130728153</ref>
+                <ref>106332671</ref>
+                <ref>126833163</ref>
+                <ref>115063470</ref>
+                <ref>146436291</ref>
+                <ref>115617825</ref>
+                <ref>130704301</ref>
+                <ref>69076155</ref>
+                <ref>142268639</ref>
+                <ref>122551108</ref>
+                <ref>132813678</ref>
+                <ref>109380148</ref>
+                <ref>109618111</ref>
+                <ref>92229604</ref>
+                <ref>102425654</ref>
+                <ref>143348572</ref>
+                <ref>106525471</ref>
+                <ref>114966830</ref>
+                <ref>97969441</ref>
+                <ref>135279935</ref>
+                <ref>124298333</ref>
+                <ref>110622528</ref>
+                <ref>146664425</ref>
+                <ref>66457891</ref>
+                <ref>107708551</ref>
+                <ref>92412548</ref>
+                <ref>143257536</ref>
+                <ref>114340476</ref>
+                <ref>108732667</ref>
+                <ref>97186313</ref>
+                <ref>146928802</ref>
+                <ref>133644054</ref>
+                <ref>98330950</ref>
+                <ref>153653392</ref>
+                <ref>127873344</ref>
+                <ref>131877005</ref>
+                <ref>38087201</ref>
+                <ref>103348537</ref>
+                <ref>123524194</ref>
+                <ref>87553814</ref>
+                <ref>132623471</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153653060" hot="yes" sortkey="3103764658" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153653002" recid="153653060" coverdate="200610" sortkey="3103764658"
+            refkey="761186" dbyear="2007">
+            <ut>000242850000013</ut>
+            <i_ckey>BORD1057060032MP</i_ckey>
+            <i_cid>0113022681</i_cid>
+            <source_title>MOLECULAR SIMULATION</source_title>
+            <source_abbrev>MOL SIMULAT</source_abbrev>
+            <item_title>Slow dynamics in glass-forming materials</item_title>
+            <sq>09935J0</sq>
+            <bib_id>32 (12-13): 1057-1068 OCT-NOV 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1080/08927020600900329</article_no>
+            </article_nos>
+            <bib_pages begin="1057" end="1068" pages="12">1057-1068</bib_pages>
+            <bib_issue year="2006" vol="32"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="4">
+                <primaryauthor>Bordat, P</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Bordat</AuLastName>
+                    <AuFirstName>P.</AuFirstName>
+                    <AuCollectiveName>Bordat, P.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4108792">Lerbret, A</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Lerbret</AuLastName>
+                    <AuFirstName>A.</AuFirstName>
+                    <AuCollectiveName>Lerbret, A.</AuCollectiveName>
+                </fullauthorname>
+                <author key="1674690">Descamps, M</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Descamps</AuLastName>
+                    <AuFirstName>M.</AuFirstName>
+                    <AuCollectiveName>Descamps, M.</AuCollectiveName>
+                </fullauthorname>
+                <author key="52771">Affouard, F</author>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Affouard</AuLastName>
+                    <AuFirstName>F.</AuFirstName>
+                    <AuCollectiveName>Affouard, F.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Affouard, F</name>
+                    <email_addr>fredreic.affouard@univ.lille1.fr</email_addr>
+                </email>
+            </emails>
+            <keywords count="6">
+                <keyword>orientational disordered crystals</keyword>
+                <keyword>glassforming liquids</keyword>
+                <keyword>fragility</keyword>
+                <keyword>liquid-glass transition</keyword>
+                <keyword>mode-coupling theory</keyword>
+                <keyword>coupling model</keyword>
+            </keywords>
+            <keywords_plus count="10">
+                <keyword>MODE-COUPLING THEORY</keyword>
+                <keyword>ORIENTATIONALLY DISORDERED CRYSTALS</keyword>
+                <keyword>POTENTIAL-ENERGY LANDSCAPE</keyword>
+                <keyword>MOLECULAR-DYNAMICS</keyword>
+                <keyword>SUPERCOOLED LIQUIDS</keyword>
+                <keyword>PLASTIC-CRYSTAL</keyword>
+                <keyword>WATER SOLUTIONS</keyword>
+                <keyword>STRUCTURAL RELAXATION</keyword>
+                <keyword>NEUTRON-SCATTERING</keyword>
+                <keyword>T-C</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Affouard, F</rp_author>
+                <rp_address>Univ Lille 1, Lab Dynam &amp; Struct Mat Mol, CNRS, UMR 8024,
+                    F-59655 Villeneuve Dascq, France</rp_address>
+                <rp_organization>Univ Lille 1</rp_organization>
+                <rp_suborganizations count="3">
+                    <rp_suborganization>Lab Dynam &amp; Struct Mat Mol</rp_suborganization>
+                    <rp_suborganization>CNRS</rp_suborganization>
+                    <rp_suborganization>UMR 8024</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>Villeneuve Dascq</rp_city>
+                <rp_country>France</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="BC">F-59655</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="3">
+                <research>
+                    <rs_address>Univ Lille 1, Lab Dynam &amp; Struct Mat Mol, CNRS, UMR 8024,
+                        F-59655 Villeneuve Dascq, France</rs_address>
+                    <rs_organization>Univ Lille 1</rs_organization>
+                    <rs_suborganizations count="3">
+                        <rs_suborganization>Lab Dynam &amp; Struct Mat Mol</rs_suborganization>
+                        <rs_suborganization>CNRS</rs_suborganization>
+                        <rs_suborganization>UMR 8024</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Villeneuve Dascq</rs_city>
+                    <rs_country>France</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="BC">F-59655</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Pau &amp; Pays Adour, Lab Chim Theor &amp; Phys Chim
+                        Mol, UMR 5624, F-64000 Pau, France</rs_address>
+                    <rs_organization>Univ Pau &amp; Pays Adour</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Lab Chim Theor &amp; Phys Chim Mol</rs_suborganization>
+                        <rs_suborganization>UMR 5624</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Pau</rs_city>
+                    <rs_country>France</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="BC">F-64000</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Dept Food Sci, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Food Sci</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>Dynamical properties of glass-formers such as glassy crystals, molecular liquids
+                    and model atomic liquids have been investigated in the pico-nanosecond (ps-ns)
+                    regime with dl_poly. The change in nature of translation and rotational dynamics
+                    are investigated in the supercooled state. Some predictions of the mode-coupling
+                    theory and the coupling model are checked. The microscopic origin of the
+                    fragility, i.e. the characteristic parameter involved in the liquid-glass
+                    transition, is also highlighted: the interaction potential, especially its
+                    anharmonicity and capacity for intermolecular coupling, is the key parameter
+                    controlling both the long time dynamics in supercooled systems and the short
+                    time dynamics in their glassy states.</p>
+            </abstract>
+            <refs count="85">
+                <ref>130759796</ref>
+                <ref>123948488</ref>
+                <ref>109712538</ref>
+                <ref>121413920</ref>
+                <ref>119008475</ref>
+                <ref>126555706</ref>
+                <ref>64516210</ref>
+                <ref>76498582</ref>
+                <ref>48091221</ref>
+                <ref>107130748</ref>
+                <ref>53816621</ref>
+                <ref>98190509</ref>
+                <ref>147054631</ref>
+                <ref>79518758</ref>
+                <ref>84598803</ref>
+                <ref>153653061</ref>
+                <ref>136321321</ref>
+                <ref>131331437</ref>
+                <ref>133214079</ref>
+                <ref>110615855</ref>
+                <ref>125009227</ref>
+                <ref>109501490</ref>
+                <ref>59402846</ref>
+                <ref>109510969</ref>
+                <ref>109510968</ref>
+                <ref>118401358</ref>
+                <ref>153653062</ref>
+                <ref>131525275</ref>
+                <ref>153653063</ref>
+                <ref>91361582</ref>
+                <ref>115032474</ref>
+                <ref>88057435</ref>
+                <ref>153653064</ref>
+                <ref>118870436</ref>
+                <ref>106235235</ref>
+                <ref>112748136</ref>
+                <ref>70013379</ref>
+                <ref>16346549</ref>
+                <ref>73424746</ref>
+                <ref>68896455</ref>
+                <ref>97430817</ref>
+                <ref>114102748</ref>
+                <ref>74464978</ref>
+                <ref>102944112</ref>
+                <ref>34632255</ref>
+                <ref>102392883</ref>
+                <ref>91411353</ref>
+                <ref>105262573</ref>
+                <ref>88472973</ref>
+                <ref>107417852</ref>
+                <ref>21542716</ref>
+                <ref>144504380</ref>
+                <ref>89594793</ref>
+                <ref>96478785</ref>
+                <ref>82674909</ref>
+                <ref>61506453</ref>
+                <ref>153653065</ref>
+                <ref>108145708</ref>
+                <ref>34021476</ref>
+                <ref>107770650</ref>
+                <ref>116646176</ref>
+                <ref>109727535</ref>
+                <ref>75223386</ref>
+                <ref>62042624</ref>
+                <ref>153653066</ref>
+                <ref>105482782</ref>
+                <ref>118070812</ref>
+                <ref>115907682</ref>
+                <ref>143079624</ref>
+                <ref>102250894</ref>
+                <ref>115206681</ref>
+                <ref>112163577</ref>
+                <ref>131786042</ref>
+                <ref>38466283</ref>
+                <ref>79034668</ref>
+                <ref>86972981</ref>
+                <ref>37170946</ref>
+                <ref>58227075</ref>
+                <ref>25880623</ref>
+                <ref>126175481</ref>
+                <ref>107401060</ref>
+                <ref>101441031</ref>
+                <ref>24679434</ref>
+                <ref>81282883</ref>
+                <ref>97585790</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153652972" hot="yes" sortkey="3103764684" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153652941" recid="153652972" coverdate="200612" sortkey="3103764684"
+            refkey="4512486" dbyear="2007">
+            <ut>000242653200020</ut>
+            <i_ckey>MASC5163060017MT</i_ckey>
+            <i_cid>0113024094</i_cid>
+            <source_title>MOLECULAR BIOLOGY OF THE CELL</source_title>
+            <source_abbrev>MOL BIOL CELL</source_abbrev>
+            <item_title>Wnt5a signaling induces proliferation and survival of endothelial cells in
+                vitro and expression of MMP-1 and Tie-2</item_title>
+            <sq>09701J0</sq>
+            <bib_id>17 (12): 5163-5172 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1091/mbc.E06-04-0320</article_no>
+            </article_nos>
+            <bib_pages begin="5163" end="5172" pages="10">5163-5172</bib_pages>
+            <bib_issue year="2006" vol="17"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="10">
+                <primaryauthor>Masckauchan, TNH</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Masckauchan</AuLastName>
+                    <AuFirstName>T. Nestor H.</AuFirstName>
+                    <AuCollectiveName>Masckauchan, T. Nestor H.</AuCollectiveName>
+                </fullauthorname>
+                <author key="54556">Agalliu, D</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Agalliu</AuLastName>
+                    <AuFirstName>Dritan</AuFirstName>
+                    <AuCollectiveName>Agalliu, Dritan</AuCollectiveName>
+                </fullauthorname>
+                <author key="7316039">Vorontchikhina, M</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Vorontchikhina</AuLastName>
+                    <AuFirstName>Marina</AuFirstName>
+                    <AuCollectiveName>Vorontchikhina, Marina</AuCollectiveName>
+                </fullauthorname>
+                <author key="69451">Ahn, A</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Ahn</AuLastName>
+                    <AuFirstName>Audrey</AuFirstName>
+                    <AuCollectiveName>Ahn, Audrey</AuCollectiveName>
+                </fullauthorname>
+                <author key="5374738">Parmalee, NL</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Parmalee</AuLastName>
+                    <AuFirstName>Nancy L.</AuFirstName>
+                    <AuCollectiveName>Parmalee, Nancy L.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4149511">Li, CM</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Li</AuLastName>
+                    <AuFirstName>Chi-Ming</AuFirstName>
+                    <AuCollectiveName>Li, Chi-Ming</AuCollectiveName>
+                </fullauthorname>
+                <author key="3642271">Khoo, A</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Khoo</AuLastName>
+                    <AuFirstName>Alan</AuFirstName>
+                    <AuCollectiveName>Khoo, Alan</AuCollectiveName>
+                </fullauthorname>
+                <author key="7097229">Tycko, B</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Tycko</AuLastName>
+                    <AuFirstName>Benjamin</AuFirstName>
+                    <AuCollectiveName>Tycko, Benjamin</AuCollectiveName>
+                </fullauthorname>
+                <author key="896748">Brown, AMC</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Brown</AuLastName>
+                    <AuFirstName>Anthony M. C.</AuFirstName>
+                    <AuCollectiveName>Brown, Anthony M. C.</AuCollectiveName>
+                </fullauthorname>
+                <author key="3700946">Kitajewski, J</author>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Kitajewski</AuLastName>
+                    <AuFirstName>Jan</AuFirstName>
+                    <AuCollectiveName>Kitajewski, Jan</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Kitajewski, J</name>
+                    <email_addr>jkk9@columbia.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="10">
+                <keyword>BETA-CATENIN</keyword>
+                <keyword>DISHEVELLED PHOSPHORYLATION</keyword>
+                <keyword>TUMOR ANGIOGENESIS</keyword>
+                <keyword>PATHWAY</keyword>
+                <keyword>WNT-5A</keyword>
+                <keyword>PROTEIN</keyword>
+                <keyword>IDENTIFICATION</keyword>
+                <keyword>FRIZZLED-4</keyword>
+                <keyword>ACTIVATION</keyword>
+                <keyword>CLONING</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Kitajewski, J</rp_author>
+                <rp_address>Columbia Univ, Med Ctr, Inst Canc Genet, New York, NY 10032 USA</rp_address>
+                <rp_organization>Columbia Univ</rp_organization>
+                <rp_suborganizations count="2">
+                    <rp_suborganization>Med Ctr</rp_suborganization>
+                    <rp_suborganization>Inst Canc Genet</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10032</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="3">
+                <research>
+                    <rs_address>Columbia Univ, Med Ctr, Inst Canc Genet, New York, NY 10032 USA</rs_address>
+                    <rs_organization>Columbia Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Med Ctr</rs_suborganization>
+                        <rs_suborganization>Inst Canc Genet</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10032</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Dept Cell &amp; Dev Biol, Weill Med Coll, New
+                        York, NY 10021 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Dept Cell &amp; Dev Biol</rs_suborganization>
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Rockefeller Univ, Strang Canc Res Lab, New York, NY 10021 USA</rs_address>
+                    <rs_organization>Rockefeller Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Strang Canc Res Lab</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>Wnts are lipid-modified secreted glycoproteins that regulate diverse biological
+                    processes. We report that Wnt5a, which functions in noncanonical Wnt signaling,
+                    has activity on endothelial cells. Wnt5a is endogenously expressed in human
+                    primary endothelial cells and is expressed in murine vasculature at several
+                    sites in mouse embryos and tissues. Expression of exogenous Wnt5a in human
+                    endothelial cells promoted angiogenesis. Wnt5a induced noncanonical Wnt
+                    signaling in endothelial cells, as measured by Dishevelled and ERK1/2
+                    phosphorylation, and inhibition of canonical Wnt signaling, a known property of
+                    Wnt5a. Wnt5a induced endothelial cell proliferation and enhanced cell survival
+                    under serum-deprived conditions. The Wnt5a-mediated proliferation was blocked by
+                    Frizzled-4 extracellular domain. Wnt5a expression enhanced capillary-like
+                    network formation, whereas reduction of Wnt5a expression decreased network
+                    formation. Reduced Wnt5a expression inhibited endothelial cell migration.
+                    Screening for Wnt5a-regulated genes in cultured endothelial cells identified
+                    several encoding angiogenic regulators, including matrix metalloproteinase-1, an
+                    interstitial collagenase, and Tie-2, a receptor for angiopoietins. Thus, Wnt5a
+                    acts through noncanonical Wnt signaling to promote angiogenesis.</p>
+            </abstract>
+            <refs count="41">
+                <ref>147818819</ref>
+                <ref>132492781</ref>
+                <ref>130968450</ref>
+                <ref>142527552</ref>
+                <ref>119090168</ref>
+                <ref>104413718</ref>
+                <ref>134799999</ref>
+                <ref>107920368</ref>
+                <ref>111970260</ref>
+                <ref>92362503</ref>
+                <ref>127688764</ref>
+                <ref>23902476</ref>
+                <ref>123289532</ref>
+                <ref>129228444</ref>
+                <ref>91438802</ref>
+                <ref>125049005</ref>
+                <ref>132276949</ref>
+                <ref>136963787</ref>
+                <ref>145905773</ref>
+                <ref>153652973</ref>
+                <ref>150576089</ref>
+                <ref>128893899</ref>
+                <ref>133538739</ref>
+                <ref>126678892</ref>
+                <ref>124646454</ref>
+                <ref>86199741</ref>
+                <ref>143192031</ref>
+                <ref>122041025</ref>
+                <ref>103236270</ref>
+                <ref>102897328</ref>
+                <ref>131108427</ref>
+                <ref>116799299</ref>
+                <ref>131180265</ref>
+                <ref>144907573</ref>
+                <ref>126625052</ref>
+                <ref>112010334</ref>
+                <ref>135032017</ref>
+                <ref>109556698</ref>
+                <ref>123385563</ref>
+                <ref>131627269</ref>
+                <ref>142948386</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153651956" hot="yes" sortkey="3103764958" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153651926" recid="153651956" coverdate="200600" sortkey="3103764958"
+            refkey="544847" dbyear="2007">
+            <ut>000242846600006</ut>
+            <i_ckey>BENE0362060015MA</i_ckey>
+            <i_cid>0113021953</i_cid>
+            <source_title>MEDICAL PRINCIPLES AND PRACTICE</source_title>
+            <source_abbrev>MED PRIN PRACT</source_abbrev>
+            <item_title>Sociodemographic and clinical characteristics of patients with dissociative
+                disorders in an Arabian society</item_title>
+            <sq>10542J0</sq>
+            <bib_id>15 (5): 362-367 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1159/000094270</article_no>
+            </article_nos>
+            <bib_pages begin="362" end="367" pages="6">362-367</bib_pages>
+            <bib_issue year="2006" vol="15"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI SSCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="5">
+                <primaryauthor>Bener, A</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Bener</AuLastName>
+                    <AuFirstName>Abdulbari</AuFirstName>
+                    <AuCollectiveName>Bener, Abdulbari</AuCollectiveName>
+                </fullauthorname>
+                <author key="6041117">Saad, AG</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Saad</AuLastName>
+                    <AuFirstName>Abul Gasim</AuFirstName>
+                    <AuCollectiveName>Saad, Abul Gasim</AuCollectiveName>
+                </fullauthorname>
+                <author key="4712681">Micallef, R</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Micallef</AuLastName>
+                    <AuFirstName>Rosetta</AuFirstName>
+                    <AuCollectiveName>Micallef, Rosetta</AuCollectiveName>
+                </fullauthorname>
+                <author key="2439965">Ghuloum, S</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Ghuloum</AuLastName>
+                    <AuFirstName>Suhaila</AuFirstName>
+                    <AuCollectiveName>Ghuloum, Suhaila</AuCollectiveName>
+                </fullauthorname>
+                <author key="6045784">Sabri, S</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Sabri</AuLastName>
+                    <AuFirstName>Sufyan</AuFirstName>
+                    <AuCollectiveName>Sabri, Sufyan</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Bener, A</name>
+                    <email_addr>abener@hmc.org.qa</email_addr>
+                </email>
+            </emails>
+            <keywords count="6">
+                <keyword>hysteria</keyword>
+                <keyword>sociodemographic profile</keyword>
+                <keyword>dissociative disorders</keyword>
+                <keyword>comorbid diagnosis</keyword>
+                <keyword>personality factors</keyword>
+                <keyword>United Arab Emirates</keyword>
+            </keywords>
+            <keywords_plus count="5">
+                <keyword>PSYCHIATRIC-INPATIENTS</keyword>
+                <keyword>POPULATION</keyword>
+                <keyword>PREVALENCE</keyword>
+                <keyword>EXPERIENCE</keyword>
+                <keyword>SCALE</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Bener, A</rp_author>
+                <rp_address>Hamad Gen Hosp, Dept Med Stat &amp; Epidemiol, POB 3050, Doha, Qatar</rp_address>
+                <rp_organization>Hamad Gen Hosp</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Med Stat &amp; Epidemiol</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>POB 3050</rp_street>
+                <rp_city>Doha</rp_city>
+                <rp_country>Qatar</rp_country>
+            </reprint>
+            <research_addrs count="6">
+                <research>
+                    <rs_address>Hamad Gen Hosp, Dept Psychiat, Doha, Qatar</rs_address>
+                    <rs_organization>Hamad Gen Hosp</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Psychiat</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Doha</rs_city>
+                    <rs_country>Qatar</rs_country>
+                </research>
+                <research>
+                    <rs_address>Hamad Med Corp, Weill Cornell Med Coll Qatar, Doha, Qatar</rs_address>
+                    <rs_organization>Hamad Med Corp</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Weill Cornell Med Coll Qatar</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Doha</rs_city>
+                    <rs_country>Qatar</rs_country>
+                </research>
+                <research>
+                    <rs_address>Univ Manchester, Sch Epidemiol &amp; Hlth Sci, Dept Evidence
+                        Populat Hlth Unit, Manchester, Lancs, England</rs_address>
+                    <rs_organization>Univ Manchester</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Sch Epidemiol &amp; Hlth Sci</rs_suborganization>
+                        <rs_suborganization>Dept Evidence Populat Hlth Unit</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Manchester</rs_city>
+                    <rs_state>Lancs</rs_state>
+                    <rs_country>England</rs_country>
+                </research>
+                <research>
+                    <rs_address>UAE Univ, Fac Med &amp; Hlth Sci, Dept Psychiat, Al Ain, U Arab
+                        Emirates</rs_address>
+                    <rs_organization>UAE Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Fac Med &amp; Hlth Sci</rs_suborganization>
+                        <rs_suborganization>Dept Psychiat</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Al Ain</rs_city>
+                    <rs_country>U Arab Emirates</rs_country>
+                </research>
+                <research>
+                    <rs_address>Tawam Hosp, Al Ain, U Arab Emirates</rs_address>
+                    <rs_organization>Tawam Hosp</rs_organization>
+                    <rs_city>Al Ain</rs_city>
+                    <rs_country>U Arab Emirates</rs_country>
+                </research>
+                <research>
+                    <rs_address>MOH, Al Jahili PHC Clin, Al Ain, U Arab Emirates</rs_address>
+                    <rs_organization>MOH</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Al Jahili PHC Clin</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Al Ain</rs_city>
+                    <rs_country>U Arab Emirates</rs_country>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>Objective: The aim of the study was to determine the sociodemographic and
+                    clinical characteristics of patients with dissociative disorders among
+                    psychiatric patients in the population of the United Arab Emirates. Subjects and
+                    Methods: Six hundred inpatients with dissociative disorders were approached
+                    during the period 1997-2003, and 468 agreed to participate in the study. These
+                    patients were recruited from Al-Ain and Tawam Teaching Hospitals and Al-Jahili
+                    Primary Health Care Centers in Al-Ain, United Arab Emirates. The study is based
+                    on a questionnaire that included sociodemographic and clinical variables.
+                    Dissociative disorders were diagnosed according to the classification set forth
+                    in the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) and the
+                    International Classification of Diseases (ICD-10) of the World Health
+                    Organization. Results: Of the 468 patients studied, the majority (67.9%) were
+                    young, under the age of 25 years; 55% were UAE nationals, 59.4% female and 40.6%
+                    male. Disorganized movement was significantly lower among females (34.2%) than
+                    males (44.2%, p &lt; 0.03). Disapproving of the key relative behaviour was
+                    higher in females (24.1%) compared to males (13.2%); comorbid anxiety was higher
+                    in females (37.4%) vs. males (25.3%). Disturbed relationships were more common
+                    in females (40.3%) while precipitating factors, such as intolerable stressful
+                    events, were significantly higher in males (42.6%, p &lt; 0.01).
+                    Furthermore, males (20.5%) had a significantly higher history of similar
+                    episodes and other psychiatric illnesses (7.5%) than females. Finally, females
+                    (41%) showed more statistically significant improvements compared to males
+                    (29.5%, p &lt; 0.001). Conclusion: Patients under 25 years of age suffered
+                    more from dissociative disorders with no correlation to educational level as a
+                    predisposing factor. The most common symptoms were fits or unorganized
+                    movements. Copyright (C) 2006 S. Karger AG, Basel.</p>
+            </abstract>
+            <refs count="29">
+                <ref>102221229</ref>
+                <ref>100736705</ref>
+                <ref>95512333</ref>
+                <ref>129540153</ref>
+                <ref>61158094</ref>
+                <ref>74069519</ref>
+                <ref>153651957</ref>
+                <ref>94618586</ref>
+                <ref>115259994</ref>
+                <ref>153651958</ref>
+                <ref>153651959</ref>
+                <ref>91407778</ref>
+                <ref>56399992</ref>
+                <ref>92695002</ref>
+                <ref>43832454</ref>
+                <ref>97496878</ref>
+                <ref>108193603</ref>
+                <ref>98416566</ref>
+                <ref>105414758</ref>
+                <ref>153651960</ref>
+                <ref>72231451</ref>
+                <ref>84102038</ref>
+                <ref>76674101</ref>
+                <ref>108193645</ref>
+                <ref>96876759</ref>
+                <ref>71154693</ref>
+                <ref>105414719</ref>
+                <ref>93107295</ref>
+                <ref>102628814</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153649488" hot="yes" sortkey="3103765482" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153649309" recid="153649488" coverdate="200612" sortkey="3103765482"
+            refkey="740693" dbyear="2007">
+            <ut>000242797600103</ut>
+            <i_ckey>BOLT0110060131LK</i_ckey>
+            <i_cid>0113054629</i_cid>
+            <source_title>LIBRARY JOURNAL</source_title>
+            <source_abbrev>LIBR J</source_abbrev>
+            <item_title>When darkness falls</item_title>
+            <sq>64900J0</sq>
+            <bib_id>131 (20): 110-110 DEC 2006</bib_id>
+            <bib_pages begin="110" end="110" pages="1">110-110</bib_pages>
+            <bib_issue year="2006" vol="131"/>
+            <doctype code="B">Book Review</doctype>
+            <editions full="SSCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <reviewed_work>
+                <rw_langs count="1">
+                    <rw_lang code="EN">English</rw_lang>
+                </rw_langs>
+                <rw_authors count="1">
+                    <rw_author>Grippando, J</rw_author>
+                </rw_authors>
+                <rw_year>2007</rw_year>
+            </reviewed_work>
+            <authors count="1">
+                <primaryauthor>Bolton, K</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Bolton</AuLastName>
+                    <AuFirstName>Ken</AuFirstName>
+                    <AuCollectiveName>Bolton, Ken</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <reprint>
+                <rp_author>Bolton, K</rp_author>
+                <rp_address>Cornell Univ Lib, Ithaca, NY 14853 USA</rp_address>
+                <rp_organization>Cornell Univ Lib</rp_organization>
+                <rp_city>Ithaca</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">14853</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="1">
+                <research>
+                    <rs_address>Cornell Univ Lib, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ Lib</rs_organization>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="N"/>
+            <refs count="1">
+                <ref>153649489</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153648089" hot="yes" sortkey="3103766139" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153648055" recid="153648089" coverdate="200612" sortkey="3103766139"
+            refkey="2810809" dbyear="2007">
+            <ut>000242736200014</ut>
+            <i_ckey>HAO 1725060017JG</i_ckey>
+            <i_cid>0113031515</i_cid>
+            <source_title>JOURNAL OF THE AMERICAN SOCIETY FOR MASS SPECTROMETRY</source_title>
+            <source_abbrev>J AM SOC MASS SPECTR</source_abbrev>
+            <item_title>Electrospray tandem mass spectrometry analysis of S- and N-nitrosopeptides:
+                Facile loss of NO and radical-induced fragmentation</item_title>
+            <sq>09304J0</sq>
+            <bib_id>17 (12): 1725-1730 DEC 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1016/j.jasms.2006.07.026</article_no>
+            </article_nos>
+            <bib_pages begin="1725" end="1730" pages="6">1725-1730</bib_pages>
+            <bib_issue year="2006" vol="17"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="2">
+                <primaryauthor>Hao, G</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Hao</AuLastName>
+                    <AuFirstName>Gang</AuFirstName>
+                    <AuCollectiveName>Hao, Gang</AuCollectiveName>
+                </fullauthorname>
+                <author key="2660066">Gross, SS</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Gross</AuLastName>
+                    <AuFirstName>Steven S.</AuFirstName>
+                    <AuCollectiveName>Gross, Steven S.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Hao, G</name>
+                    <email_addr>ssgross@med.cornell.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="9">
+                <keyword>NITRIC-OXIDE</keyword>
+                <keyword>GAS-PHASE</keyword>
+                <keyword>NITROSOTHIOLS</keyword>
+                <keyword>NITROSYLATION</keyword>
+                <keyword>DERIVATIVES</keyword>
+                <keyword>NITROSOHEMOGLOBIN</keyword>
+                <keyword>NITROSATION</keyword>
+                <keyword>MECHANISMS</keyword>
+                <keyword>PROTEINS</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Hao, G</rp_author>
+                <rp_address>Cornell Univ, Weill Med Coll, Dept Pharmacol, 1300 York Ave,Room LC-428,
+                    New York, NY 10021 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="2">
+                    <rp_suborganization>Weill Med Coll</rp_suborganization>
+                    <rp_suborganization>Dept Pharmacol</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>1300 York Ave,Room LC-428</rp_street>
+                <rp_city>New York</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">10021</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="1">
+                <research>
+                    <rs_address>Cornell Univ, Weill Med Coll, Dept Pharmacol, New York, NY 10021 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Weill Med Coll</rs_suborganization>
+                        <rs_suborganization>Dept Pharmacol</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>New York</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">10021</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>The covalent addition of nitric oxide (NO) to protein thiols, a posttranslational
+                    modification termed S-nitrosation, is a ubiquitous event that modulates diverse
+                    cellular processes. The in vivo addition of NO to protein amines (N-nitrosation)
+                    has also been described and may similarly modify protein structure and function.
+                    While mass spectrometry has been employed for identification of nitrosoproteins,
+                    little is known about how S- and N-nitrosopeptides fragment. Such knowledge is
+                    important for its potential to inform on sites of protein nitrosation. Here we
+                    used electrospray tandem mass spectrometry to elucidate collision-induced
+                    dissociation (CID) features of S- and N-nitrosopeptide ions. We show that S- and
+                    N-nitrosopeptide ions readily lose NO, giving rise to species that contain thiyl
+                    and aminyl radicals, respectively. Fragmentation (MS3) of these radical peptide
+                    ions revealed an atypical pattern, characterized by the cleavage of select
+                    C-alpha-C and N-C-alpha bonds, rather than the more usual cleavage of amide
+                    bonds that result in b- and y-ions. These unanticipated fragmentation patterns
+                    are reconciled by radical-mediated abstraction of hydrogen from beta-carbon
+                    followed by beta-fragmentation. For thiyl radical peptides, we also observed
+                    dominant loss of SH and CH2SH from the Cys side-chain. Our findings provide new
+                    insights into the gas-phase chemistry of NO-modified peptide ions and suggest an
+                    unusual fragmentation pattern that may aid in future MS-based attempts to define
+                    the nitrosoproteome.</p>
+            </abstract>
+            <refs count="21">
+                <ref>133954384</ref>
+                <ref>98839239</ref>
+                <ref>148541625</ref>
+                <ref>142850226</ref>
+                <ref>146474504</ref>
+                <ref>118581165</ref>
+                <ref>129762986</ref>
+                <ref>129031825</ref>
+                <ref>130173546</ref>
+                <ref>133030988</ref>
+                <ref>92108461</ref>
+                <ref>153576215</ref>
+                <ref>136910313</ref>
+                <ref>127362381</ref>
+                <ref>96987585</ref>
+                <ref>136942243</ref>
+                <ref>100991188</ref>
+                <ref>134815935</ref>
+                <ref>96182673</ref>
+                <ref>116931430</ref>
+                <ref>130060062</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153647025" hot="yes" sortkey="3103766350" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153647007" recid="153647025" coverdate="200609" sortkey="3103766350"
+            refkey="5737456" dbyear="2007">
+            <ut>000242829100007</ut>
+            <i_ckey>RAO 0487060130JV</i_ckey>
+            <i_cid>0113017205</i_cid>
+            <source_title>JOURNAL OF OPTIMIZATION THEORY AND APPLICATIONS</source_title>
+            <source_abbrev>J OPTIMIZ THEORY APP</source_abbrev>
+            <item_title>Optimal two-agent coordination for graph traversal: When is formation travel
+                beneficial?</item_title>
+            <sq>58894J0</sq>
+            <bib_id>130 (3): 487-501 SEP 2006</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1007/s10957-006-9114-8</article_no>
+            </article_nos>
+            <bib_pages begin="487" end="501" pages="15">487-501</bib_pages>
+            <bib_issue year="2006" vol="130"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="2">
+                <primaryauthor>Rao, VG</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Rao</AuLastName>
+                    <AuFirstName>V. G.</AuFirstName>
+                    <AuCollectiveName>Rao, V. G.</AuCollectiveName>
+                </fullauthorname>
+                <author key="3471364">Kabamba, PT</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Kabamba</AuLastName>
+                    <AuFirstName>P. T.</AuFirstName>
+                    <AuCollectiveName>Kabamba, P. T.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <keywords count="3">
+                <keyword>optimal path planning</keyword>
+                <keyword>formation travel</keyword>
+                <keyword>autonomous agents</keyword>
+            </keywords>
+            <reprint>
+                <rp_author>Rao, VG</rp_author>
+                <rp_address>Cornell Univ, Dept Mech &amp; Aerosp Engn, Ithaca, NY 14853 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Mech &amp; Aerosp Engn</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>Ithaca</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">14853</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="2">
+                <research>
+                    <rs_address>Cornell Univ, Dept Mech &amp; Aerosp Engn, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Mech &amp; Aerosp Engn</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Michigan, Dept Aerosp Engn, Ann Arbor, MI 48109 USA</rs_address>
+                    <rs_organization>Univ Michigan</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Aerosp Engn</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ann Arbor</rs_city>
+                    <rs_state>MI</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">48109</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>The objective of this paper is to pose and solve a simple class of coordinated
+                    motion problems that capture the following question; When is formation travel
+                    optimal? This class of problems is complementary to two related classes of
+                    problems that have received significant attention: close formation travel and
+                    the generation of flocking behavior. We pose and solve this problem for the case
+                    of two agents traversing a finite, connected graph. Two examples are provided,
+                    illustrating the application of the results.</p>
+            </abstract>
+            <refs count="12">
+                <ref>99372921</ref>
+                <ref>127992650</ref>
+                <ref>124317717</ref>
+                <ref>153647026</ref>
+                <ref>153647027</ref>
+                <ref>116157352</ref>
+                <ref>153647028</ref>
+                <ref>153647029</ref>
+                <ref>66742944</ref>
+                <ref>153647030</ref>
+                <ref>119679630</ref>
+                <ref>50707902</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153645980" hot="yes" sortkey="3103766639" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153645954" recid="153645980" coverdate="200700" sortkey="3103766639"
+            refkey="6504188" dbyear="2007">
+            <ut>000242792300010</ut>
+            <i_ckey>SLIN0076070017JJ</i_ckey>
+            <i_cid>0113014488</i_cid>
+            <source_title>JOURNAL OF MATERIALS CHEMISTRY</source_title>
+            <source_abbrev>J MATER CHEM</source_abbrev>
+            <item_title>In situ identification of a luminescence quencher in an organic
+                light-emitting device</item_title>
+            <sq>09483J0</sq>
+            <bib_id>17 (1): 76-81 2007</bib_id>
+            <article_nos count="1">
+                <article_no>DOI 10.1039/b613403c</article_no>
+            </article_nos>
+            <bib_pages begin="76" end="81" pages="6">76-81</bib_pages>
+            <bib_issue year="2007" vol="17"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="7">
+                <primaryauthor>Slinker, JD</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Slinker</AuLastName>
+                    <AuFirstName>Jason D.</AuFirstName>
+                    <AuCollectiveName>Slinker, Jason D.</AuCollectiveName>
+                </fullauthorname>
+                <author key="3662349">Kim, JS</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Kim</AuLastName>
+                    <AuFirstName>Ji-Seon</AuFirstName>
+                    <AuCollectiveName>Kim, Ji-Seon</AuCollectiveName>
+                </fullauthorname>
+                <author key="2175992">Flores-Torres, S</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Flores-Torres</AuLastName>
+                    <AuFirstName>Samuel</AuFirstName>
+                    <AuCollectiveName>Flores-Torres, Samuel</AuCollectiveName>
+                </fullauthorname>
+                <author key="1626099">Delcamp, JH</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Delcamp</AuLastName>
+                    <AuFirstName>Jared H.</AuFirstName>
+                    <AuCollectiveName>Delcamp, Jared H.</AuCollectiveName>
+                </fullauthorname>
+                <author key="23524">Abruna, HD</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Abruna</AuLastName>
+                    <AuFirstName>Hector D.</AuFirstName>
+                    <AuCollectiveName>Abruna, Hector D.</AuCollectiveName>
+                </fullauthorname>
+                <author key="2269226">Friend, RH</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Friend</AuLastName>
+                    <AuFirstName>Richard H.</AuFirstName>
+                    <AuCollectiveName>Friend, Richard H.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4416493">Malliaras, GG</author>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Malliaras</AuLastName>
+                    <AuFirstName>George G.</AuFirstName>
+                    <AuCollectiveName>Malliaras, George G.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Malliaras, GG</name>
+                    <email_addr>ggm1@cornell.edu</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="10">
+                <keyword>WATER-OXIDATION CATALYST</keyword>
+                <keyword>RESONANCE RAMAN-SPECTRA</keyword>
+                <keyword>CHELATED RUTHENIUM(II) COMPLEX</keyword>
+                <keyword>TRANSITION-METAL-COMPLEXES</keyword>
+                <keyword>3MLCT EXCITED-STATES</keyword>
+                <keyword>ELECTROLUMINESCENT DEVICES</keyword>
+                <keyword>TRIS(2,2'-BIPYRIDINE)RUTHENIUM(II) COMPLEXES</keyword>
+                <keyword>ELECTRON LOCALIZATION</keyword>
+                <keyword>LIGAND COMPLEXES</keyword>
+                <keyword>HIGH-EFFICIENCY</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Malliaras, GG</rp_author>
+                <rp_address>Cornell Univ, Dept Mat Sci &amp; Engn, Ithaca, NY 14853 USA</rp_address>
+                <rp_organization>Cornell Univ</rp_organization>
+                <rp_suborganizations count="1">
+                    <rp_suborganization>Dept Mat Sci &amp; Engn</rp_suborganization>
+                </rp_suborganizations>
+                <rp_city>Ithaca</rp_city>
+                <rp_state>NY</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">14853</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="3">
+                <research>
+                    <rs_address>Cornell Univ, Dept Mat Sci &amp; Engn, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Mat Sci &amp; Engn</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Cambridge, Cavendish Lab, Cambridge CB3 0HE, England</rs_address>
+                    <rs_organization>Univ Cambridge</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Cavendish Lab</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Cambridge</rs_city>
+                    <rs_country>England</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AC">CB3 0HE</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Dept Chem &amp; Biol Chem, Ithaca, NY 14853 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Chem &amp; Biol Chem</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ithaca</rs_city>
+                    <rs_state>NY</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">14853</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>We have used in situ Raman spectroscopy to identify a luminescence quencher
+                    formed during organic light-emitting device operation. Raman spectroscopy
+                    revealed that oxo-bridged dimerization occurs during the operation of
+                    [Ru(bpy)(3)](2+)(PF6-)(2) devices, where bpy is 2,2'-bipyridine.
+                    Photoluminescence spectroscopy showed that oxo-bridged dimers such as
+                    [Ru(bpy)(2)(H2O)](2)O4+(PF6-)(4) effectively quench photoluminescence.
+                    Comparison of the Raman spectra from devices with the spectra from prepared
+                    blended films of [Ru(bpy)(3)](2+)(PF6-)(2) and [Ru(bpy)(2)(H2O)](2)O4+(PF6-)(4)
+                    demonstrated that sufficient dimerization occurs in the device to account for
+                    the luminescence quenching observed upon device driving. Dimerization occurred
+                    particularly where oxygen and moisture could penetrate the organic film.
+                    Dimerization could be a general failure mode of organic electroluminescent
+                    devices that incorporate metal complexes. Understanding failure under
+                    device-relevant conditions can lead to the development of materials and devices
+                    that are intrinsically more resistant to degradation.</p>
+            </abstract>
+            <refs count="51">
+                <ref>52515747</ref>
+                <ref>46060807</ref>
+                <ref>146725014</ref>
+                <ref>122574506</ref>
+                <ref>123991355</ref>
+                <ref>151919738</ref>
+                <ref>134925213</ref>
+                <ref>127203743</ref>
+                <ref>134364234</ref>
+                <ref>150522195</ref>
+                <ref>148267195</ref>
+                <ref>44556093</ref>
+                <ref>124928678</ref>
+                <ref>64344873</ref>
+                <ref>66993596</ref>
+                <ref>37717055</ref>
+                <ref>72434035</ref>
+                <ref>99584157</ref>
+                <ref>127920023</ref>
+                <ref>63373298</ref>
+                <ref>129879028</ref>
+                <ref>116175157</ref>
+                <ref>46441155</ref>
+                <ref>55975962</ref>
+                <ref>132979269</ref>
+                <ref>109795986</ref>
+                <ref>144092188</ref>
+                <ref>147459097</ref>
+                <ref>79074804</ref>
+                <ref>129682213</ref>
+                <ref>123459705</ref>
+                <ref>92231196</ref>
+                <ref>88875078</ref>
+                <ref>58484226</ref>
+                <ref>153645981</ref>
+                <ref>145673274</ref>
+                <ref>63990645</ref>
+                <ref>124555404</ref>
+                <ref>121889940</ref>
+                <ref>97586358</ref>
+                <ref>131715670</ref>
+                <ref>149734612</ref>
+                <ref>133658653</ref>
+                <ref>48304806</ref>
+                <ref>150795281</ref>
+                <ref>71633180</ref>
+                <ref>147631356</ref>
+                <ref>27170264</ref>
+                <ref>145458035</ref>
+                <ref>135955602</ref>
+                <ref>115379931</ref>
+            </refs>
+        </item>
+    </REC>
+    <REC inst_id="0" recid="153645161" hot="yes" sortkey="3103766875" timescited="0" sharedrefs="0"
+        inpi="false">
+        <item issue="153645121" recid="153645161" coverdate="200612" sortkey="3103766875"
+            refkey="1961079" dbyear="2007">
+            <ut>000242746900006</ut>
+            <i_ckey>EMME2302060111JJ</i_ckey>
+            <i_cid>0113054403</i_cid>
+            <source_title>JOURNAL OF GEOPHYSICAL RESEARCH-SPACE PHYSICS</source_title>
+            <source_abbrev>J GEOPHYS RES-SPACE</source_abbrev>
+            <item_title>Climatologies of nighttime upper thermospheric winds measured by
+                ground-based Fabry-Perot interferometers during geomagnetically quiet conditions: 1.
+                Local time, latitudinal, seasonal, and solar cycle dependence</item_title>
+            <sq>55143J0</sq>
+            <bib_id>111 (A12): - DEC 1 2006</bib_id>
+            <article_nos count="2">
+                <article_no>ARTN A12302</article_no>
+                <article_no>DOI 10.1029/2006JA011948</article_no>
+            </article_nos>
+            <bib_pages begin="" end="" pages="13">-</bib_pages>
+            <bib_issue year="2006" vol="111"/>
+            <doctype code="@">Article</doctype>
+            <editions full="SCI"/>
+            <languages count="1">
+                <primarylang code="EN">English</primarylang>
+            </languages>
+            <authors count="8">
+                <primaryauthor>Emmert, JT</primaryauthor>
+                <fullauthorname>
+                    <AuRole>Author, Reprint Author</AuRole>
+                    <AuLastName>Emmert</AuLastName>
+                    <AuFirstName>J. T.</AuFirstName>
+                    <AuCollectiveName>Emmert, J. T.</AuCollectiveName>
+                </fullauthorname>
+                <author key="2042186">Faivre, ML</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Faivre</AuLastName>
+                    <AuFirstName>M. L.</AuFirstName>
+                    <AuCollectiveName>Faivre, M. L.</AuCollectiveName>
+                </fullauthorname>
+                <author key="2966448">Hernandez, G</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Hernandez</AuLastName>
+                    <AuFirstName>G.</AuFirstName>
+                    <AuCollectiveName>Hernandez, G.</AuCollectiveName>
+                </fullauthorname>
+                <author key="3357181">Jarvis, MJ</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Jarvis</AuLastName>
+                    <AuFirstName>M. J.</AuFirstName>
+                    <AuCollectiveName>Jarvis, M. J.</AuCollectiveName>
+                </fullauthorname>
+                <author key="4685845">Meriwether, JW</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Meriwether</AuLastName>
+                    <AuFirstName>J. W.</AuFirstName>
+                    <AuCollectiveName>Meriwether, J. W.</AuCollectiveName>
+                </fullauthorname>
+                <author key="5088956">Niciejewski, RJ</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Niciejewski</AuLastName>
+                    <AuFirstName>R. J.</AuFirstName>
+                    <AuCollectiveName>Niciejewski, R. J.</AuCollectiveName>
+                </fullauthorname>
+                <author key="6479484">Sipler, DP</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Sipler</AuLastName>
+                    <AuFirstName>D. P.</AuFirstName>
+                    <AuCollectiveName>Sipler, D. P.</AuCollectiveName>
+                </fullauthorname>
+                <author key="6913897">Tepley, CA</author>
+                <fullauthorname>
+                    <AuRole>Author</AuRole>
+                    <AuLastName>Tepley</AuLastName>
+                    <AuFirstName>C. A.</AuFirstName>
+                    <AuCollectiveName>Tepley, C. A.</AuCollectiveName>
+                </fullauthorname>
+            </authors>
+            <emails count="1">
+                <email>
+                    <name>Emmert, JT</name>
+                    <email_addr>john.emmert@nrl.navy.mil</email_addr>
+                </email>
+            </emails>
+            <keywords_plus count="10">
+                <keyword>INTERPLANETARY MAGNETIC-FIELD</keyword>
+                <keyword>MILLSTONE HILL</keyword>
+                <keyword>NEUTRAL WINDS</keyword>
+                <keyword>F-REGION</keyword>
+                <keyword>EQUATORIAL THERMOSPHERE</keyword>
+                <keyword>OPTICAL OBSERVATIONS</keyword>
+                <keyword>GENERAL-CIRCULATION</keyword>
+                <keyword>POLAR-CAP</keyword>
+                <keyword>DYNAMICS</keyword>
+                <keyword>TEMPERATURES</keyword>
+            </keywords_plus>
+            <reprint>
+                <rp_author>Emmert, JT</rp_author>
+                <rp_address>USN, Res Lab, EO Hulburt Ctr Space Res, Code 7643,4555 Overlook Ave SW,
+                    Washington, DC 20375 USA</rp_address>
+                <rp_organization>USN</rp_organization>
+                <rp_suborganizations count="2">
+                    <rp_suborganization>Res Lab</rp_suborganization>
+                    <rp_suborganization>EO Hulburt Ctr Space Res</rp_suborganization>
+                </rp_suborganizations>
+                <rp_street>Code 7643,4555 Overlook Ave SW</rp_street>
+                <rp_city>Washington</rp_city>
+                <rp_state>DC</rp_state>
+                <rp_country>USA</rp_country>
+                <rp_zips count="1">
+                    <rp_zip location="AP">20375</rp_zip>
+                </rp_zips>
+            </reprint>
+            <research_addrs count="7">
+                <research>
+                    <rs_address>USN, Res Lab, EO Hulburt Ctr Space Res, Washington, DC 20375 USA</rs_address>
+                    <rs_organization>USN</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Res Lab</rs_suborganization>
+                        <rs_suborganization>EO Hulburt Ctr Space Res</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Washington</rs_city>
+                    <rs_state>DC</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">20375</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Clemson Univ, Dept Phys &amp; Astron, Kinard Lab 312, Clemson,
+                        SC 29631 USA</rs_address>
+                    <rs_organization>Clemson Univ</rs_organization>
+                    <rs_suborganizations count="2">
+                        <rs_suborganization>Dept Phys &amp; Astron</rs_suborganization>
+                        <rs_suborganization>Kinard Lab 312</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Clemson</rs_city>
+                    <rs_state>SC</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">29631</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Washington, Dept Earth &amp; Space Sci, Seattle, WA 98195
+                        USA</rs_address>
+                    <rs_organization>Univ Washington</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Dept Earth &amp; Space Sci</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Seattle</rs_city>
+                    <rs_state>WA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">98195</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>British Antarctic Survey, Cambridge CB3 0ET, England</rs_address>
+                    <rs_organization>British Antarctic Survey</rs_organization>
+                    <rs_city>Cambridge</rs_city>
+                    <rs_country>England</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AC">CB3 0ET</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Univ Michigan, Space Phys Res Lab, Ann Arbor, MI 48109 USA</rs_address>
+                    <rs_organization>Univ Michigan</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Space Phys Res Lab</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Ann Arbor</rs_city>
+                    <rs_state>MI</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">48109</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>MIT, Haystack Observ, Westford, MA 01886 USA</rs_address>
+                    <rs_organization>MIT</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Haystack Observ</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Westford</rs_city>
+                    <rs_state>MA</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">01886</rs_zip>
+                    </rs_zips>
+                </research>
+                <research>
+                    <rs_address>Cornell Univ, Arecibo Observ, Arecibo, PR 00612 USA</rs_address>
+                    <rs_organization>Cornell Univ</rs_organization>
+                    <rs_suborganizations count="1">
+                        <rs_suborganization>Arecibo Observ</rs_suborganization>
+                    </rs_suborganizations>
+                    <rs_city>Arecibo</rs_city>
+                    <rs_state>PR</rs_state>
+                    <rs_country>USA</rs_country>
+                    <rs_zips count="1">
+                        <rs_zip location="AP">00612</rs_zip>
+                    </rs_zips>
+                </research>
+            </research_addrs>
+            <abstract avail="Y" count="1">
+                <p>We analyze ground-based Fabry-Perot interferometer observations of upper
+                    thermospheric (similar to 250 km) horizontal neutral winds derived from Doppler
+                    shifts in the 630.0 nm ( red line) nightglow. The winds were measured over the
+                    following locations: South Pole (90 degrees S), Halley (76 degrees S, 27 degrees
+                    W), Arequipa (17S, 72 degrees W), Arecibo (18 degrees N, 67 degrees W),
+                    Millstone Hill (43 degrees N, 72 degrees W), Sondre Stromfjord (67 degrees N, 51
+                    degrees W), and Thule (77 degrees N, 68 degrees W). We derive climatological
+                    quiet time (Kp &lt; 3) wind patterns as a function of local time, solar
+                    cycle, day of year, and the interplanetary magnetic field ( IMF), and provide
+                    parameterized representations of these patterns. At the high-latitude stations,
+                    and at Arequipa near the geomagnetic equator, wind speeds tend to increase with
+                    increasing solar extreme ultraviolet (EUV) irradiance. Over Millstone Hill and
+                    Arecibo, solar EUV has a negative effect on wind magnitudes. As represented by
+                    the 10.7 cm radio flux proxy, the solar EUV dependence of the winds at all
+                    latitudes is characterized by a saturation or weakening of the effect above
+                    moderate values (F-10.7 &gt; 150). The seasonal dependence of the winds is
+                    generally annual, but there are isolated cases in which a semiannual variation
+                    is observed. Within the austral winter, winds measured from the South Pole show
+                    a substantial intraseasonal variation only along longitudes directed toward the
+                    magnetic pole. IMF effects are described in a companion paper.</p>
+            </abstract>
+            <refs count="50">
+                <ref>96501177</ref>
+                <ref>77791558</ref>
+                <ref>73229159</ref>
+                <ref>111213013</ref>
+                <ref>77111223</ref>
+                <ref>56115039</ref>
+                <ref>112394814</ref>
+                <ref>78552299</ref>
+                <ref>43382047</ref>
+                <ref>68454879</ref>
+                <ref>89393142</ref>
+                <ref>153645162</ref>
+                <ref>51833762</ref>
+                <ref>129761760</ref>
+                <ref>129761759</ref>
+                <ref>153645163</ref>
+                <ref>128470439</ref>
+                <ref>150644853</ref>
+                <ref>76780225</ref>
+                <ref>127007743</ref>
+                <ref>58770309</ref>
+                <ref>134162809</ref>
+                <ref>82603560</ref>
+                <ref>75893665</ref>
+                <ref>75567174</ref>
+                <ref>73318953</ref>
+                <ref>51942360</ref>
+                <ref>41157713</ref>
+                <ref>22478956</ref>
+                <ref>111950487</ref>
+                <ref>115210435</ref>
+                <ref>50692013</ref>
+                <ref>93550792</ref>
+                <ref>66779520</ref>
+                <ref>53423821</ref>
+                <ref>64515781</ref>
+                <ref>101982924</ref>
+                <ref>48216404</ref>
+                <ref>23803848</ref>
+                <ref>66252681</ref>
+                <ref>102036996</ref>
+                <ref>71154601</ref>
+                <ref>128950628</ref>
+                <ref>153645164</ref>
+                <ref>91379809</ref>
+                <ref>45325718</ref>
+                <ref>78052229</ref>
+                <ref>56604453</ref>
+                <ref>120861412</ref>
+                <ref>54081088</ref>
+            </refs>
+        </item>
+    </REC>
+</RECORDS>

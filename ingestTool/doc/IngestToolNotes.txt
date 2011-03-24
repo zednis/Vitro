@@ -1,0 +1,57 @@
+h1. How Ingest Tool actions are used
+
+h2. CalsImpactIngest
+
+String Processor chains:
+1) CleanInput CalsFakeHtml
+2) CleanInput CalsFakeHtml pipesToBreaks
+
+old impact entities are sunsetted keyed on classId.
+
+RecordSkipper is used to skip impacts with <Editor_Comments> of
+ 'can be deleted' or <Edited_Stats> 'on hold'
+
+BasicEntityHandler is used with field name to xpath, defaults
+and StringProcessor.
+
+EntityResolver is used by externalId type 
+
+DataPropertyHandler is used  to extract by xpath, 
+break on \n, and |.  String Processors are used.
+
+RelationResolver objects are used.  Qualifiers are not used.
+StringProcessors are used.  Finding the other entity gets rather
+involved.  StringProcessor is being used to reject values by
+mapping bad values to empty strings.  distinct-values from
+xpath 2.0 gets used frequently.
+
+TabRelationMaker looks ugly.  creating the Map objects is messy.
+maybe fill an array?
+String[][] valuesToTabIds = 
+           [["valueA", "232" ]
+            ["valueB", "1144"]
+            ["valueC,  "665" ]];
+TabRelationMaker tabRelMaker = TabRelationMaker(xp, valuesToTabIds, facade);
+
+Configure object?
+TabRelationMaker tabRelMaker = TabRelationMaker(xp,facade);
+tabRelMaker.value2tab("valueA",   "232");
+tabRelMaker.value2tab("valueB",   "1144");
+tabRelMaker.value2tab("valueC",   "665");
+
+The SimpleTabRelationMake is a TabRelationMaker which maps any non
+empty string to the indicated tab.
+
+Maybe TabRelationMaker could have methods like these:
+value2tab(Pattern p, String uri);
+value2tab(String p, String uri);
+
+
+h2. CalsReportingIngest
+
+uses CreateAndSaveEntityHandler(), this takes a template entity and
+then saves an entity with the name of whatever came from the xpath.
+
+Also uses long xpath to tokenize and normalize values.  Could use
+xpath to just specify what to get and then use the StringProcessors
+to break things up. 

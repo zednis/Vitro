@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-CALL>
+    <SOAP-FIELDS>
+        <service>SearchRetrieveService</service>
+        <port>SearchRetrieve</port>
+        <operation>retrieve</operation>
+        <URL>http://wok-ws.isiknowledge.com/esti/soap/SearchRetrieve</URL>
+        <action>retrieve</action>
+    </SOAP-FIELDS>
+    <REQUEST>
+        <SOAP-ENV:Envelope
+            xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+            <SOAP-ENV:Header/>
+            <SOAP-ENV:Body>
+                <oxy:retrieve
+                    SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                    xmlns:oxy="http://esti.isinet.com/soap/search">
+                    <databaseID>WOS</databaseID>
+                    <primaryKeys>000242707200008 000242674500004
+                        000242996800044 000242996800049 000242670500002
+                        000242684800009 000242688300008 000242670600022
+                        000242736400005 000243110500001 000242602500009
+                        000242125200011 000242850000013 000242653200020
+                        000242846600006 000242797600103 000242736200014
+                        000242829100007 000242792300010 000242746900006</primaryKeys>
+                    <sort/>
+                    <fields/>
+                </oxy:retrieve>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+    </REQUEST>
+</SOAP-CALL>

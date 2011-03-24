@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ns1:searchResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+            xmlns:ns1="http://esti.isinet.com/soap/search">
+            <searchReturn xsi:type="ns1:SearchResults">
+                <occurancesFound xsi:type="xsd:int">134</occurancesFound>
+                <recordsFound xsi:type="xsd:int">105</recordsFound>
+                <recordsSearched xsi:type="xsd:int">38119</recordsSearched>
+                <parent xsi:type="xsd:string">AD=(Cornell*)</parent>
+                <records xsi:type="xsd:string">&lt;RECORDS&gt;
+                    &lt;KEY&gt;17195323&lt;/KEY&gt;
+                    &lt;KEY&gt;17146106&lt;/KEY&gt;
+                    &lt;KEY&gt;17116747&lt;/KEY&gt;
+                    &lt;KEY&gt;17194368&lt;/KEY&gt;
+                    &lt;KEY&gt;17193735&lt;/KEY&gt;
+                    &lt;KEY&gt;17193111&lt;/KEY&gt;
+                    &lt;KEY&gt;17193073&lt;/KEY&gt;
+                    &lt;KEY&gt;17193353&lt;/KEY&gt;
+                    &lt;KEY&gt;17192085&lt;/KEY&gt;
+                    &lt;KEY&gt;17035715&lt;/KEY&gt;
+                    &lt;KEY&gt;17192534&lt;/KEY&gt;
+                    &lt;KEY&gt;17079321&lt;/KEY&gt;
+                    &lt;KEY&gt;17068359&lt;/KEY&gt;
+                    &lt;KEY&gt;17133599&lt;/KEY&gt;
+                    &lt;KEY&gt;17192566&lt;/KEY&gt;
+                    &lt;KEY&gt;17154613&lt;/KEY&gt;
+                    &lt;KEY&gt;17190925&lt;/KEY&gt;
+                    &lt;KEY&gt;17154188&lt;/KEY&gt;
+                    &lt;KEY&gt;17144654&lt;/KEY&gt;
+                    &lt;KEY&gt;17118394&lt;/KEY&gt;
+                &lt;/RECORDS&gt;</records>
+            </searchReturn>
+        </ns1:searchResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

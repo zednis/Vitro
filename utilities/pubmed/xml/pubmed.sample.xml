@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st November 2003//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_031101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+<MedlineCitation Status="Publisher">
+	<PMID>15205349</PMID>
+	<DateCreated>
+		<Year>2004</Year>
+		<Month>Jun</Month>
+		<Day>18</Day>
+	</DateCreated>
+	<Article>
+		<Journal>
+			<ISSN>0008-5472</ISSN>
+			<JournalIssue>
+				<Volume>64</Volume>
+				<Issue>12</Issue>
+				<PubDate>
+					<Year>2004</Year>
+					<Month>Jun</Month>
+					<Day>15</Day>
+				</PubDate>
+			</JournalIssue>
+		</Journal>
+		<ArticleTitle>p14ARF Expression Increases Dihydrofolate Reductase Degradation and Paradoxically Results in Resistance to Folate Antagonists in Cells with Nonfunctional p53.</ArticleTitle>
+		<Pagination>
+			<MedlinePgn>4338-4345</MedlinePgn>
+		</Pagination>
+		<Abstract>
+			<AbstractText>The p14(ARF) protein, the product of an alternate reading frame of the INK4A/ARF locus on human chromosome 9p21, disrupts the ability of MDM2 to target p53 for proteosomal degradation and causes an increase in steady-state p53 levels, leading to a G(1) and G(2) arrest of cells in the cell cycle. Although much is known about the function of p14(ARF) in the p53 pathway, not as much is known about its function in human tumor growth and chemosensitivity independently of up-regulation of p53 protein levels. To learn more about its effect on cellular proliferation and chemoresistance independent of p53 up-regulation, human HT-1080 fibrosarcoma cells null for p14(ARF) and harboring a defective p53 pathway were stably transfected with p14(ARF) cDNA under the tight control of a doxycycline-inducible promoter. Induction of p14(ARF) caused a decrease in cell proliferation rate and colony formation and a marked decrease in the level of dihydrofolate reductase (DHFR) protein. The effect of p14(ARF) on DHFR protein levels was specific, because thymidylate kinase and thymidylate synthase protein levels were not decreased nor were p53 or p21WAF1 protein levels increased. The decrease in DHFR protein was abolished when the cells were treated with the proteasome inhibitor MG132, demonstrating that p14(ARF) augments proteasomal degradation of the protein. Surprisingly, induction of p14(ARF) increased resistance to the folate antagonists methotrexate, trimetrexate, and raltitrexed. Depletion of thymidine in the medium reversed this resistance, indicating that p14(ARF) induction increases the reliance of these cells on thymidine salvage.</AbstractText>
+		</Abstract>
+		<Affiliation>Joan and Sanford I. Weill Graduate School of Medical Sciences of Cornell University, New York, New York.</Affiliation>
+		<AuthorList>
+			<Author>
+				<LastName>Magro</LastName>
+				<FirstName>Pellegrino G.</FirstName>
+				<Initials>PG</Initials>
+			</Author>
+			<Author>
+				<LastName>Russo</LastName>
+				<FirstName>Angelo J.</FirstName>
+				<Initials>AJ</Initials>
+			</Author>
+			<Author>
+				<LastName>Li</LastName>
+				<FirstName>Wei-Wei</FirstName>
+				<Initials>WW</Initials>
+			</Author>
+			<Author>
+				<LastName>Banerjee</LastName>
+				<FirstName>Debabrata</FirstName>
+				<Initials>D</Initials>
+			</Author>
+			<Author>
+				<LastName>Bertino</LastName>
+				<FirstName>Joseph R.</FirstName>
+				<Initials>JR</Initials>
+			</Author>
+		</AuthorList>
+		<Language>ENG</Language>
+		<PublicationTypeList>
+			<PublicationType>JOURNAL ARTICLE</PublicationType>
+		</PublicationTypeList>
+	</Article>
+	<MedlineJournalInfo>
+		<Country></Country>
+		<MedlineTA>Cancer Res</MedlineTA>
+		<NlmUniqueID>2984705R</NlmUniqueID>
+	</MedlineJournalInfo>
+</MedlineCitation>
+<PubmedData>
+	<History>
+		<PubMedPubDate PubStatus="pubmed">
+			<Year>2004</Year>
+			<Month>6</Month>
+			<Day>19</Day>
+			<Hour>5</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="medline">
+			<Year>2004</Year>
+			<Month>6</Month>
+			<Day>19</Day>
+			<Hour>5</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+	</History>
+	<PublicationStatus>ppublish</PublicationStatus>
+	<ArticleIdList>
+		<ArticleId IdType="pubmed">15205349</ArticleId>
+		<ArticleId IdType="doi">10.1158/0008-5472.CAN-03-1045</ArticleId>
+		<ArticleId IdType="pii">64/12/4338</ArticleId>
+	</ArticleIdList>
+</PubmedData>
+</PubmedArticle>
+
+<PubmedArticle>
+<MedlineCitation Status="Publisher">
+	<PMID>15205055</PMID>
+	<DateCreated>
+		<Year>2004</Year>
+		<Month>Jun</Month>
+		<Day>18</Day>
+	</DateCreated>
+	<Article>
+		<Journal>
+			<ISSN>1063-5157</ISSN>
+			<JournalIssue>
+				<Volume>53</Volume>
+				<Issue>2</Issue>
+				<PubDate>
+					<Year>2004</Year>
+				</PubDate>
+			</JournalIssue>
+		</Journal>
+		<ArticleTitle>Single-Copy Nuclear Genes Recover Cretaceous-Age Divergences in Bees.</ArticleTitle>
+		<Pagination>
+			<MedlinePgn>309-326</MedlinePgn>
+		</Pagination>
+		<Abstract>
+			<AbstractText>We analyzed the higher level phylogeny of the bee family Halictidae based on the coding regions of three single-copy nuclear genes (long-wavelength [LW] opsin, wingless, and elongation factor 1-α [EF-1α]). Our combined data set consisted of 2,234 aligned nucleotide sites (702 base pairs [bp] for LW opsin, 405 bp for wingless, and 1,127 bp for EF-1α) and 779 parsimony-informative sites. We included 58 species of halictid bees from 33 genera, representing all subfamilies and tribes, and rooted the trees using seven outgroups from other bee families: Colletidae, Andrenidae, Melittidae, and Apidae. We analyzed the separate and combined data sets by a variety of methods, including equal weights parsimony, maximum likelihood, and Bayesian methods. Analysis of the combined data set produced a strong phylogenetic signal with high bootstrap and Bremer support and high posterior probability well into the base of the tree. The phylogeny recovered the monophyly of the Halictidae and of all four subfamilies and both tribes, recovered relationships among the subfamilies and tribes congruent with morphology, and provided robust support for the relationships among the numerous genera in the tribe Halictini, sensu Michener (2000). Using our combined nucleotide data set, several recently described halictid fossils from the Oligocene and Eocene, and recently developed Bayesian methods, we estimated the antiquity of major clades within the family. Our results indicate that each of the four subfamilies arose well before the Cretaceous-Tertiary boundary and suggest that the early radiation of halictid bees involved substantial African-South American interchange roughly coincident with the separation of these two continents in the late Cretaceous. This combination of single-copy nuclear genes is capable of recovering Cretaceous-age divergences in bees with high levels of support. We propose that LW opsin, wingless, and EF-1α (F2 copy) may be useful in resolving relationships among bee families and other Cretaceous-age insect lineages.</AbstractText>
+		</Abstract>
+		<Affiliation>Department of Entomology, Comstock Hall, Cornell University, Ithaca, New York 14853, USA; E-mail: bnd1@cornell.edu</Affiliation>
+		<AuthorList>
+			<Author>
+				<LastName>Danforth</LastName>
+				<FirstName>Bryan N.</FirstName>
+				<Initials>BN</Initials>
+			</Author>
+			<Author>
+				<LastName>Brady</LastName>
+				<FirstName>Seán G.</FirstName>
+				<Initials>SG</Initials>
+			</Author>
+			<Author>
+				<LastName>Sipes</LastName>
+				<FirstName>Sedonia D.</FirstName>
+				<Initials>SD</Initials>
+			</Author>
+			<Author>
+				<LastName>Pearson</LastName>
+				<FirstName>Adam</FirstName>
+				<Initials>A</Initials>
+			</Author>
+		</AuthorList>
+		<Language>ENG</Language>
+		<PublicationTypeList>
+			<PublicationType>JOURNAL ARTICLE</PublicationType>
+		</PublicationTypeList>
+	</Article>
+	<MedlineJournalInfo>
+		<Country></Country>
+		<MedlineTA>Syst Biol</MedlineTA>
+		<NlmUniqueID>9302532</NlmUniqueID>
+	</MedlineJournalInfo>
+</MedlineCitation>
+<PubmedData>
+	<History>
+		<PubMedPubDate PubStatus="pubmed">
+			<Year>2004</Year>
+			<Month>6</Month>
+			<Day>19</Day>
+			<Hour>5</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="medline">
+			<Year>2004</Year>
+			<Month>6</Month>
+			<Day>19</Day>
+			<Hour>5</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+	</History>
+	<PublicationStatus>ppublish</PublicationStatus>
+	<ArticleIdList>
+		<ArticleId IdType="pubmed">15205055</ArticleId>
+		<ArticleId IdType="doi">10.1080/10635150490423737</ArticleId>
+		<ArticleId IdType="pii">EHVHUDQB79YD2P7T</ArticleId>
+	</ArticleIdList>
+</PubmedData>
+</PubmedArticle>
+
+<PubmedArticle>
+<MedlineCitation Owner="NLM" Status="In-Data-Review">
+<PMID>15193256</PMID>
+<DateCreated>
+<Year>2004</Year>
+<Month>06</Month>
+<Day>14</Day>
+</DateCreated>
+<Article>
+<Journal>
+<ISSN>1535-6108</ISSN>
+<JournalIssue PrintYN="Y">
+<Volume>5</Volume>
+<Issue>6</Issue>
+<PubDate>
+<Year>2004</Year>
+<Month>Jun</Month>
+</PubDate>
+</JournalIssue>
+</Journal>
+<ArticleTitle>Focus on endometrial and cervical cancer.</ArticleTitle>
+<Pagination>
+<MedlinePgn>533-8</MedlinePgn>
+</Pagination>
+<Affiliation>Department of Pathology, The Weill Medical College of Cornell University, New York, NY, 10021 USA.</Affiliation>
+<AuthorList CompleteYN="Y">
+<Author>
+<LastName>Ellenson</LastName>
+<ForeName>Lora Hedrick</ForeName>
+<Initials>LH</Initials>
+</Author>
+<Author>
+<LastName>Wu</LastName>
+<ForeName>T-C</ForeName>
+<Initials>TC</Initials>
+</Author>
+</AuthorList>
+<Language>eng</Language>
+<PublicationTypeList>
+<PublicationType>Journal Article</PublicationType>
+</PublicationTypeList>
+</Article>
+<MedlineJournalInfo>
+<Country>United States</Country>
+<MedlineTA>Cancer Cell</MedlineTA>
+<NlmUniqueID>101130617</NlmUniqueID>
+</MedlineJournalInfo>
+<CitationSubset>IM</CitationSubset>
+</MedlineCitation>
+<PubmedData>
+	<History>
+		<PubMedPubDate PubStatus="pubmed">
+			<Year>2004</Year>
+			<Month>6</Month>
+			<Day>15</Day>
+			<Hour>5</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="medline">
+			<Year>2004</Year>
+			<Month>6</Month>
+			<Day>15</Day>
+			<Hour>5</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+	</History>
+	<PublicationStatus>ppublish</PublicationStatus>
+	<ArticleIdList>
+		<ArticleId IdType="pubmed">15193256</ArticleId>
+		<ArticleId IdType="doi">10.1016/j.ccr.2004.05.029</ArticleId>
+		<ArticleId IdType="pii">S1535610804001515</ArticleId>
+	</ArticleIdList>
+</PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

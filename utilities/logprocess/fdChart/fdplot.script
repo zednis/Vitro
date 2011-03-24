@@ -1,0 +1,19 @@
+#this sis a gnuplot script
+#for ploting the tomcat fd usage
+#bdc34 2005-04-03
+reset
+set autoscale
+set terminal png
+set output 'plot.png'
+set title "Tomcat open files"
+set ylabel "quantity of open files"
+set xlabel "time"
+set xdata time
+set grid
+set label "generated on `date `" at screen 0, screen 0.12
+set timefmt "%m-%d%H'
+plot 'out.dat' using 4:1 title '/dev/urandom' smooth unique ,\
+'out.dat' using 4:2 title 'socket' smooth unique , \
+'out.dat' using 4:3 title 'other' smooth unique , \
+'out.dat' using 4:($1+$2+$3) title 'total open fd' smooth unique 
+

@@ -1,0 +1,35 @@
+jdbc.drivers=com.mysql.jdbc.Driver
+OSPDWDownload.ospwh.JDBCdriver=oracle.jdbc.OracleDriver
+OSPDWDownload.local.JDBCdriver=org.gjt.mm.mysql.Driver
+
+OSPDWDownload.local.url=jdbc:mysql://localhost/osplocal
+OSPDWDownload.local.user=osplocal
+OSPDWDownload.local.passwd=superPasswordOfDoom
+
+#new connection string from Derek Messie at cit
+OSPDWDownload.ospwh.url=jdbc:oracle:thin:@(DESCRIPTION=(ENABLE=BROKEN)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=sulfur1-vip.cit.cornell.edu)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=sulfur2-vip.cit.cornell.edu)(PORT=1521))(LOAD_BALANCE=yes))(CONNECT_DATA=(SERVICE_NAME=racdwtc.cit.cornell.edu)(FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=5)(DELAY=1))))
+OSPDWDownload.ospwh.user=vivo
+OSPDWDownload.ospwh.passwd=s2s1m2st
+
+localosp.url=jdbc:mysql://localhost/osplocal
+localosp.username=osplocal
+localosp.password=superPasswordOfDoom
+
+#local connection
+vivo.url=jdbc:mysql://localhost/vivo3
+vivo.username=vivoweb
+vivo.password=someOtherPassword
+
+VitroConnection.DataSource.driver=org.gjt.mm.mysql.Driver
+VitroConnection.DataSource.url=jdbc:mysql://localhost/vivo3
+VitroConnection.DataSource.username=vivoweb
+VitroConnection.DataSource.password=asdf
+
+#remote connection
+# one can have the osplocal db on a windows desk top
+# and load the data from there to the remote vitro server
+# the mysql database needs to be able to accept remote
+# connections for the indicated vivo.username
+#vivo.url=jdbc:mysql://ivy.mannlib.cornell.edu/vivo3
+#vivo.username=vivoweb
+#vivo.password=asdf

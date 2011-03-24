@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item issue="153425686" recid="153425771" coverdate="200612" sortkey="3117328651" refkey="5169242"
+    dbyear="2006">
+    <ut>000242282900042</ut>
+    <i_ckey>NYMA0945060241RU</i_ckey>
+    <i_cid>0112838116</i_cid>
+    <source_title>RADIOLOGY</source_title>
+    <source_abbrev>RADIOLOGY</source_abbrev>
+    <item_title>Routine CT venography after CT for pulmonary embolism: Evidence-based radiology or
+        hemorrhage from anticoagulation of false-positive deep venous thrombosis?</item_title>
+    <sq>83336J0</sq>
+    <bib_id>241 (3): 945-946 DEC 2006</bib_id>
+    <bib_pages begin="945" end="946" pages="2">945-946</bib_pages>
+    <bib_issue year="2006" vol="241"/>
+    <doctype code="L">Letter</doctype>
+    <editions full="SCI"/>
+    <languages count="1">
+        <primarylang code="EN">English</primarylang>
+    </languages>
+    <authors count="2">
+        <primaryauthor>Nyman, URO</primaryauthor>
+        <fullauthorname>
+            <AuRole>Author, Reprint Author</AuRole>
+            <AuLastName>Nyman</AuLastName>
+            <AuFirstName>Ulf R. O.</AuFirstName>
+            <AuCollectiveName>Nyman, Ulf R. O.</AuCollectiveName>
+        </fullauthorname>
+        <author key="3322822">Jacobsson, B</author>
+        <fullauthorname>
+            <AuRole>Author</AuRole>
+            <AuLastName>Jacobsson</AuLastName>
+            <AuFirstName>Bo</AuFirstName>
+            <AuCollectiveName>Jacobsson, Bo</AuCollectiveName>
+        </fullauthorname>
+    </authors>
+    <emails count="1">
+        <email>
+            <name>Nyman, URO</name>
+            <email_addr>ulf.nyman@skane.se</email_addr>
+        </email>
+    </emails>
+    <keywords_plus count="2">
+        <keyword>METAANALYSIS</keyword>
+        <keyword>DIAGNOSIS</keyword>
+    </keywords_plus>
+    <reprint>
+        <rp_author>Nyman, URO</rp_author>
+        <rp_address>Cornell Univ, Weill Med Coll, New York Presbyterian Hosp, Dept Radiol, 525 E
+            68th St, New York, NY 10021 USA</rp_address>
+        <rp_organization>Cornell Univ</rp_organization>
+        <rp_suborganizations count="3">
+            <rp_suborganization>Weill Med Coll</rp_suborganization>
+            <rp_suborganization>New York Presbyterian Hosp</rp_suborganization>
+            <rp_suborganization>Dept Radiol</rp_suborganization>
+        </rp_suborganizations>
+        <rp_street>525 E 68th St</rp_street>
+        <rp_city>New York</rp_city>
+        <rp_state>NY</rp_state>
+        <rp_country>USA</rp_country>
+        <rp_zips count="1">
+            <rp_zip location="AP">10021</rp_zip>
+        </rp_zips>
+    </reprint>
+    <research_addrs count="3">
+        <research>
+            <rs_address>Cornell Univ, Weill Med Coll, New York Presbyterian Hosp, Dept Radiol, New
+                York, NY 10021 USA</rs_address>
+            <rs_organization>Cornell Univ</rs_organization>
+            <rs_suborganizations count="3">
+                <rs_suborganization>Weill Med Coll</rs_suborganization>
+                <rs_suborganization>New York Presbyterian Hosp</rs_suborganization>
+                <rs_suborganization>Dept Radiol</rs_suborganization>
+            </rs_suborganizations>
+            <rs_city>New York</rs_city>
+            <rs_state>NY</rs_state>
+            <rs_country>USA</rs_country>
+            <rs_zips count="1">
+                <rs_zip location="AP">10021</rs_zip>
+            </rs_zips>
+        </research>
+        <research>
+            <rs_address>Lund Univ, Dept Radiol, SE-23185 Trelleborg, Sweden</rs_address>
+            <rs_organization>Lund Univ</rs_organization>
+            <rs_suborganizations count="1">
+                <rs_suborganization>Dept Radiol</rs_suborganization>
+            </rs_suborganizations>
+            <rs_city>Trelleborg</rs_city>
+            <rs_country>Sweden</rs_country>
+            <rs_zips count="1">
+                <rs_zip location="BC">SE-23185</rs_zip>
+            </rs_zips>
+        </research>
+        <research>
+            <rs_address>Univ Gothenburg, Sahlgrenska Acad, Inst Selected Clin Sci, Dept Radiol,
+                Gothenburg, Sweden</rs_address>
+            <rs_organization>Univ Gothenburg</rs_organization>
+            <rs_suborganizations count="3">
+                <rs_suborganization>Sahlgrenska Acad</rs_suborganization>
+                <rs_suborganization>Inst Selected Clin Sci</rs_suborganization>
+                <rs_suborganization>Dept Radiol</rs_suborganization>
+            </rs_suborganizations>
+            <rs_city>Gothenburg</rs_city>
+            <rs_country>Sweden</rs_country>
+        </research>
+    </research_addrs>
+    <abstract avail="N"/>
+    <refs count="9">
+        <ref>72324694</ref>
+        <ref>153425772</ref>
+        <ref>142723652</ref>
+        <ref>143109407</ref>
+        <ref>104743716</ref>
+        <ref>106698222</ref>
+        <ref>129981276</ref>
+        <ref>121861363</ref>
+        <ref>108254064</ref>
+    </refs>
+</item> 

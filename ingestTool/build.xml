@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<project name="ingestTool" default="compile" basedir="../">
+	<!-- Load user property definition overrides -->
+	<property file="./config/globalbuild.properties"/>
+
+    <!-- These are defined in globalbuild.properties -->
+    <property name="ingest.dir" value="./ingestTool"/>
+    <property name="ingest.build" value="${ingest.dir}/build"/>
+    <property name="ingest.lib" value="${ingest.dir}/lib"/>
+    <!-- end globalbuild.properties -->
+
+    <property name="generatedSrc" value="${ingest.dir}/generatedSrc"/>
+
+    <property name="log4jPropsFile" value="${ingest.dir}/config/log4j.properties"/>
+    <property name="log4jExecutionProps" value="${ingest.dir}/config/log4j.properties"/>
+
+    <!-- unversioned directory to keep your xml data in -->
+    <property name="data.dir" value="${user.home}/ingestData"/>
+
+	<property name="compile.debug" value="true"/>
+    <property name="compile.deprecation" value="true" />
+    <property name="compile.optimize" value="true" />	 
+
+	<!-- ==================== Compilation Classpath =========================== -->
+    <path id="compile.classpath">
+      <fileset dir="${ingest.lib}"> <!-- Include all JAR files that are in ./lib -->
+        <include name="**/*.jar"/>      	
+      </fileset>
+      <fileset dir="${webapp.lib}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset file="${webapp.build.jar}"/>	      
+      <pathelement path="${webapp.build}/WEB-INF/classes"/>
+      <pathelement path="./build"/>
+    </path>
+        
+	<!-- ==================== Runtime Classpath =========================== -->
+	<path id="run.classpath">
+      <pathelement path="${ingest.build}"/>
+      <fileset dir="${ingest.lib}">
+        <filename name="**/*.jar"/>
+      </fileset>
+      <pathelement path="${generatedSrc}"/>		  
+      <fileset dir="${webapp.lib}">
+        <include name="**/*.jar"/>
+      </fileset>
+      <fileset file="${webapp.build.jar}"/>	      
+      <pathelement path="${webapp.build}/WEB-INF/classes"/>
+	</path>
+
+	<!-- ==================== All Target ====================================== -->
+	<!--  The "all" target is a shortcut for running the "clean" target followed
+          by the "compile" target, to force a complete recompile.  -->
+	<target name="all" depends="clean,compile" description="Clean build and dist, then compile"/>
+
+	<!-- ==================== Clean Target ==================================== -->
+	<!-- The "clean" target deletes any previous "build" and "dist" directory,
+     so that you can be ensured the application can be built from scratch.  
+     do not delete the ${deploy.home}/images directory !!! that's where images 
+     are uploaded to-->
+	<target name="clean" description="Delete old build directories">
+		<delete failonerror="false" dir="${ingest.build}"/>
+	</target>
+    
+	<!-- ==================== Compile Target ================================== 
+        The "compile" target transforms source files (from your "src" directory)
+        into object files in the appropriate location in the build directory.
+        This example assumes that you will be including your classes in an
+        unpacked directory hierarchy under "/WEB-INF/classes".    -->
+    <target name="compile" depends="wsdl2java" description="Compile Java sources">
+      <mkdir dir="${ingest.build}"/>
+
+      <echo>Building the webapp vitro library</echo>
+      <ant antfile="${webapp.dir}/build.xml" target="compile"/>
+
+      <!-- deletes all files that depend on changes .java files -->        
+      <depend srcdir="${ingest.dir}/src" destdir="${ingest.build}"
+              closure="true" 
+              cache="${ingest.build}/.depcache">
+        <classpath refid="compile.classpath"/>
+      </depend>      
+
+      <!-- compile generated wsdl stubs -->
+      <javac srcdir="${generatedSrc}" destdir="${ingest.build}" 
+             debug="${compile.debug}" deprecation="${compile.deprecation}" 
+             optimize="${compile.optimize}" 
+             source="1.5">
+        <classpath refid="compile.classpath"/>
+      </javac>
+      
+      <!-- Compile Java classes as necessary -->
+      <javac srcdir="${ingest.dir}/src" 
+             destdir="${ingest.build}" 
+             debug="${compile.debug}" 
+             deprecation="${compile.deprecation}" 
+             optimize="${compile.optimize}" 
+             source="1.5">
+        <classpath refid="compile.classpath"/>
+      </javac>
+      
+      <copy todir="${ingest.build}" file="${log4jPropsFile}"/>            
+    </target>
+
+	<!-- ==================== Javadoc Target ================================== -->
+	<!--The "javadoc" target creates Javadoc API documentation for the Java
+        classes included in your application.  Normally, this is only required
+        when preparing a distribution release, but is available as a separate
+        target in case the developer wants to create Javadocs independently. -->
+	<target name="javadoc" depends="compile" description="Create Javadoc API documentation">
+	  <mkdir dir="${ingest.dir}/docs"/>
+	  <javadoc sourcepath="src" classpathref="compile.classpath" 
+               destdir="${ingest.dir}/docs" packagenames="*"/>
+	</target>
+
+    <!-- ================= do any WSDL2Java ========================== -->
+    <target name="wsdl2java" description="convert wsdl files to java stubs">
+      <mkdir dir="${generatedSrc}"/>
+      <java classname="org.apache.axis.wsdl.WSDL2Java" classpathref="compile.classpath" fork="true">
+         <arg value="${ingest.dir}/xml/ThompsonSearchRetrieve.wsdl"/>
+         <arg value="-o"/><arg value="${generatedSrc}"/>
+      </java>
+    </target>
+
+<!-- 	<property name="run.class" value="edu.cornell.mannlib.ingest.CalsImpactIngest"/> -->
+<!-- 	<property name="run.dbconn" value="config/connection.properties"/> -->
+<!-- 	<property name="run.infile"  -->
+<!--               value="/home/bdc34/tmp/FacultyReportingData/2impactElements.xml"/> -->
+<!-- 	<property name="run.infile" -->
+<!--               value="/home/bdc34/tmp/FacultyReportingData/strip1.xml"/> -->
+<!-- 	<property name="run.args" value="${run.dbconn} ${run.infile}"/> -->
+
+   <!-- ===================  Execution Targets ============================= -->
+    <!-- Java programs are a pain to run because of the classpath and packages names -->
+    <!-- so run them from ant -->
+    <!-- $ ant -Drun.class="com.sun.java.is.Silly" -Drun.args="sendHelp.txt" -->
+    <!-- you can also setup eclipse ant jobs to run like this -->
+
+	<target name="run" description="runs the java main() of a class">
+	    <java  fork="true" classname="${run.class}" >
+	      <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+          <arg line="${run.args}"/>
+          <jvmarg value="-Xmx1000m"/>
+		  <classpath refid="run.classpath"/>
+        </java>
+	</target>
+
+	<target name="runCALSReportingIngest" depends="compile" description="runs Reporing ingest">
+	  <property name="run.class" value="edu.cornell.mannlib.ingest.CalsReportingIngest"/>
+	  <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	  <property name="run.infile" value="faculty-profile-xml-full.xml"/>
+	  <property name="run.args" value="${run.dbconn} ${run.infile}"/>
+	  <java  fork="true" classname="${run.class}" >
+	    <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+        <arg line="${run.args}"/>
+		<classpath refid="run.classpath"/>
+      </java>
+	</target>
+
+	<target name="runCALSImpactIngest2008" depends="" description="runs Impact ingest for 2008">
+	  <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	  <property name="run.infile"
+                value="/home/bdc34/src/semweb-align/ingestTool/ingestData/CALSimpacts.2009-06-08.xml"/>
+	  <property name="run.args" value="${run.dbconn} ${run.infile}"/>
+	  <property name="run.class" value="edu.cornell.mannlib.ingest.configurations.CalsImpactIngest2008"/>
+	  <java  fork="true" classname="${run.class}" >
+            <arg line="${run.args}"/>
+	    <classpath refid="run.classpath"/>
+            <jvmarg value="-Xmx1000m"/>
+            </java>
+	</target>
+
+	<target name="run2008UsdaAreas" depends="" description="runs generate USDA areas for 2008">
+	  <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	  <property name="run.infile"
+                value="/home/bdc34/src/semweb-align/ingestTool/ingestData/CALSimpacts.2009-06-08.xml"/>
+	  <property name="run.args" value="${run.dbconn} ${run.infile}"/>
+
+	  <property name="run.class" value="edu.cornell.mannlib.ingest.configurations.UsdaAreasForCals2008"/>
+	  <java  fork="true" classname="${run.class}" >
+        <arg line="${run.args}"/>
+        <classpath refid="run.classpath"/>
+      </java>
+	</target>
+
+
+    <target name="runDownloadActivityInsightData" depends="" 
+            description="gets activity insight data from DigitalMeasures.com">
+      <mkdir dir="${ingest.dir}/ai_xml"/>
+
+      <input message="Enter activity insight username"
+             addproperty="ai_username"/>
+      <input message="Enter activity insight password"
+             addproperty="ai_password"/>
+      <get 
+          src="http://www.digitalmeasures.com/login/service/v4/SchemaIndex/INDIVIDUAL-ACTIVITIES-University/"
+          dest="${ingest.dir}/ai_xml/schemaIndex.xml"
+          username="${ai_username}"
+          password="${ai_password}"
+          usetimestamp="true"/>
+      <!-- generate a ant xml file that gets each of the files in the SchemaIndex.xml 
+           that we just retrieved.-->
+      <xslt style="${ingest.dir}/xsl/ai_schema2antDLtask.xslt" 
+            in ="${ingest.dir}/ai_xml/schemaIndex.xml"
+            out="${ingest.dir}/ai_xml/deptDownload.xml">
+        <!-- this is to get xslt 2.0 and xpath 2.0 -->
+        <classpath location="${ingest.dir}/lib/saxon8.jar" /> 
+        <!-- these get passed into the xslt -->
+        <param name="username" expression="${ai_username}"/>
+        <param name="password" expression="${ai_password}"/>
+        <param name="outdir" expression="${ingest.dir}/ai_xml/"/>
+      </xslt>
+      <!-- execute the ant xml task that we just generated. -->
+      <ant antfile="${ingest.dir}/ai_xml/deptDownload.xml"
+           target="download_ai_departments" />
+    </target>
+
+
+    <target name="runIngestActivityInsightData" depends="compile">
+      <property name="run.class" value="edu.cornell.mannlib.ingest.configurations.ActivityInsight"/>
+	  <property name="run.dbconn" value="${ingest.dir}/config/ar.connection.properties"/>
+	  <property name="run.infile"
+                value="/home/bdc34/src/semweb-align/ingestTool/xml/TestAppliedEconomicsMgmt.xml"/>
+	  <property name="run.args" value="${run.dbconn} ${run.infile}"/>
+	  <java  fork="true" classname="${run.class}" >
+<!-- 	    <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/> -->
+        <arg line="${run.args}"/>
+		<classpath refid="run.classpath"/>
+      </java>
+    </target>
+
+	<target name="runCALSImpactIngest" depends="" description="runs Impact ingest">
+	  <property name="run.class" value="edu.cornell.mannlib.ingest.configurations.CalsImpactIngest"/>
+	  <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	  <property name="run.infile"
+                value="/Users/bjl23/ingestData/impacts2007.xml"/>
+	  <property name="run.args" value="${run.dbconn} ${run.infile}"/>
+	  <java  fork="true" classname="${run.class}" >
+<!-- 	    <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/> -->
+        <arg line="${run.args}"/>
+		<classpath refid="run.classpath"/>
+      </java>
+	</target>
+
+	<target name="runWosIngest" depends="compile" description="runs Thompson Web Of Science ingest">
+	  <property name="run.class" value="edu.cornell.mannlib.ingest.ThompsonWosIngest"/>
+	  <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	  <property name="run.infile" value="thompsonXml/all.xml"/>
+	  <property name="run.args" value="${run.dbconn} ${run.infile}"/>
+	  <java  fork="true" classname="${run.class}" >
+	    <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+        <arg line="${run.args}"/>
+		<classpath refid="run.classpath"/>
+      </java>
+	</target>
+	
+	   <target name="runKarlIngest1" depends="compile" description="runs Karl's ingest of courses">
+	      <property name="run.class" value="edu.cornell.mannlib.ingest.kwinter.IngestDownloadedCourseCatalog"/>
+	      <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	      <property name="run.infile" value="${ingest.dir}/vivocourse.txt"/>
+	      <property name="run.args" value="${run.infile} ${run.dbconn}"/>
+	      <java  fork="true" classname="${run.class}" >
+	        <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+	      	<jvmarg value="-Xmx1024m"/>
+	        <arg line="${run.args}"/>
+	        <classpath refid="run.classpath"/>
+	      </java>
+	    </target>
+	   
+	<target name="runKarlIngest2" depends="compile" description="runs Karl's ingest of lectues, classes, secions">
+	      <property name="run.class" value="edu.cornell.mannlib.ingest.kwinter.IngestFA07ClassDatabase"/>
+	      <property name="run.infile" value="${ingest.dir}/VIVOFA07Course.txt"/>
+	      <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	      <property name="run.args" value="${run.infile} ${run.dbconn}"/>
+	      <java  fork="true" classname="${run.class}" >
+	        <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+	      	<jvmarg value="-Xmx1024m"/>
+	        <arg line="${run.args}"/>
+	        <classpath refid="run.classpath"/>
+	      </java>
+	</target>
+
+	<target name="runKarlIngest3" depends="compile" description="runs Karl's ingest of instructors">
+	      <property name="run.class" value="edu.cornell.mannlib.ingest.kwinter.IngestFA07InstructorNetIDs"/>
+	      <property name="run.infile" value="${ingest.dir}/FA07instructornetid.txt"/>
+	      <property name="run.dbconn" value="${ingest.dir}/config/connection.properties"/>
+	      <property name="run.args" value="${run.infile} ${run.dbconn}"/>
+	      <java  fork="true" classname="${run.class}" >
+	        <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+	      	<jvmarg value="-Xmx1024m"/>
+	        <arg line="${run.args}"/>
+	        <classpath refid="run.classpath"/>
+	      </java>
+	</target>
+
+    <!-- ==================== Ingest Target ============================== -->
+    <target name="ingest" depends="compile"
+            description="run the main of the SpringIngest class">
+      <java classname="edu.cornell.mannlib.ingest.SpringIngester"
+            classpathref="run.classpath"
+            fork="true">
+        <sysproperty key="log4j.configuration" value="${log4jExecutionProps}"/>
+        <arg value="xml/testConfig.xml"/>
+      </java>
+    </target>
+</project>

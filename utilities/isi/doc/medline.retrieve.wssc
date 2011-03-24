@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-CALL>
+    <SOAP-FIELDS>
+        <service>SearchRetrieveService</service>
+        <port>SearchRetrieve</port>
+        <operation>retrieve</operation>
+        <URL>http://wok-ws.isiknowledge.com/esti/soap/SearchRetrieve</URL>
+        <action>retrieve</action>
+    </SOAP-FIELDS>
+    <REQUEST>
+        <SOAP-ENV:Envelope
+            xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+            <SOAP-ENV:Header/>
+            <SOAP-ENV:Body>
+                <oxy:retrieve
+                    SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+                    xmlns:oxy="http://esti.isinet.com/soap/search">
+                    <databaseID>MEDLINE</databaseID>
+                    <primaryKeys>17195323,17146106 17116747 17194368
+                        17193735 17193111 17193073 17193353 17192085
+                        17035715 17192534 17079321 17068359 17133599
+                        17192566 17154613</primaryKeys>
+                    <sort/>
+                    <fields/>
+                </oxy:retrieve>
+            </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+    </REQUEST>
+</SOAP-CALL>

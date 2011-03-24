@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RECORDS>
+    <REC inst_id="1" recid="19873736" hot="yes" sortkey="3116817626" timescited="0">
+        <item recid="19873736" sortkey="3116817626" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="Y">
+            <i_ckey>KIM 0179070021FY</i_ckey>
+            <pubyear>2007</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Kim, Yoon Seong</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Choi, Dong Hee</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Block, Michelle L</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Lorenzl, Stefan</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Yang, Lichuan</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Kim, Youn Jung</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Sugama, Shuei</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Cho, Byung Pil</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Hwang, Onyou</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Browne, Susan E</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Kim, Soo Yul</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Hong, Jau-Shyong</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Beal, M Flint</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Joh, Tong H</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <EPubDate>
+                <Year>2006</Year>
+                <Month>Nov</Month>
+                <Day>20</Day>
+            </EPubDate>
+            <PMID>17116747</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+            </DateCreated>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Electronic">1530-6860</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>21</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2007</Year>
+                            <Month>Jan</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>The FASEB journal : official publication of the Federation of American
+                        Societies for Experimental Biology</Title>
+                    <ISOAbbreviation>FASEB J.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>A pivotal role of matrix metalloproteinase-3 activity in dopaminergic
+                    neuronal degeneration via microglial activation.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>179-87</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>Recent studies have demonstrated that activated microglia play an
+                        important role in dopamine (DA) neuronal degeneration in Parkinson disease
+                        (PD) by generating NADPH-oxidase (NADPHO)-derived superoxide. However, the
+                        molecular mechanisms that underlie microglial activation in DA cell death
+                        are still disputed. We report here that matrix metalloproteinase-3 (MMP-3)
+                        was newly induced and activated in stressed DA cells, and the active form of
+                        MMP-3 (actMMP-3) was released into the medium. The released actMMP-3, as
+                        well as catalytically active recombinant MMP-3 (cMMP-3) led to microglial
+                        activation and superoxide generation in microglia and enhanced DA cell
+                        death. cMMP-3 caused DA cell death in mesencephalic neuron-glia mixed
+                        culture of wild-type (WT) mice, but this was attenuated in the culture of
+                        NADPHO subunit null mice (gp91(phox-/-)), suggesting that NADPHO mediated
+                        the cMMP-3-induced microglial production of superoxide and DA cell death.
+                        Furthermore, in the N-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+                        (MPTP)-injected animal model of PD, nigrostriatal DA neuronal degeneration,
+                        microglial activation, and superoxide generation were largely attenuated in
+                        MMP-3-/- mice. These results indicate that actMMP-3 released from stressed
+                        DA neurons is responsible for microglial activation and generation of
+                        NADPHO-derived superoxide and eventually enhances nigrostriatal DA neuronal
+                        degeneration. Our results could lead to a novel therapeutic approach to
+                    PD.</AbstractText>
+                </Abstract>
+                <Affiliation>Burke Medical Research Institute, and Department of Neurology and
+                    Neuroscience, Weill Medical College of Cornell University, 1300 York Ave., New
+                    York, NY 10021, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Kim</LastName>
+                        <ForeName>Yoon Seong</ForeName>
+                        <Initials>YS</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Choi</LastName>
+                        <ForeName>Dong Hee</ForeName>
+                        <Initials>DH</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Block</LastName>
+                        <ForeName>Michelle L</ForeName>
+                        <Initials>ML</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lorenzl</LastName>
+                        <ForeName>Stefan</ForeName>
+                        <Initials>S</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Yang</LastName>
+                        <ForeName>Lichuan</ForeName>
+                        <Initials>L</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kim</LastName>
+                        <ForeName>Youn Jung</ForeName>
+                        <Initials>YJ</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sugama</LastName>
+                        <ForeName>Shuei</ForeName>
+                        <Initials>S</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Cho</LastName>
+                        <ForeName>Byung Pil</ForeName>
+                        <Initials>BP</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hwang</LastName>
+                        <ForeName>Onyou</ForeName>
+                        <Initials>O</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Browne</LastName>
+                        <ForeName>Susan E</ForeName>
+                        <Initials>SE</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kim</LastName>
+                        <ForeName>Soo Yul</ForeName>
+                        <Initials>SY</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hong</LastName>
+                        <ForeName>Jau-Shyong</ForeName>
+                        <Initials>JS</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Beal</LastName>
+                        <ForeName>M Flint</ForeName>
+                        <Initials>MF</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Joh</LastName>
+                        <ForeName>Tong H</ForeName>
+                        <Initials>TH</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                    <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+                    <PublicationType>Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2006</Year>
+                    <Month>11</Month>
+                    <Day>20</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>FASEB J</MedlineTA>
+                <NlmUniqueID>8804484</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19873546" hot="yes" sortkey="3116817816" timescited="0">
+        <item recid="19873546" sortkey="3116817816" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>ROIG0435060038AD</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Roig Vilaseca, Daniel</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Valero, Carles</DisplayName>
+                </Entity>
+                <Entity>
+                    <CollectiveName>on behalf of Grupo de estudio de criterios de derivacion a
+                        densitometria</CollectiveName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17194368</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">0212-6567</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>38</Volume>
+                        <Issue>8</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Nov</Month>
+                            <Day>15</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Atencion primaria / Sociedad Espanola de Medicina de Familia y
+                        Comunitaria</Title>
+                </Journal>
+                <ArticleTitle>[Proportion of individuals with indication criteria for bone
+                    densitometry and frequency of factors of risk of low osseous mass in primary
+                    care consultations.]</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>435-42</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>OBJECTIVE. To find the number of individuals with indication for
+                        Bone Densitometry in Primary Care, according to the criteria of the WHO, the
+                        Agency for Evaluating Medical Technology of Catalonia (AETM) and the
+                        International Committee on Clinical Guides to Osteoporosis (CIGCO), and the
+                        frequency of factors of risk of low osseous mass. DESIGN. Multi-centre,
+                        prospective, transversal study. SETTING. Primary care consultations.
+                        PARTICIPANTS. Patients over 18 (307 women and 139 men) with mean age of
+                        54.3+/-16.8, who attended for consultation with an appointment. MAIN
+                        MEASUREMENTS. Presence or absence of factors relating to each of the
+                        indication criteria for bone densitometry. RESULTS. A 36.3% of individuals
+                        had indication of densitometry under the AETM criteria, 76.7% with the WHO
+                        criteria, and 50.5% with the CIGCO criteria (applicable only to women).
+                        Percentages increased with age and were higher for women. Concordance
+                        between the various criteria was under 37%. CONCLUSIONS. The percentage of
+                        individuals with indication for bone densitometry was highly variable under
+                        different criteria. It was greater in women and increased with age.
+                        Concordance between different criteria was low.</AbstractText>
+                </Abstract>
+                <Affiliation>Unidad de Reumatologia. SAP Baix Llobregat Centre. Cornella de
+                    Llobregat. Barcelona. Espana.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Roig Vilaseca</LastName>
+                        <ForeName>Daniel</ForeName>
+                        <Initials>D</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Valero</LastName>
+                        <ForeName>Carles</ForeName>
+                        <Initials>C</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <CollectiveName>on behalf of Grupo de estudio de criterios de derivacion a
+                            densitometria</CollectiveName>
+                    </Author>
+                </AuthorList>
+                <Language>spa</Language>
+                <PublicationTypeList>
+                    <PublicationType>English Abstract</PublicationType>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+                <VernacularTitle>Proporcion de individuos con criterios de indicacion de
+                    densitometria osea y frecuencia de los factores de riesgo de baja masa osea en
+                    consultas de atencion primaria.</VernacularTitle>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Spain</Country>
+                <MedlineTA>Aten Primaria</MedlineTA>
+                <NlmUniqueID>9111075</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19873128" hot="yes" sortkey="3116818234" timescited="0">
+        <item recid="19873128" sortkey="3116818234" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="Y">
+            <i_ckey>PIME0025070189RD</i_ckey>
+            <pubyear>2007</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Pimentel, David</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Patzek, Tad</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Cecil, Gerald</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17193735</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>29</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">0179-5953</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>189</Volume>
+                        <PubDate>
+                            <Year>2007</Year>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Reviews of environmental contamination and toxicology</Title>
+                </Journal>
+                <ArticleTitle>Ethanol production: energy, economic, and environmental losses.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>25-41</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>The prime focus of ethanol production from corn is to replace the
+                        imported oil used in American vehicles, without expending more fossil energy
+                        in ethanol production than is produced as ethanol energy. In a thorough and
+                        up-to-date evaluation of all the fossil energy costs of ethanol production
+                        from corn, every step in the production and conversion process must be
+                        included. In this study, 14 energy inputs in average U.S. corn production
+                        are included. Then, in the fermentation/distillation operation, 9 more
+                        identified fossil fuel inputs are included. Some energy and economic credits
+                        are given for the by-products, including dried distillers grains (DDG).
+                        Based on all the fossil energy inputs, a total of 1.43 kcal fossil energy is
+                        expended to produced 1 kcal ethanol. When the energy value of the DDG, based
+                        on the feed value of the DDG as compared to that of soybean meal, is
+                        considered, the energy cost of ethanol production is reduced slightly, to
+                        1.28 kcal fossil energy input per 1 kcal ethanol produced. Several
+                        proethanol investigators have overlooked various energy inputs in U.S. corn
+                        production, including farm machinery, processing machinery, and the use of
+                        hybrid corn. In other studies, unrealistic, low energy costs were attributed
+                        to such inputs as nitrogen fertilizer, insecticides, and herbicides.
+                        Controversy continues concerning the energy and economic credits that should
+                        be assigned to the by-products. The U.S. Department of Energy reports that
+                        17.0 billion L ethanol was produced in 2005. This represents only less than
+                        1% of total oil use in the U.S. These yields are based on using about 18% of
+                        total U.S. corn production and 18% of cornland. Because the production of
+                        ethanol requires large inputs of both oil and natural gas in production, the
+                        U.S. is importing both oil and natural gas to produce ethanol. Furthermore,
+                        the U.S. Government is spending about dollar 3 billion annually to subsidize
+                        ethanol production, a subsidy of dollar 0.79/L ethanol produced. With the
+                        subsidy, plus the cost of production, the cost of ethanol is calculated to
+                        be dollar 1.21/L. The subsidy for a liter of ethanol is 45-times greater
+                        than the subsidy per liter of gasoline. The environmental costs associated
+                        with producing ethanol are significant but have been ignored by most
+                        investigators in terms of energy and economics. The negative environmental
+                        impacts on cropland, and freshwater, as well as air pollution and public
+                        health, have yet to be carefully assessed. These environmental costs in
+                        terms of energy and economics should be calculated and included in future
+                        ethanol analyses. General concern has been expressed about taking 18% of
+                        U.S. corn, and more in the future, to produce ethanol for burning in
+                        automobiles instead of using the corn as food for the many malnourished
+                        people in the world. The World Health Organization reports that more than
+                        3.7 billion humans are currently malnourished in the world--the largest
+                        number ever in history.</AbstractText>
+                </Abstract>
+                <Affiliation>College of Agriculture and Life Sciences, 5126 Comstock Hall, Cornell
+                    University, Ithaca, NY 14853, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Pimentel</LastName>
+                        <ForeName>David</ForeName>
+                        <Initials>D</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Patzek</LastName>
+                        <ForeName>Tad</ForeName>
+                        <Initials>T</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Cecil</LastName>
+                        <ForeName>Gerald</ForeName>
+                        <Initials>G</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Rev Environ Contam Toxicol</MedlineTA>
+                <NlmUniqueID>8703602</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19873041" hot="yes" sortkey="3116818315" timescited="0">
+        <item recid="19873041" sortkey="3116818315" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="N">
+            <i_ckey>BURN0723060002SA</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Burns, Andrew</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Sengupta, Prabuddha</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Zedayko, Tara</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Baird, Barbara</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Wiesner, Ulrich</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17193111</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">1613-6829</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>2</Volume>
+                        <Issue>6</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Jun</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Small (Weinheim an der Bergstrasse, Germany)</Title>
+                </Journal>
+                <ArticleTitle>Core/Shell fluorescent silica nanoparticles for chemical sensing:
+                    towards single-particle laboratories.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>723-6</MedlinePgn>
+                </Pagination>
+                <Affiliation>Department of Materials Science &amp; Engineering, 330 Bard Hall,
+                    Cornell University, Ithaca, NY 14853, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Burns</LastName>
+                        <ForeName>Andrew</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sengupta</LastName>
+                        <ForeName>Prabuddha</ForeName>
+                        <Initials>P</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Zedayko</LastName>
+                        <ForeName>Tara</ForeName>
+                        <Initials>T</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Baird</LastName>
+                        <ForeName>Barbara</ForeName>
+                        <Initials>B</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Wiesner</LastName>
+                        <ForeName>Ulrich</ForeName>
+                        <Initials>U</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                    <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+                    <PublicationType>Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Germany</Country>
+                <MedlineTA>Small</MedlineTA>
+                <NlmUniqueID>101235338</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19873024" hot="yes" sortkey="3116818328" timescited="0">
+        <item recid="19873024" sortkey="3116818328" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="N">
+            <i_ckey>LIU 0495060002SH</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Liu, Haiqing</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Edel, Joshua B</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Bellan, Leon M</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Craighead, H G</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17193073</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">1613-6829</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>2</Volume>
+                        <Issue>4</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Apr</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Small (Weinheim an der Bergstrasse, Germany)</Title>
+                </Journal>
+                <ArticleTitle>Electrospun polymer nanofibers as subwavelength optical waveguides
+                    incorporating quantum dots.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>495-9</MedlinePgn>
+                </Pagination>
+                <Affiliation>School of Applied and Engineering Physics and Nanobiotechnology Center,
+                    Cornell University, Ithaca, NY 14853, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Liu</LastName>
+                        <ForeName>Haiqing</ForeName>
+                        <Initials>H</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Edel</LastName>
+                        <ForeName>Joshua B</ForeName>
+                        <Initials>JB</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Bellan</LastName>
+                        <ForeName>Leon M</ForeName>
+                        <Initials>LM</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Craighead</LastName>
+                        <ForeName>H G</ForeName>
+                        <Initials>HG</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                    <PublicationType>Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Germany</Country>
+                <MedlineTA>Small</MedlineTA>
+                <NlmUniqueID>101235338</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19872828" hot="yes" sortkey="3116818499" timescited="0">
+        <item recid="19872828" sortkey="3116818499" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="N">
+            <i_ckey>BOUR0080050001SA</i_ckey>
+            <pubyear>2005</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Bourlinos, Athanasios B</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Chowdhury, Subhendu Ray</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Jiang, David D</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">An, Yeong-U</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Zhang, Qiang</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Archer, Lynden A</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Giannelis, Emmanuel P</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17193353</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">1613-6829</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>1</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2005</Year>
+                            <Month>Jan</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Small (Weinheim an der Bergstrasse, Germany)</Title>
+                </Journal>
+                <ArticleTitle>Layered organosilicate nanoparticles with liquidlike behavior.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>80-2</MedlinePgn>
+                </Pagination>
+                <Affiliation>Department of Materials Science and Engineering, Cornell University,
+                    Ithaca 14853, NY, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Bourlinos</LastName>
+                        <ForeName>Athanasios B</ForeName>
+                        <Initials>AB</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Chowdhury</LastName>
+                        <ForeName>Subhendu Ray</ForeName>
+                        <Initials>SR</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jiang</LastName>
+                        <ForeName>David D</ForeName>
+                        <Initials>DD</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>An</LastName>
+                        <ForeName>Yeong-U</ForeName>
+                        <Initials>YU</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Zhang</LastName>
+                        <ForeName>Qiang</ForeName>
+                        <Initials>Q</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Archer</LastName>
+                        <ForeName>Lynden A</ForeName>
+                        <Initials>LA</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Giannelis</LastName>
+                        <ForeName>Emmanuel P</ForeName>
+                        <Initials>EP</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                    <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Germany</Country>
+                <MedlineTA>Small</MedlineTA>
+                <NlmUniqueID>101235338</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19868877" hot="yes" sortkey="3116819075" timescited="0">
+        <item recid="19868877" sortkey="3116819075" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>JOHN0061070009OJ</i_ckey>
+            <pubyear>2007</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">John, Jinu P</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Novikov, Alexei V</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17192085</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">1523-7060</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>9</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2007</Year>
+                            <Month>Jan</Month>
+                            <Day>4</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Organic letters</Title>
+                    <ISOAbbreviation>Org. Lett.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Selective formation of six-membered cyclic sulfones and sulfonates by
+                    C-h insertion.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>61-3</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>Carbethoxy diazosulfones and sulfonates, easily available from
+                        corresponding sulfones and sulfonates, undergo C-H insertion with
+                        preferential formation of six membered cyclic sulfones and
+                    sulfonates.</AbstractText>
+                </Abstract>
+                <Affiliation>Chemistry Department, University of North Dakota, 151 Cornell Street
+                    Stop 9024, Grand Forks, North Dakota 58202.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>John</LastName>
+                        <ForeName>Jinu P</ForeName>
+                        <Initials>JP</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Novikov</LastName>
+                        <ForeName>Alexei V</ForeName>
+                        <Initials>AV</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Org Lett</MedlineTA>
+                <NlmUniqueID>100890393</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19868855" hot="yes" sortkey="3116819097" timescited="0">
+        <item recid="19868855" sortkey="3116819097" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>BANG0188060027NH</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Bang, Heejung</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Mazumdar, Madhu</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Spence, David</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <EPubDate>
+                <Year>2006</Year>
+                <Month>Oct</Month>
+                <Day>11</Day>
+            </EPubDate>
+            <PMID>17035715</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Print">0251-5350</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>27</Volume>
+                        <Issue>4</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Neuroepidemiology</Title>
+                </Journal>
+                <ArticleTitle>Tutorial in Biostatistics: Analyzing Associations between Total Plasma
+                    Homocysteine and B Vitamins Using Optimal Categorization and Segmented
+                    Regression.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>188-200</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>Data analysts consider standard regression models (e.g.,
+                        generalized linear model) or nonparametric smoothing techniques (e.g., loess
+                        or splines) when examining the association between two variables. Before
+                        this step, a quantile-based summarization is typically used for exploring
+                        the exposure-response relationship. Unfortunately, these exploratory
+                        approaches may not be optimal or efficient for guiding the formal analysis
+                        in many biological and nutritional data settings. We suggest a recently
+                        developed method for selection of cutpoints as a tool of data summary and
+                        segmented regression as a modeling approach in the analysis of plasma total
+                        homocysteine and related vitamins. These methods are often complementary in
+                        discovering the underlying complex pattern of association. Copyright (c)
+                        2006 S. Karger AG, Basel.</AbstractText>
+                </Abstract>
+                <Affiliation>Division of Biostatistics and Epidemiology, Department of Public
+                    Health, Weill Medical College of Cornell University, New York, N.Y., USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Bang</LastName>
+                        <ForeName>Heejung</ForeName>
+                        <Initials>H</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Mazumdar</LastName>
+                        <ForeName>Madhu</ForeName>
+                        <Initials>M</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Spence</LastName>
+                        <ForeName>David</ForeName>
+                        <Initials>D</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2006</Year>
+                    <Month>10</Month>
+                    <Day>11</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>Switzerland</Country>
+                <MedlineTA>Neuroepidemiology</MedlineTA>
+                <NlmUniqueID>8218700</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19868799" hot="yes" sortkey="3116819153" timescited="0">
+        <item recid="19868799" sortkey="3116819153" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="N">
+            <i_ckey>FRIE2717060355NR</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Friedman, Richard A</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17192534</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Electronic">1533-4406</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>355</Volume>
+                        <Issue>26</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Dec</Month>
+                            <Day>28</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>The New England journal of medicine</Title>
+                    <ISOAbbreviation>N. Engl. J. Med.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Uncovering an epidemic--screening for mental illness in teens.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>2717-9</MedlinePgn>
+                </Pagination>
+                <Affiliation>Psychopharmacology Clinic at Weill Cornell Medical College, New York,
+                    USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Friedman</LastName>
+                        <ForeName>Richard A</ForeName>
+                        <Initials>RA</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>N Engl J Med</MedlineTA>
+                <NlmUniqueID>0255562</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>AIM</CitationSubset>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19868712" hot="yes" sortkey="3116819240" timescited="0">
+        <item recid="19868712" sortkey="3116819240" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>BAIN0800070081JJ</i_ckey>
+            <pubyear>2007</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Baines, Joel D</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Wills, Elizabeth</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Jacob, Robert J</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Pennington, Janice</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Roizman, Bernard</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <EPubDate>
+                <Year>2006</Year>
+                <Month>Nov</Month>
+                <Day>01</Day>
+            </EPubDate>
+            <PMID>17079321</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Print">0022-538X</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>81</Volume>
+                        <Issue>2</Issue>
+                        <PubDate>
+                            <Year>2007</Year>
+                            <Month>Jan</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Journal of virology</Title>
+                    <ISOAbbreviation>J. Virol.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Glycoprotein M of Herpes Simplex Virus 1 Is Incorporated into Virions
+                    during Budding at the Inner Nuclear Membrane.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>800-12</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>It is widely accepted that nucleocapsids of herpesviruses bud
+                        through the inner nuclear membrane (INM), but few studies have been
+                        undertaken to characterize the composition of these nascent virions. Such
+                        knowledge would shed light on the budding reaction at the INM and subsequent
+                        steps in the egress pathway. The present study focuses on glycoprotein M
+                        (gM), a type III integral membrane protein of herpes simplex virus 1 (HSV-1)
+                        that likely contains eight transmembrane domains. The results indicated that
+                        gM localized primarily at the perinuclear region, with especially bright
+                        staining near the nuclear membrane (NM). Immunogold electron microscopic
+                        analysis indicated that, like gB and gD (M. R. Torrisi et al., J. Virol.
+                        66:554-561, 1992), gM localized within both leaflets of the NM, the
+                        envelopes of nascent virions that accumulate in the perinuclear space, and
+                        the envelopes of cytoplasmic and mature extracellular virus particles.
+                        Indirect immunofluorescence studies revealed that gM colocalized almost
+                        completely with a marker of the Golgi apparatus and partially with a marker
+                        of the trans-Golgi network (TGN), whether or not these markers were
+                        displaced to the perinuclear region during infection. gM was also located in
+                        punctate extensions and invaginations of the NM induced by the absence of a
+                        viral kinase encoded by HSV-1 U(S)3 and within virions located in these
+                        extensions. Our findings therefore support the proposition that gM, like gB
+                        and gD, becomes incorporated into the virion envelope upon budding through
+                        the INM. The localization of viral glycoproteins and Golgi and TGN markers
+                        to a perinuclear region may represent a mechanism to facilitate the
+                        production of infectious nascent virions, thereby increasing the amount of
+                        infectivity released upon cellular lysis.</AbstractText>
+                </Abstract>
+                <Affiliation>C5169 Veterinary Education Center, Cornell University, Ithaca, NY
+                    14853. jdb11@cornell.edu.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Baines</LastName>
+                        <ForeName>Joel D</ForeName>
+                        <Initials>JD</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Wills</LastName>
+                        <ForeName>Elizabeth</ForeName>
+                        <Initials>E</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Jacob</LastName>
+                        <ForeName>Robert J</ForeName>
+                        <Initials>RJ</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Pennington</LastName>
+                        <ForeName>Janice</ForeName>
+                        <Initials>J</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Roizman</LastName>
+                        <ForeName>Bernard</ForeName>
+                        <Initials>B</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2006</Year>
+                    <Month>11</Month>
+                    <Day>01</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>J Virol</MedlineTA>
+                <NlmUniqueID>0113724</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19868537" hot="yes" sortkey="3116819415" timescited="0">
+        <item recid="19868537" sortkey="3116819415" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>TANG0165070048JX</i_ckey>
+            <pubyear>2007</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Tang, Xiao-Han</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Suh, Moo-Jin</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Li, Rong</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Gudas, Lorraine J</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <EPubDate>
+                <Year>2006</Year>
+                <Month>Oct</Month>
+                <Day>26</Day>
+            </EPubDate>
+            <PMID>17068359</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Print">0022-2275</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>48</Volume>
+                        <Issue>1</Issue>
+                        <PubDate>
+                            <Year>2007</Year>
+                            <Month>Jan</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Journal of lipid research</Title>
+                    <ISOAbbreviation>J. Lipid Res.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Cell proliferation inhibition and alterations in retinol
+                    esterification induced by phytanic acid and docosahexaenoic acid.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>165-76</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>We investigated the effects of two natural dietary retinoid X
+                        receptor (RXR) ligands, phytanic acid (PA) and docosahexaenoic acid (DHA),
+                        on proliferation and on the metabolism of retinol (vitamin A) in both
+                        cultured normal human prostate epithelial cells (PrECs) and PC-3 prostate
+                        carcinoma cells. PA and DHA inhibited the proliferation of the parental PC-3
+                        cells and PC-3 cells engineered to overexpress human lecithin:retinol
+                        acyltransferase (LRAT) in both the absence and presence of retinol. A
+                        synthetic RXR-specific ligand also inhibited PC-3 cell proliferation,
+                        whereas all-trans retinoic acid (ATRA) did not. PA and DHA treatment
+                        increased the levels of retinyl esters (REs) in both PrECs and PC-3 cells
+                        and generated novel REs that eluted on reverse-phase HPLC at 54.0 and 50.5
+                        min, respectively. Mass spectrometric analyses demonstrated that these novel
+                        REs were retinyl phytanate (54.0 min) and retinyl docosahexaenoate (50.5
+                        min). Neither PA nor DHA increased LRAT mRNA levels in these cells. In
+                        addition, we demonstrate that retinyl phytanate was generated by LRAT in the
+                        presence of PA and retinol; however, retinyl docosahexaenoate was produced
+                        by another enzyme in the presence of DHA and retinol.</AbstractText>
+                </Abstract>
+                <Affiliation>Department of Pharmacology, Weill Medical College of Cornell
+                    University, New York, NY 10021.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Tang</LastName>
+                        <ForeName>Xiao-Han</ForeName>
+                        <Initials>XH</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Suh</LastName>
+                        <ForeName>Moo-Jin</ForeName>
+                        <Initials>MJ</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Li</LastName>
+                        <ForeName>Rong</ForeName>
+                        <Initials>R</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Gudas</LastName>
+                        <ForeName>Lorraine J</ForeName>
+                        <Initials>LJ</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2006</Year>
+                    <Month>10</Month>
+                    <Day>26</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>J Lipid Res</MedlineTA>
+                <NlmUniqueID>0376606</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19867622" hot="yes" sortkey="3116820218" timescited="0">
+        <item recid="19867622" sortkey="3116820218" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>FARZ3918060054AA</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Farzaneh-Far, Afshin</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Roman, Mary J</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Lockshin, Michael D</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Devereux, Richard B</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Paget, Stephen A</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Crow, Mary K</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Davis, Adrienne</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Sammaritano, Lisa</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Levine, Daniel M</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Salmon, Jane E</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17133599</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">0004-3591</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>54</Volume>
+                        <Issue>12</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Dec</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Arthritis and rheumatism</Title>
+                    <ISOAbbreviation>Arthritis Rheum.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Relationship of antiphospholipid antibodies to cardiovascular
+                    manifestations of systemic lupus erythematosus.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>3918-25</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>OBJECTIVE: Although antiphospholipid antibodies (aPL) are
+                        associated with arterial and venous thrombosis in systemic lupus
+                        erythematosus (SLE), the extent to which they influence other cardiovascular
+                        manifestations is either controversial or uncertain. We undertook this study
+                        to examine the relationships of aPL with valvular, myocardial, and arterial
+                        disease in SLE. METHODS: Two hundred patients in an SLE registry, recruited
+                        at the time of outpatient visits, underwent comprehensive interviews,
+                        physical examinations, laboratory assessments, echocardiography to assess
+                        left ventricular (LV) and valvular status, carotid ultrasonography to detect
+                        atherosclerosis (discrete plaque), and radial applanation tonometry to
+                        measure arterial stiffness. RESULTS: Antiphospholipid antibodies were
+                        present(defined as IgG or IgM anticardiolipin &gt;/=40 IU/ml or the
+                        presence of lupus anticoagulant) in 42 patients (21%). Mitral valve nodules
+                        and moderate-to-severe mitral regurgitation were more common in aPL-positive
+                        patients (both 14.3% versus 4.4%; P = 0.02). Thirty-one percent of patients
+                        with high titers of IgG aPL (&gt;80 IU/ml) had mitral valve nodules,
+                        compared with 20% of patients with mildly to moderately elevated levels of
+                        IgG aPL (16-80 IU/ml) and 4% of patients without IgG aPL (overall P &lt;
+                        0.001). Levels of soluble tumor necrosis factor receptors were higher in the
+                        presence of both aPL and mitral valve nodules. LV dimensions, systolic
+                        function, and carotid artery stiffness as well as prevalences of Raynaud's
+                        phenomenon, pulmonary hypertension, and atherosclerosis were similar in
+                        aPL-positive and aPL-negative patients. CONCLUSION: Antiphospholipid
+                        antibodies in SLE are associated with mitral valve nodules and significant
+                        mitral regurgitation, possibly due to valvular endothelial cell activation.
+                        However, in this population, they are not associated with evidence of
+                        myocardial hypertrophy, systolic dysfunction, coronary or carotid
+                        atherosclerosis, or other vascular abnormalities.</AbstractText>
+                </Abstract>
+                <Affiliation>Hospital for Special Surgery, and Weill Medical College of Cornell
+                    University, New York, New York.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Farzaneh-Far</LastName>
+                        <ForeName>Afshin</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Roman</LastName>
+                        <ForeName>Mary J</ForeName>
+                        <Initials>MJ</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lockshin</LastName>
+                        <ForeName>Michael D</ForeName>
+                        <Initials>MD</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Devereux</LastName>
+                        <ForeName>Richard B</ForeName>
+                        <Initials>RB</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Paget</LastName>
+                        <ForeName>Stephen A</ForeName>
+                        <Initials>SA</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Crow</LastName>
+                        <ForeName>Mary K</ForeName>
+                        <Initials>MK</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Davis</LastName>
+                        <ForeName>Adrienne</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sammaritano</LastName>
+                        <ForeName>Lisa</ForeName>
+                        <Initials>L</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Levine</LastName>
+                        <ForeName>Daniel M</ForeName>
+                        <Initials>DM</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Salmon</LastName>
+                        <ForeName>Jane E</ForeName>
+                        <Initials>JE</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Arthritis Rheum</MedlineTA>
+                <NlmUniqueID>0370605</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>AIM</CitationSubset>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19867575" hot="yes" sortkey="3116820265" timescited="0">
+        <item recid="19867575" sortkey="3116820265" dbyear="2006" Owner="NLM"
+            Status="In-Data-Review" dbweek="58" hasAbstract="Y">
+            <i_ckey>SEIF0195061088AK</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Seiffert, Kristina</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Granstein, Richard D</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17192566</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>28</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">0077-8923</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>1088</Volume>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Nov</Month>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Annals of the New York Academy of Sciences</Title>
+                    <ISOAbbreviation>Ann. N. Y. Acad. Sci.</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Neuroendocrine regulation of skin dendritic cells.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>195-206</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>It has long been postulated that stress can affect certain skin
+                        conditions, and there is increasing experimental evidence that the
+                        neuroendocrine system can directly participate in cutaneous inflammation.
+                        Neurohormones, such as glucocorticoids and catecholamines, can reach the
+                        skin through the bloodstream after activation of the
+                        hypothalamic-pituitary-adrenal axis and the sympathetic nervous system,
+                        respectively. Multiple neuropeptides, among them calcitonin gene-related
+                        peptide, alpha-melanocyte stimulating hormone, pituitary adenylate
+                        cyclase-activating peptide, substance P, vasoactive intestinal peptide, and
+                        norepinephrine, may be released by cutaneous nerves or resident and
+                        infiltrating cells within the skin. Systemic neuromediators and cutaneous
+                        nerves can influence a number of target cells within the skin, among them
+                        Langerhans cells. Most of the experimental evidence to date indicates a
+                        suppressive effect of the neurohormones and neuropeptides on Langerhans cell
+                        function and cutaneous inflammation, but it has become evident lately that
+                        the timing of exposure to a stimulus is critical to the outcome of the
+                        immune response. Thus, administration of a stress hormone or exposure to a
+                        stressor before the dendritic cell (DC) encounters an antigen (Ag) may
+                        diminish the immune response toward that Ag, while a stressor may enhance
+                        immune function when acting on a maturing DC or before reexposure to the Ag.
+                        The neuroendocrine regulation of skin DCs is a complex system allowing for a
+                        quick adaptation to various stressors. Such a system, originally evolved to
+                        defend the organism against invading pathogens and maintain homeostasis, may
+                        under certain conditions become unbalanced and ultimately exacerbate
+                        cutaneous inflammation.</AbstractText>
+                </Abstract>
+                <Affiliation>Department of Dermatology, Weill Medical College of Cornell University,
+                    525 East 68th Street, Rm. 340, New York 10021, NY. rdgranst@med.cornell.edu.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Seiffert</LastName>
+                        <ForeName>Kristina</ForeName>
+                        <Initials>K</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Granstein</LastName>
+                        <ForeName>Richard D</ForeName>
+                        <Initials>RD</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Ann N Y Acad Sci</MedlineTA>
+                <NlmUniqueID>7506858</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+    <REC inst_id="1" recid="19866608" hot="yes" sortkey="3116820851" timescited="0">
+        <item recid="19866608" sortkey="3116820851" dbyear="2006" Owner="NLM" Status="In-Process"
+            dbweek="58" hasAbstract="Y">
+            <i_ckey>KRIS1255060022LS</i_ckey>
+            <pubyear>2006</pubyear>
+            <edition>In-Process</edition>
+            <TSAuthorList>
+                <Entity>
+                    <DisplayName ValidYN="Y">Krishnan, Sitaraman</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Ward, Rebekah J</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Hexemer, Alexander</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Sohn, Karen E</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Lee, Kristen L</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Angert, Esther R</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Fischer, Daniel A</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Kramer, Edward J</DisplayName>
+                </Entity>
+                <Entity>
+                    <DisplayName ValidYN="Y">Ober, Christopher K</DisplayName>
+                </Entity>
+            </TSAuthorList>
+            <PMID>17154613</PMID>
+            <DateCreated>
+                <Year>2006</Year>
+                <Month>12</Month>
+                <Day>12</Day>
+            </DateCreated>
+            <Article PubModel="Print">
+                <Journal>
+                    <ISSN IssnType="Print">0743-7463</ISSN>
+                    <JournalIssue CitedMedium="Print">
+                        <Volume>22</Volume>
+                        <Issue>26</Issue>
+                        <PubDate>
+                            <Year>2006</Year>
+                            <Month>Dec</Month>
+                            <Day>19</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Langmuir : the ACS journal of surfaces and colloids</Title>
+                </Journal>
+                <ArticleTitle>Surfaces of fluorinated pyridinium block copolymers with enhanced
+                    antibacterial activity.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>11255-66</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText>Polystyrene-b-poly(4-vinylpyridine) copolymers were quaternized
+                        with 1-bromohexane and 6-perfluorooctyl-1-bromohexane. Surfaces prepared
+                        from these polymers were characterized by contact angle measurements,
+                        near-edge X-ray absorption fine structure spectroscopy and X-ray
+                        photoelectron spectroscopy. The fluorinated pyridinium surfaces showed
+                        enhanced antibacterial activity compared to their nonfluorinated
+                        counterparts. Even a polymer with a relatively low molecular weight
+                        pyridinium block showed high antimicrobial activity. The bactericidal effect
+                        was found to be related to the molecular composition and organization in the
+                        top 2-3 nm of the surface and increased with increasing hydrophilicity and
+                        pyridinium concentration of the surface.</AbstractText>
+                </Abstract>
+                <Affiliation>Department of Materials Science and Engineering, Cornell University,
+                    Ithaca, NY 14853, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Krishnan</LastName>
+                        <ForeName>Sitaraman</ForeName>
+                        <Initials>S</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ward</LastName>
+                        <ForeName>Rebekah J</ForeName>
+                        <Initials>RJ</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hexemer</LastName>
+                        <ForeName>Alexander</ForeName>
+                        <Initials>A</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sohn</LastName>
+                        <ForeName>Karen E</ForeName>
+                        <Initials>KE</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lee</LastName>
+                        <ForeName>Kristen L</ForeName>
+                        <Initials>KL</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Angert</LastName>
+                        <ForeName>Esther R</ForeName>
+                        <Initials>ER</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Fischer</LastName>
+                        <ForeName>Daniel A</ForeName>
+                        <Initials>DA</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kramer</LastName>
+                        <ForeName>Edward J</ForeName>
+                        <Initials>EJ</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ober</LastName>
+                        <ForeName>Christopher K</ForeName>
+                        <Initials>CK</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                    <PublicationType>Research Support, U.S. Gov't, Non-P.H.S.</PublicationType>
+                </PublicationTypeList>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Langmuir</MedlineTA>
+                <NlmUniqueID>9882736</NlmUniqueID>
+            </MedlineJournalInfo>
+            <CitationSubset>IM</CitationSubset>
+        </item>
+    </REC>
+</RECORDS>

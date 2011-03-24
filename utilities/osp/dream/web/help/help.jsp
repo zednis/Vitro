@@ -1,0 +1,1 @@
+<HTML><head><link rel="stylesheet" type="text/css" href="css/global.css.jsp"/></head><body><h2>Help is on the way</h2></body></HTML> 

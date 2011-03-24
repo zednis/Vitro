@@ -1,0 +1,49 @@
+Notes on Importing OSP grant award data into VIVO
+Brian Caruso
+20040106
+
+There are 4 tasks:
+a) Taking the data about a single award and sticking it into a VIVO
+entities record.
+
+b) Associating this record with a department.
+
+c) Associating this record with the Sponsors, creating the sponsor if none
+exists.
+
+d) Associating this record with PI's/COPI's and creating them if they
+don't exist.
+
+a) Awards (etype 117)
+How to populate the VIVO.entities row:
+id				auto increment
+typeid			117 (research grant)
+name			award_prop_full_title
+description		?
+modTime			?
+timekey			?
+How do we record the time frame of the award? sunrise-sunset?
+
+b) Departments (etype 61)
+This should just be a ents2ents record.  There should be a 
+osp table where we have the OSPdeptNames and the VIVOdeptNames:
+
+OSPdeptNames			VIVOdeptNames
+---------------------	----------------------------
+ANIMAL SCIENCE			Animal Science
+PLANT PATHOLOGY-GENEVA	Plant Pathology at Geneva
+
+This table will be used to map OSP depts to VIVO depts.
+pros: simple, static, clear code
+cons: if there is a new dept it breaks (abort?, prompt for VIVO dept?)
+
+c) Sponsors
+How do we match sponsors with entities?  This is becoming a common
+problem eg biosis author names, osp depts, etc.
+
+d) PI's and COPI's 
+Match up using netid's, How do we get a person entity using a netid
+from VIVO?  There are no netid's in VIVO?
+Etypes: Cornell academic staff (etype id 94), cornell faculty (etype id
+31), cornell librarian (etype id 32), non-cornell faculty(etype id
+90).

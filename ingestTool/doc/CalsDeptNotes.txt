@@ -1,0 +1,131 @@
+Use a RelationResolver with name matching and a 
+StringPreprocessor to map CALS Impact Dept fields
+to vivo organization names.
+
+Or how about breaking the code that gets the
+other ent id out into it's own method and 
+override that?
+
+Odd, non-deptartment found in CALS Dept field:
+Cooperative Extension (ADM) -> 759?
+Cooperative Extension (NYC) -> 759?
+Division of Nutritional Sciences (AG) -> 365
+Division of Nutritional Sciences (HE) -> 365
+Integrated Pest Management -> 5456
+Ornithology -> 5548
+Plantations -> 5618
+Sea Grant / LEAD NY -> 6293
+International Program -> 5332
+
+All Deptartments found in CALS impacts Dept field with Vivo entity id mapping:
+Animal Science -> 873 
+Applied Economics and Management -> 551
+Biological Statistics and Computational Biology -> 379
+Biological and Environmental Engineering (ABEN) -> 154
+Communication -> 7243
+Cooperative Extension (ADM) 
+Cooperative Extension (NYC)
+Crop and Soil Sciences -> 874
+Development Sociology -> 426
+Division of Nutritional Sciences (AG)
+Division of Nutritional Sciences (HE)
+Earth and Atmospheric Sciences -> 5208
+Ecology and Evolutionary Biology (AG) -> 195?
+Ecology and Evolutionary Biology (AS) -> 195?
+Education -> 5652
+Entomology (AG) -> 257
+Entomology (GNVA) -> 743
+Food Science (AG) -> 241
+Food Science (GNVA) -> 739
+Horticultural Sciences -> 745
+Horticulture -> 416
+Integrated Pest Management
+International Programs
+Landscape Architecture -> 6966
+Microbiology (AG) -> 264
+Molecular Biology and Genetics (AG) -> 131?
+Molecular Biology and Genetics (AS) -> 131?
+Natural Resources -> 5224
+Neurobiology and Behavior (AG) -> 253
+Neurobiology and Behavior (AS) -> 253
+Ornithology
+Plant Biology (AG) -> 157?
+Plant Biology (AS) -> 157?
+Plant Breeding and Genetics -> 133
+Plant Pathology (AG) -> 293
+Plant Pathology (GNVA) -> 746
+Plantations
+Sea Grant / LEAD NY
+
+Vivo Department Entities that seem related to CALS reporting Dept field
+id	name
+873	Animal Science (AN SC)
+551	Applied Economics and Management (AEM)
+154	Biological and Environmental Engineering (BEE)
+379	Biological Statistics and Computational Biology (BSCB)
+7243	Communication (COMM)
+874	Crop and Soil Sciences (CSS)
+426	Development Sociology (D SOC)
+5208	Earth and Atmospheric Sciences (EAS)
+195	Ecology and Evolutionary Biology (EEB)
+5652	Education (EDUC)
+257	Entomology (ENTOM)
+743	Entomology at Geneva
+739	Food Science & Technology at Geneva
+241	Food Science (FOOD)
+745	Horticultural Sciences at Geneva (HORT SCI)
+416	Horticulture (HORT)
+6966	Landscape Architecture (LA)
+264	Microbiology (BIOMI)
+776	Microbiology and Immunology (VETMI)
+495	Microbiology and Immunology (Weill)
+131	Molecular Biology and Genetics (MBG)
+5224	Natural Resources (NTRES/DNR)
+253	Neurobiology and Behavior (BIO NB)
+157	Plant Biology (BIOPL)
+133	Plant Breeding and Genetics (PB&G)
+293	Plant Pathology (PL PA)
+746	Plant Pathology at Geneva
+
+
+select e.id,e.name,v.id,v.name from entities e join vclass v on e.vclassid = v.id where 
+v.id =303 and (
+e.name like '%Plant Pathology%' 
+or e.name like '%Food Science%'  
+or e.name like '%Neurobiology and Behavior%'  
+or e.name like '%Landscape Architecture%'  
+or e.name like '%Neurobiology and Behavior%'  
+or e.name like '%Entomology%'  
+or e.name like '%Ecology and Evolutionary Biology%'  
+or e.name like '%Biological and Environmental Engineering%'  
+or e.name like '%Molecular Biology and Genetics%'  
+or e.name like '%Microbiology%'  
+or e.name like '%Cooperative Extension%'  
+or e.name like '%Molecular Biology and Genetics%'  
+or e.name like '%Animal Science%'  
+or e.name like '%Natural Resources%'  
+or e.name like '%Food Science%'  
+or e.name like '%Horticulture%'  
+or e.name like '%Plant Biology%'  
+or e.name like '%Horticultural Sciences%'  
+or e.name like '%Plant Pathology%'  
+or e.name like '%Applied Economics and Management%'  
+or e.name like '%Division of Nutritional Sciences%'  
+or e.name like '%Development Sociology%'  
+or e.name like '%Ornithology%'  
+or e.name like '%Integrated Pest Management%'  
+or e.name like '%Crop and Soil Sciences%'  
+or e.name like '%Education%'  
+or e.name like '%Entomology%'  
+or e.name like '%Plant Breeding and Genetics%'  
+or e.name like '%Earth and Atmospheric Sciences%'  
+or e.name like '%Cooperative Extension%'  
+or e.name like '%Sea Grant / LEAD NY%'  
+or e.name like '%Plant Biology%'  
+or e.name like '%Communication%'  
+or e.name like '%Ecology and Evolutionary Biology%'  
+or e.name like '%International Programs%'  
+or e.name like '%Division of Nutritional Sciences%'  
+or e.name like '%Plantations%'  
+or e.name like '%Biological Statistics and Computational Biology%' 
+) order by e.name

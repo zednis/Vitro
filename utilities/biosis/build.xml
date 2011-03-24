@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<!-- CVSID $Id: build.xml,v 1.1 2005/10/06 14:11:10 bdc34 Exp $ -->
+<project name="biosis" default="compile" basedir=".">
+	<!-- Load user property definition overrides -->
+    <!-- If you would like to have a different value for any property just
+         set it in this propery file and it will override the values given here.
+         The intention is that this ant build file will work on the linux server
+         where the site is deployed so you may need to adjust things for a non-posix
+         system such as windows. -->    
+	<property file="build.properties"/>
+
+	<!-- Property Definitions -->
+	<property name="app.name" value="biosis"/>
+
+    <!-- Set up 'env' as the prefix for environmental variables -->
+    <property environment="env"/>
+    <property name="java_api" value="${env.JAVA_HOME}" /> 
+    <!-- <property name="java_api" value="${env.JAVA_HOME_CLEAN}" /> -->
+    <!--       <property name="tomcat.home" value="${env.TOMCAT_HOME}"/> -->
+
+	<property name="dist.home" value="./dist"/>
+	<property name="build.home" value="./build"/>
+	<property name="src.home" value="./src"/>
+	<property name="lib.home" value="../../lib"/> <!-- notice that this is the vitro/dream/lib dir -->
+	<property name="vitro.classes" value="../../../build/WEB-INF/classes" /> <!-- notice that this is the Vitro/build dir -->
+	<property name="javadoc.home" value="${dist.home}/javadoc"/>
+
+	<property name="run.java" value="${java_api}/bin/java"/>
+    <property name="run.sh" value="run.sh"/>
+
+    <!-- ==================== Compilation Control Options =====================	-->
+	<property name="compile.javac" value="${java_api}/bin/javac"/>
+    <property name="compile.debug" value="true"/>
+    <property name="compile.deprecation" value="true"/>
+    <property name="compile.optimize" value="true"/>
+    <!-- magic property for <javac> see Tilly J., Burke E., "Ant" 2002 pg 53-->
+    <property name="build.compiler" value="modern"/>
+    
+	<!-- ==================== Compilation Classpath =========================== -->
+ 	<path id="compile.classpath">
+	    <!--everything in the properties lib.home dir -->
+		<fileset dir="${lib.home}">
+		  <include name="**/*.jar"/>			
+		</fileset>
+ 		<pathelement path="${vitro.classes}"/>
+ 		<pathelement path="${build.home}"/>
+	</path>
+	<!-- ==================== Runtime Classpath =========================== -->
+	<path id="run.classpath">
+	    <!--everything in the properties lib.home dir -->
+		<fileset dir="${lib.home}">
+		  <include name="**/*.jar"/>
+		</fileset>		
+		<pathelement path="${vitro.classes}"/>
+		<!-- build dir -->
+		<pathelement path="${build.home}"/>
+	</path>
+
+    <!-- ==================== Get Enviroment Variables ==================== -->
+    <target name="checkEnv" 
+            description="Checks that envornmental variables such as JAVA_HOME are set">
+
+      <!-- Abort if environmental variables are not set -->
+    	<!--
+      <fail unless="env.JAVA_HOME">      
+        You must set the enviroment variable JAVA_HOME to something 
+        like /usr/local/lib/java/jdk1.4.2 
+      </fail>
+      <fail unless="env.JAVA_HOME_CLEAN">      
+        You must set the enviroment variable JAVA_HOME_CLEAN to something 
+        like /usr/local/lib/java/jdk1.4.2 
+      </fail>
+      -->
+<!--       <fail unless="env.TOMCAT_HOME"> -->
+<!--         You must set the enviroment variable TOMCAT_HOME to something -->
+<!--         like /usr/local/tomcat -->
+<!--       </fail> -->
+    </target>
+
+	<!-- ==================== Prepare Target ================================== -->
+    <!--  The "prepare" target is used to create the "build" destination directory,
+         and copy the static contents of your web application to it.  If you need
+         to copy static files from external dependencies, you can customize the
+         contents of this task.
+         Normally, this task is executed indirectly when needed. -->
+	<target name="prepare">
+		<!-- Create directorys  -->
+		<mkdir dir="${build.home}"/>
+		<mkdir dir="${lib.home}"/>
+		<mkdir dir="${src.home}"/>
+	</target>
+
+	<!-- ==================== All Target ====================================== -->
+	<!--   The "all" target is a shortcut for running the "clean" target followed
+		 by the "compile" target, to force a complete recompile. -->
+	<target name="all" depends="clean,compile" description="Clean build and dist, then compile"/>
+
+	<!-- ==================== Clean Target ==================================== -->
+	<!--  The "clean" target deletes any previous "build" and "dist" directory,
+		 so that you can be ensured the application can be built from scratch. -->
+	<target name="clean" description="Delete old build and dist directories">
+		<delete dir="${build.home}"/>
+		<delete dir="${dist.home}"/>
+        <delete file="${run.sh}"/>
+	</target>
+
+	<!-- ==================== Compile Target ================================== -->
+	<!--  The "compile" target transforms source files (from your "src" directory)
+          into object files in the appropriate location in the build directory.
+          This example assumes that you will be including your classes in an
+          unpacked directory hierarchy under "/WEB-INF/classes". -->
+	<target name="compile" depends="checkEnv,prepare" description="Compile Java sources">
+	  <javac srcdir="${src.home}" destdir="${build.home}" debug="${compile.debug}" 
+			 deprecation="${compile.deprecation}" optimize="${compile.optimize}"
+			 executable="${compile.javac}">
+		<classpath refid="compile.classpath"/>
+	  </javac>
+	</target>
+
+	<!-- ==================== Deploy Target =================================== -->
+	<!-- The "deploy" target copies the contents of the build directory into a
+         location required by our servlet container, and picks up any external
+         dependencies along the way.  After restarting the servlet container, you
+         can now test your web application. -->
+	<target name="deploy" depends="compile" description="Deploy application to servlet container">
+		<mkdir dir="${deploy.home}"/>
+		<copy todir="${deploy.home}">
+			<fileset dir="${build.home}"/>
+		</copy>
+		<mkdir dir="${deploy.home}/WEB-INF/lib"/>
+	</target>
+
+	<!-- ==================== Dist Target ===================================== -->
+	<!-- The "dist" target creates a binary distribution of your application
+         in a directory structure ready to be archived in a tar.gz or zip file.
+         Note that this target depends on two others:
+         * "deploy" so that the entire web application (including external
+         dependencies) will have been assembled
+         * "javadoc" so that the application Javadocs will have been created -->
+	<target name="dist" depends="deploy,javadoc" description="Create binary distribution">
+		<!-- Copy documentation subdirectory -->
+		<copy todir="${dist.home}/docs">
+			<fileset dir="docs"/>
+		</copy>
+		<!-- Create application WAR file -->
+		<jar jarfile="${dist.home}/${app.name}.war" basedir="${deploy.home}"/>
+	</target>
+
+	<!-- ==================== Javadoc Target ================================== -->
+	<!--  The "javadoc" target creates Javadoc API documentation for the Java
+         classes included in your application.  Normally, this is only required
+         when preparing a distribution release, but is available as a separate
+         target in case the developer wants to create Javadocs independently. -->
+	<target name="javadoc" depends="compile" description="Create Javadoc API documentation">
+		<mkdir dir="${dist.home}/docs"/>
+		<javadoc sourcepath="src" classpathref="compile.classpath" destdir="${dist.home}/docs" packagenames="*"/>
+	</target>
+    
+	<!-- ==================== Run Target ================================== -->
+    <!-- This is to run a java command with the classpath that the project was built with. -->
+    <!-- example of usage: -->
+    <!-- ant run -Drun.class="edu.cornell.MyClass" -Drun.args="-l -p -f=myarg.txt"  -->
+
+	<property name="run.class" value="edu.cornell.mannlib.vitro.biosis.TransferPubsToEntities"/>
+	<property name="run.args" value="connection.properties"/>
+	<target name="run" depends="compile"
+            description="runs the java main() of a class">
+	    <java  fork="true" classname="${run.class}" jvm="${run.java}">
+          <arg line="${run.args}"/>
+		  <classpath refid="run.classpath"/>
+        </java>
+	</target>
+
+
+	<target name="run-transferPubs" depends="compile"
+            description="Runs code to move pubs to entities">
+	    <java  fork="true" jvm="${run.java}"
+               classname="edu.cornell.mannlib.vitro.biosis.TransferPubsToEntities">
+          <arg line="${run.args}"/>
+		  <classpath refid="run.classpath"/>
+        </java>
+	</target>
+	<target name="run-matchAuthors" depends="compile"
+            description="Runs match author batch process">
+	    <java  fork="true" jvm="${run.java}"
+               classname="edu.cornell.mannlib.vitro.biosis.UpdateAuthorTokensWithMatchingEntityId">
+          <arg line="${run.args}"/>
+		  <classpath refid="run.classpath"/>
+        </java>
+	</target>
+	<target name="run-matchAuthorsGUI" depends="compile"
+            description="Runs match author GUI">
+	    <java  fork="true" jvm="${run.java}"
+               classname="edu.cornell.mannlib.vitro.biosis.NameMatcherPanel">
+          <arg line="${run.args}" />
+		  <classpath refid="run.classpath"/>
+        </java>
+	</target>
+	<target name="run-loadDataFromBiosis" depends="compile"
+            description="Runs code to load data from download.dat">
+	    <java  fork="true" jvm="${run.java}"
+               classname="edu.cornell.mannlib.vitro.biosis.BiosisLoad">			   
+          <arg line="${run.args} download.dat true"/>
+		  <classpath refid="run.classpath"/>
+        </java>
+	</target>
+
+	<!-- =================== Make Run Script ========================= -->
+	<target name="makeRunScript" depends="compile"
+			description="Make script for main() methods with prescribed jdk and -cp">
+	  <property name="MakeRunShPath" refid="run.classpath"/>
+	  <echo file="${run.sh}" append="false">
+		#!/bin/bash
+        # This script will run the main() method of the class indicated as the first argument and
+        # pass the other arguments to that main() method.  
+        # The script was generated by the ant target makeRunScript.
+		${java_api}/jre/bin/java -cp "${MakeRunShPath}" $$*
+	  </echo>
+      <chmod file="${run.sh}" perm="755"/>
+	</target>
+
+</project>

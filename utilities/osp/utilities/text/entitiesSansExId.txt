@@ -1,0 +1,124 @@
+"Ginsparg, Paul"	162	phg5	Physics	academic	Professor of Physics and Computing and Information Science		http://people.ccmr.cornell.edu/~ginsparg/	Yes		(&(!(type=student*))(cn=Paul*Ginsparg))
+"Delaney, Terrence P."	295									
+"Yona, Golan"	411	gey2	Computer Science	academic						(&(!(type=student*))(cn=Golan*Yona))
+"Van Loan, Charles F."	447	cfv3	Computer Science	academic	Chair				Computer Science	(&(!(type=student*))(cn=Charles*F*Van Loan))
+"Richardson, Robert C."	469	rcr2	Vice Provost Research	academic	F R Newman Prof of Physics/LASSP			Low Temperature Physics	Physics	(&(!(type=student*))(cn=Robert*C*Richardson))
+"Staiano-Coico, Lisa"	559	lfs9	Executive Staff	academic					HE Administration	(&(!(type=student*))(cn=Lisa*Staiano-Coico))
+"Thomas, L. Joseph"	576	ljt3	Johnson Grad Sch Management	academic	Associate Dean for Academic Affairs		http://www.people.cornell.edu/pages/ljt3/		Johnson Grad Sch Management	(&(!(type=student*))(cn=L*Joseph*Thomas))
+"Swieringa, Robert J."	578	rjs22	Johnson Grad Sch Management	academic	Anne & Elmer Lindseth Dean		http://www.johnson.cornell.edu/			(&(!(type=student*))(cn=Robert*J*Swieringa))
+"BenDaniel, David J."	582	djb16	Johnson Grad Sch Management	academic	Don and Margi Berens Professor of Entrepreneurship					(&(!(type=student*))(cn=David*J*BenDaniel))
+"Shulman, Zachary J."	584	zjs2	Johnson Grad Sch Management	academic	J. Thomas Clark Senior Lecturer of Entrepreneurship and Personal Enterprise					(&(!(type=student*))(cn=Zachary*J*Shulman))
+"Franciosa, Joseph A."	6708									
+"Constable, Robert"	761	rlc7	Provost's Office	academic	Dean for Computing and Information Science				Computer Science	(&(!(type=student*))(cn=Robert*Constable))
+"Philpot, William D."	5191	wdp2	Civil & Environmental Engr	academic					Civil & Environmental Engr	(&(!(type=student*))(cn=William*D*Philpot))
+"Federer, Walter T."	6124	wtf1	Biometrics	retiree						(&(!(type=student*))(cn=Walter*T*Federer))
+"Stevenson, Dennis W."	5377									
+"Ezra, Gregory S."	6068	gse1	Chemistry and Chemical Biology	academic			<http://www.chem.cornell.edu/gse1/gsehome.html>			(&(!(type=student*))(cn=Gregory*S*Ezra))
+"Wiesner, Ulrich B."	6112	ubw1	Materials Science & Engr	academic						(&(!(type=student*))(cn=Ulrich*B*Wiesner))
+"Foote, Robert H."	6213	rhf4	Animal Science	retiree	J G Schurman Prof Emeritus					(&(!(type=student*))(cn=Robert*H*Foote))
+"Hogue, Douglas E."	6214	deh17	Animal Science	retiree						(&(!(type=student*))(cn=Douglas*E*Hogue))
+"Oltenacu, Elizabeth A."	6216	eao4	Animal Science	retiree	Prof Emerita					(&(!(type=student*))(cn=Elizabeth*A*Oltenacu))
+"Andersen, Olaf S."	6555	osa4		affiliate - CUMC						(&(!(type=student*))(cn=Olaf*S*Andersen))
+"Topf, Norbert"	6590									
+"Smith, Vivienne-Elizabeth"	6712									
+"Ross, N. Phillip"	6713									
+"Arden, James R."	6608									
+"Chang, Su Pen (Bobby)"	6609									
+"Levin, Serle K."	6616									
+"Panchal, Sumedha"	6618									
+"Panchal, Sunil J."	6619									
+"Aronis, Maria"	6690									
+"Laragh, John H."	6697									
+"Borer, Jeffrey S."	6704									
+"Zukowsky, Michael M."	6723									
+"Quaegebeur, Jan M."	6724									
+"Scott, Rachelle A."	6859									
+"Varghese, Mathew C."	6860									
+"Liu, Jennifer Erh-Ping"	6872									
+"Fox, Philip"	6888									
+"Rodman, John S."	6891									
+"Kwon, Charles O."	6923									
+"Yakobi-Shvili, Ramy"	6930									
+"Wallis, Lila A"	6941									
+"Brenner-Gati, Leona"	6943									
+"Kan, Edwin C."	7047	eck5	Electrical and Computer Engr	academic			http://people.ece.cornell.edu/kan	"Technology CAD, Semiconductor devices and technology, Nanotechnology"		(&(!(type=student*))(cn=Edwin*C*Kan))
+"Campbell, Lindsay"	7163	lec8		cu-connect - directory						(&(!(type=student*))(cn=Lindsay*Campbell))
+"Bassett, William"	7199	wab7	Earth and Atmospheric Sciences	retiree						(&(!(type=student*))(cn=William*Bassett))
+"Peters, H. Elizabeth"	7990	ep22	Policy Analysis and Management	academic			http://www.people.cornell.edu/pages/ep22/			(&(!(type=student*))(cn=H*Elizabeth*Peters))
+"Harris, David R."	7992	drh36	Sociology	academic	"Director, Institute for the Social Sciences"		http://www.allharris.com			(&(!(type=student*))(cn=David*R*Harris))
+"Solla, Leah"	26	lrm1	Physical Sciences Library	academic	Chemistry Librarian					(&(!(type=student*))(cn=Leah*Solla))
+"Schlabach, Martin"	471	mls5	Geneva Library	academic	Librarian / Entomology Libr (Ithaca)					(&(!(type=student*))(cn=Martin*Schlabach))
+"Thomas, Sarah E."	496	set9	Lib Administration	academic	University Librarian					(&(!(type=student*))(cn=Sarah*E*Thomas))
+"Devare, Medha H."	762	mhd6	Mann Library	academic	Research Associate					(&(!(type=student*))(cn=Medha*H*Devare))
+"Hillman, Diane"	6467									
+"Steinhart, Gail"	7769	gss1	Mann Library	academic	GIS and Spatial Data Librarian		http://cugir.mannlib.cornell.edu/	CUGIR		(&(!(type=student*))(cn=Gail*Steinhart))
+"Friedlander, Blaine P."	392	bpf2	News Service	staff	Sr Sci Writer		http://www.people.cornell.edu/pages/bpf2/			(&(!(type=student*))(cn=Blaine*P*Friedlander))
+"Steele, Bill"	394									
+"Segelken, Roger"	398									
+"Myers, Linda"	401	lbm3	News Service	staff	Senior Writer		http://www.alumni.cornell.edu			(&(!(type=student*))(cn=Linda*Myers))
+"Grace-Kobas, Linda"	402	lg16	News Service	staff	Dir Cornell News Svc		http://www.news.cornell.edu/			(&(!(type=student*))(cn=Linda*Grace-Kobas))
+"Lang, Susan"	403	ssl4	News Service	staff	Sr Sci Writer					(&(!(type=student*))(cn=Susan*Lang))
+"Van Ee, James I."	482									
+"Williams, Roger J."	585	rjw33	Biotechnology Center	staff						(&(!(type=student*))(cn=Roger*J*Williams))
+"Jaquette, John P."	588									
+"Mehringer, Susan"	622	shm7	Thry & Simulatn Sci & Eng Ctr	staff						(&(!(type=student*))(cn=Susan*Mehringer))
+"Kelly, Brian J."	757									
+"Meixler, Marci S."	6287	msm10	Natural Resources	staff				Computer modeling of aquatic systems		(&(!(type=student*))(cn=Marci*S*Meixler))
+"Wapner, Suzanne"	6360	sw38	Natural Resources	staff	Research/Teaching Support Specialist					(&(!(type=student*))(cn=Suzanne*Wapner))
+"Naisbitt, Nana"	6483									
+"Olson, Ken"	6485									
+"Parris, Thomas"	6487									
+"Poinsett, Amy"	6488									
+"Rinkevich, Margaret"	6491									
+"Wall, Robert"	6492									
+"Smith, T.D."	6494	tds7		cu-connect - directory						
+"Smith, Page"	6495									
+"Zoline, Pamela"	6502									
+"Coutinho, Pedro"	345									
+"Wilson, Edward O."	6452									
+"Collins, Dan"	6458	dc285	Din-Catering	temporary						(&(!(type=student*))(cn=Dan*Collins))
+"Farrell, Brian"	6460									
+"Fisher, Brian"	6461									
+"Fornwall, Mark"	6462									
+"Garnett, Thomas"	6463									
+"Hallwachs, Winnie"	6466									
+"Janzen, Daniel"	6470									
+"Kineman, John"	6472									
+"King, Roger"	6473									
+"Kunze, John"	6478									
+"Mata, Erick"	6481									
+"Miller, Scott"	6482									
+"Naskrecki, Piotr"	6484									
+"Parks, Bradley"	6486									
+"Ramapriyan, H.K."	6489									
+"Raven, Peter"	6490									
+"Samper, Christian"	6493									
+"Stein, Bruce"	6496	bvl1	Communication	academic	Assoc Prof of Science Comm		http://www.people.cornell.edu/pages/bvl1/	"history of science communication, including science journalism and science in books.  Evaluation of citizen science projects.  All aspects of public understanding of science. "	Science & Technology Studies	(&(!(type=student*))(cn=Bruce*Stein))
+"Thompson, F. Christian"	6497									
+"Wagner, Warren"	6498									
+"Weibel, Stu"	6499									
+"Wilkerson, Richard"	6500									
+"Wilson, Don"	6501	ddw9		affiliate - CUMC						(&(!(type=student*))(cn=Don*Wilson))
+"Bisby, Frank"	6515									
+"Baillargeon, Guy"	6516									
+"Blaine, Lois"	6517									
+"Perez Canhos, Vanderlei"	6518									
+"Ruggiero, Michael"	6519									
+"Schalk, Peter"	6520									
+"Shao, Kwang-Tsao"	6521									
+"Shimura, Junko"	6522									
+"White, Richard"	6523	raw1	CIT Information Systems	staff						(&(!(type=student*))(cn=Richard*White))
+"White, Richard"	6523	rnw3	Civil & Environmental Engr	retiree						
+"White, Richard"	6523	rw84	Din-J's Crossing	staff						
+"Wilson, Crispen"	6524									
+"Wilson, Karen"	6525	kdw6	Law School	staff						(&(!(type=student*))(cn=Karen*Wilson))
+"Brooks, Marjory B."	449	mbb9	Pop Medicine & Diagnstc Sci	academic						(&(!(type=student*))(cn=Marjory*B*Brooks))
+"Fulton, Theresa M."	594									
+"Hare, Elizabeth"	861	eh51	Animal Science	exception - w/sponsor						(&(!(type=student*))(cn=Elizabeth*Hare))
+"Acland, Gregory M."	864	gma2	James A Baker Inst Anml Health	academic						(&(!(type=student*))(cn=Gregory*M*Acland))
+"Burton-Wurster, Nancy"	866									
+"Kaufman, Phillip E."	5778	pek4	Entomology	academic						(&(!(type=student*))(cn=Phillip*E*Kaufman))
+"Doobay, Roopram"	6672									
+"Lyons, Alita J."	6675									
+"Frankel, Richard H."	6948									
+"Davis, Michael"	7169	mhd11	Crop and Soil Sciences	academic						(&(!(type=student*))(cn=Michael*Davis))

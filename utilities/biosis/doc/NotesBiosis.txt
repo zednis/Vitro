@@ -1,0 +1,38 @@
+Notes on what data from biosis is used by this code and where it gets
+put in vivo.
+Brian Caruso, bdc34@cornell.edu;
+2005-02-16
+
+In biosis we get the following fields:
+
+* Abstract (AB)
+* Accession Number (AN)
+* Author Address (AD)
+* Author Email (EMA)
+* Author, Editor, Inventor (AU)
+* Book Author, Editor (AUB)
+* Book Publisher (PB)
+* Book Source (BK)
+* Full Text (FTXT)
+* Language (LA)
+* Links to Library Holdings (WEBLH)
+* Meeting Information (MT)
+* Publication Year (PY)
+* Source (SO)
+* Title (TI)
+* Update Code (UD)
+
+The first program that gets a turn at the data is the BiosisLoad
+program.  For each record it check to see it there is already one
+there using the title string.
+
+Basicly these get mapped to the fields of the pubs table.
+
+Irregularities:
+There is some stuff with booktitle, title, bookpublisher. not sure
+what it is.
+
+Something stuff happens with fullTextLinks and fullTextSources. These
+fields get cut up 
+
+

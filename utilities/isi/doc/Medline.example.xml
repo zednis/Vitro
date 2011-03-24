@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item recid="19804245" sortkey="3116937650" dbyear="2006" Owner="NLM"
+    Status="In-Data-Review" dbweek="56" hasAbstract="Y">
+    <i_ckey>BAUE0182070024MV</i_ckey>
+    <pubyear>2007</pubyear>
+    <edition>In-Process</edition>
+    <TSAuthorList>
+        <Entity>
+            <DisplayName ValidYN="Y">Bauer Dumont, Vanessa L</DisplayName>
+        </Entity>
+        <Entity>
+            <DisplayName ValidYN="Y">Flores, Heather A</DisplayName>
+        </Entity>
+        <Entity>
+            <DisplayName ValidYN="Y">Wright, Mark H</DisplayName>
+        </Entity>
+        <Entity>
+            <DisplayName ValidYN="Y">Aquadro, Charles F</DisplayName>
+        </Entity>
+    </TSAuthorList>
+    <EPubDate>
+        <Year>2006</Year>
+        <Month>Oct</Month>
+        <Day>20</Day>
+    </EPubDate>
+    <PMID>17056645</PMID>
+    <DateCreated>
+        <Year>2006</Year>
+        <Month>12</Month>
+        <Day>18</Day>
+    </DateCreated>
+    <Article PubModel="Print-Electronic">
+        <Journal>
+            <ISSN IssnType="Print">0737-4038</ISSN>
+            <JournalIssue CitedMedium="Print">
+                <Volume>24</Volume>
+                <Issue>1</Issue>
+                <PubDate>
+                    <Year>2007</Year>
+                    <Month>Jan</Month>
+                </PubDate>
+            </JournalIssue>
+            <Title>Molecular biology and evolution</Title>
+            <ISOAbbreviation>Mol. Biol. Evol.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Recurrent Positive Selection at Bgcn, a Key Determinant of Germ Line
+            Differentiation, Does Not Appear to be Driven by Simple Coevolution with Its
+            Partner Protein Bam.</ArticleTitle>
+        <Pagination>
+            <MedlinePgn>182-91</MedlinePgn>
+        </Pagination>
+        <Abstract>
+            <AbstractText>Surveys of nucleotide sequence polymorphism in Drosophila
+                melanogaster and Drosophila simulans were performed at 2 interacting loci
+                crucial for gametogenesis: bag-of-marbles (bam) and benign gonial cell
+                neoplasm (bgcn). At the polymorphism level, both loci appear to be evolving
+                under the expectations of the neutral theory. However, ratios of
+                polymorphism and divergence for synonymous and nonsynonymous mutations
+                depart significantly from neutral expectations for both loci consistent with
+                a previous observation of positive selection at bam. The deviations suggest
+                either an excess of synonymous polymorphisms or an excess of nonsynonymous
+                fixations at both loci. Synonymous evolution appears to conform to
+                neutrality at bam. At bgcn, there is evidence of positive selection
+                affecting preferred synonymous mutations along the D. simulans lineage.
+                However, there is also a significantly higher rate of nonsynonymous
+                fixations at bgcn within D. simulans. Thus, the deviation from neutrality
+                detected by the McDonald-Kreitman test at these 2 loci is likely due to the
+                selective acceleration of nonsynonymous fixations. Differences in the
+                pattern of amino acid fixations between these 2 interacting proteins suggest
+                that the detected positive selection is not due to a simple model of
+                coevolution.</AbstractText>
+        </Abstract>
+        <Affiliation>Department of Molecular Biology and Genetics, Cornell University.</Affiliation>
+        <AuthorList CompleteYN="Y">
+            <Author ValidYN="Y">
+                <LastName>Bauer Dumont</LastName>
+                <ForeName>Vanessa L</ForeName>
+                <Initials>VL</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Flores</LastName>
+                <ForeName>Heather A</ForeName>
+                <Initials>HA</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Wright</LastName>
+                <ForeName>Mark H</ForeName>
+                <Initials>MH</Initials>
+            </Author>
+            <Author ValidYN="Y">
+                <LastName>Aquadro</LastName>
+                <ForeName>Charles F</ForeName>
+                <Initials>CF</Initials>
+            </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+            <PublicationType>Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+            <Year>2006</Year>
+            <Month>10</Month>
+            <Day>20</Day>
+        </ArticleDate>
+    </Article>
+    <MedlineJournalInfo>
+        <Country>United States</Country>
+        <MedlineTA>Mol Biol Evol</MedlineTA>
+        <NlmUniqueID>8501455</NlmUniqueID>
+    </MedlineJournalInfo>
+    <CitationSubset>IM</CitationSubset>
+</item>

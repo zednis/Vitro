@@ -1,0 +1,185 @@
+HowToDownloadBiosisRecentPubs.txt
+
+Last Updated: 20041006
+Connect to the Library gateway at http://www.library.cornell.edu
+
+Find Biosis via Find Databases (search for Biosis, then click on the
+Biosis Previews (WebSPIRS Web : 1969- ) link
+
+Wait for the WebSPIRS page to load
+
+Click on the "Change" button to the right of the select box "View databases being searched -->"
+
+Select the set of databases for the current search:
+
+  on 11/03/06: 
+              BIOSIS Previews 2006: 46 2006/10/22-2006/10/28
+              BIOSIS Previews 2006: 45 2006/10/15-2006/10/21
+              BIOSIS Previews 2006: 44 2006/10/08-2006/10/14
+              BIOSIS Previews 2006: 35-43 2006/09-2006/10
+
+  on 08/30/06: 
+               BIOSIS Previews 2006: 37 2006/08/20-2006/08/26, 
+               BIOSIS Previews 2006: 36 2006/08/13-2006/08/19, 
+               BIOSIS Previews 2006: 35 2006/08/06-2006/08/12, 
+               BIOSIS Previews 2006: 27-34 2006/07-2006/08, 
+               BIOSIS Previews 2006: 18-26 2006/05-2006/06  
+
+   on an unspecified date:
+               BIOSIS Previews 2005: 33 2005/07/24-2005/07/30
+
+  on 04/27/05: Biosis Preview 2005: 18 2005/04/10-2005/04/16
+                      Previews 9-17 2005/03-2005/04
+
+  on 03/17/05: Biosis Preview 2005 2005/01 - 2005/03
+			          Previews 35-43 2004/09-2004/10 
+			          Previews 2005: 13 2005/03/06-2005/03/12,  
+					  Previews 2005: 12 2005/02/27-2005/03/05, 
+					  Previews 2005: 11 2005/02/20-2005/02/26, 
+					  Previews 2005: 10 2005/02/13-2005/02/19, 
+					  Previews 2005: 9 2005/02/06-2005/02/12, 
+					  Previews 1-8 2005/01-2005/02 
+
+  on 12/17/04: Biosis Preview 2004 44-52 2004/11 - 2004/12
+
+  on 10/6/04: Biosis Preview 2004  42    2004/09/26-2004/10/02
+  				   41    2004/09/19-2004/09/25
+  				   40    2004/09/12-2004/09/18
+  				   35-39 2004/09
+  				   27-34 2004/07-2004/08
+
+  on 8/23/04: Biosis Preview 2004: 36 2004/08/15-2004/08/21
+  				   35 2004/08/11-2004/08/17
+  				   27-34 2004/07-2004/08
+  				   18-26 2004/05-2004/06
+
+  on 6/18/04: Biosis Previews 2004: 27 2004/06/13-2004/06/19
+                                 18-26 2004/05-2004/06
+
+  on 6/2/04:  Biosis Previews 2004: 24 2004/05/23-2004/05/29
+                                    23 2004/05/16-2004/05/22
+                                    22 2004/05/09-2004/05/15
+                                 18-21 2004/05
+                                  9-17 2004/03-2004/04
+                                  
+                  had already done 1-8 2004/01-2004/02
+
+When the desired databases are selected, click the "Start Searching" button.
+                 
+Enter the search string (from Phil Davis):
+
+(((cornell or med*) and weil) in ad) or (((cornell or NYSAES) and geneva) in ad) or (cornell u* in ad)
+
+to do a search limited by date such as all items later than Oct,01,2004:
+((((cornell or med*) and weil) in ad) or (((cornell or NYSAES) and geneva) in ad) or (cornell u* in ad))and (UD>20041001)
+
+Click the Search button in the upper left
+
+If the search returns tens of thousands of records then it is likely
+that too many databases are selected, look in the select box "view
+databases being searched-->" and see if only the ones you tried to select
+are there.  The "Clear selected databases" button sometimes is useful.
+
+In this case (October), 325 (August:699) records have been returned.
+
+Select "Save" using the floppy disk icon on the right hand side of the page, 
+  under the "Change" button to select which databases are being viewed
+  
+
+Set the options for saving:
+
+  Under "Same These Records"
+  select "All Record"
+  
+  Under "Save These Fields"
+  select "Complete Record" from the drop down menu -- but this brings a lot of junk, 
+  including the concept codes
+  
+  Also save:
+  _ (don't want the Search History)
+  * Record number and database name; field names with Short Labels
+
+Or may be easier to select fields that are actually used:
+
+* Abstract (AB)
+* Accession Number (AN)
+* Author Address (AD)
+* Author Email (EMA)
+* Author, Editor, Inventor (AU)
+* Book Author, Editor (AUB)
+* Book Publisher (PB)
+* Book Source (BK)
+* Full Text (FTXT)
+* Language (LA)
+* Links to Library Holdings (WEBLH)
+* Meeting Information (MT)
+* Publication Year (PY)
+* Source (SO)
+* Title (TI)
+* Update Code (UD)
+
+
+Fields NOT used:
+_ Abstract Indicator (AI)
+_ CAS Registry Number (CAS)
+_ Chemicals and Biochemicals (CB)
+_ Citation (CITN)
+_ Concept Codes (CC)
+_ Diseases (DS)
+_ Document Type (DT)
+_ Gene Name (GN)
+_ Geopolitical Location (GE)
+_ ISBN (IB)
+_ ISSN (IS)
+_ Item URL (URLI)
+_ Journal ULR (URLJ)
+_ Major Concepts (MC)
+_ Material Type (MM)
+_ Meeting Sponsor (SP)
+_ Methods and Equipment (MQ)
+_ Miscellaneous Descriptors (MI)
+_ Organisms (OR)
+_ Order this item (ORDER)
+_ Parts, Structures and Systems of Organisms (PS)
+_ Patent Assignee (PA)
+_ Patent Class (CL)
+_ Patent Country (PC)
+_ Patent Date (PD)
+_ Patent Number (PN)
+_ Related Internet Links (ILINK)
+_ Sequence Data (SD)
+_ Series (SE)
+_ Subject Terms (TS)
+_ Super Taxa (ST)
+_ Time (TM)
+_ Topics (TP)
+_ Fields with Hits (*H)
+
+Click the "Change Fields" button once the fields have been selected.
+
+With this set of fields, all the counts of ignored fields in the
+BiosisLoad.java program should be 0.
+
+Test the upload into the Vivo databases by: 
+1. Dropping off the search
+   history from the file, if it's there, so that the files starts with
+   "Record 1 of 699 ..."
+
+2. Recompile to make sure code is current
+   $ ant clean compile makeRunScript
+
+3. Run the test program 
+   $ ./run.sh edu.cornell.mannlib.vitro.biosis.ImportBiosis connection.properties download.dat false
+
+4. If everything looks good, back up the database tables before running the program
+   $ mysqldump -ubob -p vivo > pre.biosis.load.vivo.sql   
+
+5. Run the program using both the input filename parameter (the
+   current download) plus "true" to indicate that the database
+   insertions should be done.  This takes significantly longer than
+   the test run because of all the database inserts
+   
+   $ ./run.sh edu.cornell.mannlib.vitro.biosis.ImportBiosis connection.properties download.dat true
+        
+6. Check how the records look in the web site.  Make sure that the
+   flags got set propertly.

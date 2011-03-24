@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st November 2004//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_041101.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID>15744695</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>03</Month>
+            <Day>03</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN>1090-3941</ISSN>
+                <JournalIssue>
+                    <Volume>13</Volume>
+                    <PubDate>
+                        <Year>2004</Year>
+                    </PubDate>
+                </JournalIssue>
+            </Journal>
+            <ArticleTitle>Minimally invasive total knee replacement using a mini-mid vastus incision technique and results.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>231-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>This study was performed to determine whether differences existed between primary knee replacement performed through a standard medial parapatellar approach, and those performed through a minimally invasive mini-mid vastus approach. It was a prospective study compared with a retrospective evaluation of a matched cohort. In this study, the Genesis(tm) II and its MIS instrumentation were used. Patients with the mini-mid vastus MIS incision (MMV MIS) required less pain medication post-operatively, regained their flexion more rapidly, and attained their functional milestones at an earlier point than those with the traditional median parapatellar long incision. Despite the smaller incision, component placement was radiographically excellent in all cases. Optimal performance of the surgery required the use of special instrumentation, modified so as to be used in smaller incisions.</AbstractText>
+            </Abstract>
+            <Affiliation>Weill Medical College of Cornell University New York, New York.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Laskin</LastName>
+                    <ForeName>Richard S</ForeName>
+                    <Initials>RS</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Surg Technol Int</MedlineTA>
+            <NlmUniqueID>9604509</NlmUniqueID>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>3</Month>
+                <Day>4</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>3</Month>
+                <Day>4</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">15744695</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+</PubmedArticleSet>

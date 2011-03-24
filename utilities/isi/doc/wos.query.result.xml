@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <ns1:searchResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+            xmlns:ns1="http://esti.isinet.com/soap/search">
+            <searchReturn xsi:type="ns1:SearchResults">
+                <occurancesFound xsi:type="xsd:int">400</occurancesFound>
+                <recordsFound xsi:type="xsd:int">255</recordsFound>
+                <recordsSearched xsi:type="xsd:int">66992</recordsSearched>
+                <parent xsi:type="xsd:string">AD=(Cornell*)</parent>
+                <records xsi:type="xsd:string">&lt;RECORDS&gt;
+                    &lt;KEY&gt;000242707200008&lt;/KEY&gt;
+                    &lt;KEY&gt;000242674500004&lt;/KEY&gt;
+                    &lt;KEY&gt;000242996800044&lt;/KEY&gt;
+                    &lt;KEY&gt;000242996800049&lt;/KEY&gt;
+                    &lt;KEY&gt;000242670500002&lt;/KEY&gt;
+                    &lt;KEY&gt;000242684800009&lt;/KEY&gt;
+                    &lt;KEY&gt;000242688300008&lt;/KEY&gt;
+                    &lt;KEY&gt;000242670600022&lt;/KEY&gt;
+                    &lt;KEY&gt;000242736400005&lt;/KEY&gt;
+                    &lt;KEY&gt;000243110500001&lt;/KEY&gt;
+                    &lt;KEY&gt;000242602500009&lt;/KEY&gt;
+                    &lt;KEY&gt;000242125200011&lt;/KEY&gt;
+                    &lt;KEY&gt;000242850000013&lt;/KEY&gt;
+                    &lt;KEY&gt;000242653200020&lt;/KEY&gt;
+                    &lt;KEY&gt;000242846600006&lt;/KEY&gt;
+                    &lt;KEY&gt;000242797600103&lt;/KEY&gt;
+                    &lt;KEY&gt;000242736200014&lt;/KEY&gt;
+                    &lt;KEY&gt;000242829100007&lt;/KEY&gt;
+                    &lt;KEY&gt;000242792300010&lt;/KEY&gt;
+                    &lt;KEY&gt;000242746900006&lt;/KEY&gt;
+                    &lt;/RECORDS&gt;</records>
+            </searchReturn>
+        </ns1:searchResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<!-- CVSID $Id: build.xml,v 1.2 2002/04/16 13:36:14 fereira Exp $ -->
+<project name="osp" default="compile" basedir=".">
+	<!-- Load user property definition overrides -->
+	<property file="build.properties"/>
+	<!-- Property Definitions -->
+	<property name="app.name" value="(set this in build.properties!)"/>
+	<property name="deploy.home" value="(set this in build.properties!)"/>
+	<property name="dist.home" value="dist"/>
+	<property name="build.home" value="build"/>
+	<property name="javadoc.home" value="${dist.home}/javadoc"/>
+	<property name="mysql.jar" value="(set this in build.properties!)"/>
+	<property name="oracle.jar" value="(set this in build.properties!)"/>
+	<!--property name="xmlrpc.jar" value="(set this in build.properties!)"/-->
+	<property name="mail.jar" value="(set this in build.properties!)"/>
+	<property name="activation.jar" value="(set this in build.properties!)"/>
+	<!-- ==================== Compilation Classpath =========================== -->
+	<path id="compile.classpath">
+		<!-- Include all JAR files that will be included in /WEB-INF/lib -->
+		<pathelement location="${mysql.jar}" />
+		<pathelement location="${oracle.jar}" />
+		<!--pathelement location="${xmlrpc.jar}"/-->
+		<pathelement location="${activation.jar}" />
+		<pathelement location="${mail.jar}" />
+	</path>
+	<!-- ==================== All Target ====================================== -->
+	<!--
+  The "all" target is a shortcut for running the "clean" target followed
+  by the "compile" target, to force a complete recompile.
+-->
+	<target name="all" depends="clean,compile" description="Clean build and dist, then compile"/>
+	<!-- ==================== Clean Target ==================================== -->
+	<!--
+  The "clean" target deletes any previous "build" and "dist" directory,
+  so that you can be ensured the application can be built from scratch.
+-->
+	<target name="clean" description="Delete old build and dist directories">
+		<delete dir="${build.home}"/>
+		<delete dir="${dist.home}"/>
+	</target>
+	<!-- ==================== Compile Target ================================== -->
+	<!--
+  The "compile" target transforms source files (from your "src" directory)
+  into object files in the appropriate location in the build directory.
+  This example assumes that you will be including your classes in an
+  unpacked directory hierarchy under "/WEB-INF/classes".
+-->
+	<target name="compile" depends="prepare" description="Compile Java sources">
+		<!-- Compile Java classes as necessary -->
+		<mkdir dir="${build.home}/WEB-INF/classes"/>
+		<javac srcdir="dream/src" destdir="${build.home}/WEB-INF/classes" debug="${compile.debug}" deprecation="${compile.deprecation}" optimize="${compile.optimize}">
+			<classpath refid="compile.classpath"/>
+		</javac>
+		<javac srcdir="localized/src" destdir="${build.home}/WEB-INF/classes" debug="${compile.debug}" deprecation="${compile.deprecation}" optimize="${compile.optimize}">
+			<classpath refid="compile.classpath"/>
+		</javac>
+		<mkdir dir="${build.home}/WEB-INF/classes/properties"/>
+		<copy todir="${build.home}/WEB-INF/classes/properties">
+			<fileset dir="dream/properties" includes="**/*" excludes="*.LCK"/>
+		</copy>
+		<copy todir="${build.home}/WEB-INF/classes/properties">
+			<fileset dir="localized/properties" includes="**/*" excludes="*.LCK"/>
+		</copy>
+		<!--mkdir dir="${build.home}/jsp"/-->
+		<copy todir="${build.home}">
+			<fileset dir="dream/jsp" includes="**/*" excludes="*.LCK"/>
+		</copy>
+		<copy todir="${build.home}">
+			<fileset dir="localized/jsp" includes="**/*" excludes="*.LCK"/>
+		</copy>
+		<copy todir="${build.home}/WEB-INF">
+			<fileset dir="etc" includes="**/*" excludes="*.LCK"/>
+		</copy>
+		<mkdir dir="${build.home}/WEB-INF/tlds"/>
+		<copy todir="${build.home}/WEB-INF/tlds">
+			<fileset dir="dream/tlds" includes="**/*" excludes="*.LCK"/>
+		</copy>
+	</target>
+	<!-- ==================== Deploy Target =================================== -->
+	<!--
+  The "deploy" target copies the contents of the build directory into a
+  location required by our servlet container, and picks up any external
+  dependencies along the way.  After restarting the servlet container, you
+  can now test your web application.
+-->
+	<target name="deploy" depends="compile" description="Deploy application to servlet container">
+		<!-- Copy the contents of the build directory -->
+		<mkdir dir="${deploy.home}"/>
+		<copy todir="${deploy.home}">
+			<fileset dir="${build.home}"/>
+		</copy>
+		<!-- Copy external dependencies as required -->
+		<mkdir dir="${deploy.home}/WEB-INF/lib"/>
+		<copy todir="${deploy.home}/WEB-INF/lib" file="${mysql.jar}" />
+		<copy todir="${deploy.home}/WEB-INF/lib" file="${oracle.jar}" />
+		<!--copy todir="${deploy.home}/WEB-INF/lib" file="${xmlrpc.jar}"/-->
+<!-- 		<copy todir="${deploy.home}/WEB-INF/lib" file="${activation.jar}" /> -->
+<!-- 		<copy todir="${deploy.home}/WEB-INF/lib" file="${mail.jar}" /> -->
+	</target>
+	<!-- ==================== Dist Target ===================================== -->
+	<!--
+  The "dist" target creates a binary distribution of your application
+  in a directory structure ready to be archived in a tar.gz or zip file.
+  Note that this target depends on two others:
+  * "deploy" so that the entire web application (including external
+    dependencies) will have been assembled
+  * "javadoc" so that the application Javadocs will have been created
+-->
+	<target name="dist" depends="deploy,javadoc" description="Create binary distribution">
+		<!-- Copy documentation subdirectory -->
+		<copy todir="${dist.home}/docs">
+			<fileset dir="docs"/>
+		</copy>
+		<!-- Create application WAR file -->
+		<jar jarfile="${dist.home}/${app.name}.war" basedir="${deploy.home}"/>
+	</target>
+	<!-- ==================== Javadoc Target ================================== -->
+	<!--
+  The "javadoc" target creates Javadoc API documentation for the Java
+  classes included in your application.  Normally, this is only required
+  when preparing a distribution release, but is available as a separate
+  target in case the developer wants to create Javadocs independently.
+-->
+	<target name="javadoc" depends="compile" description="Create Javadoc API documentation">
+		<mkdir dir="${dist.home}/docs"/>
+		<javadoc sourcepath="src" classpathref="compile.classpath" destdir="${dist.home}/docs" packagenames="*"/>
+	</target>
+	<!-- ==================== Prepare Target ================================== -->
+	<!--
+
+  The "prepare" target is used to create the "build" destination directory,
+  and copy the static contents of your web application to it.  If you need
+  to copy static files from external dependencies, you can customize the
+  contents of this task.
+
+  Normally, this task is executed indirectly when needed.
+
+-->
+	<target name="prepare">
+		<!-- Create build directory and copy static content -->
+		<mkdir dir="${build.home}"/>
+		<copy todir="${build.home}">
+			<fileset dir="dream/web"/>
+		</copy>
+		<!-- Copy static files from external dependencies as needed -->
+	</target>
+</project>

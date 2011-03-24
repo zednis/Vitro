@@ -1,0 +1,11 @@
+;;;this would be the baseline data 
+;;;from running BiosisLoad in regression testing.
+
+;;;If you are making changes to the code you could download a batch
+;;;of articles, run the load, copy the log/xxx.log to log/xxx.log.baseline
+;;;and then after you change the source code you could compare your next run's
+;;;log/xxx.log to log/xxx.log.baseline to see if you broke anything.
+
+;;;The base line files should not be checked into source control.
+
+;;;bdc34

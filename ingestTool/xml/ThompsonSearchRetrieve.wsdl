@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://esti.isinet.com/soap/search" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://esti.isinet.com/soap/search" xmlns:intf="http://esti.isinet.com/soap/search" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.3
+Built on Oct 05, 2005 (05:23:37 EDT)-->
+ <wsdl:types>
+  <schema targetNamespace="http://esti.isinet.com/soap/search" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="SearchResults">
+    <sequence>
+     <element name="occurancesFound" type="xsd:int"/>
+     <element name="recordsFound" type="xsd:int"/>
+     <element name="recordsSearched" type="xsd:int"/>
+     <element name="parent" nillable="true" type="xsd:string"/>
+     <element name="records" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOf_xsd_string">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="soapenc:string[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="mapTermsResponse">
+
+      <wsdl:part name="mapTermsReturn" type="impl:ArrayOf_xsd_string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="browseDictionaryRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="term" type="xsd:string"/>
+
+      <wsdl:part name="index" type="xsd:string"/>
+
+      <wsdl:part name="linesBefore" type="xsd:int"/>
+
+      <wsdl:part name="linesAfter" type="xsd:int"/>
+
+      <wsdl:part name="pageNumber" type="xsd:int"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="describeDatabaseResponse">
+
+      <wsdl:part name="describeDatabaseReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="query" type="xsd:string"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+      <wsdl:part name="firstRec" type="xsd:int"/>
+
+      <wsdl:part name="numRecs" type="xsd:int"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="relatedRecordsRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="primaryKey" type="xsd:string"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="firstRec" type="xsd:int"/>
+
+      <wsdl:part name="numRecs" type="xsd:int"/>
+
+      <wsdl:part name="fields" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="citingArticlesByRecidsResponse">
+
+      <wsdl:part name="citingArticlesByRecidsReturn" type="impl:SearchResults"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="retrieveRecidResponse">
+
+      <wsdl:part name="retrieveRecidReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchRetrieveResponse">
+
+      <wsdl:part name="searchRetrieveReturn" type="impl:SearchResults"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="summaryRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="query" type="xsd:string"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="firstRec" type="xsd:int"/>
+
+      <wsdl:part name="numRecs" type="xsd:int"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="summaryResponse">
+
+      <wsdl:part name="summaryReturn" type="impl:SearchResults"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="retrieveResponse">
+
+      <wsdl:part name="retrieveReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="citingArticlesByRecidsRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="recids" type="xsd:string"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="firstRec" type="xsd:int"/>
+
+      <wsdl:part name="numRecs" type="xsd:int"/>
+
+      <wsdl:part name="fields" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="sharedReferencesResponse">
+
+      <wsdl:part name="sharedReferencesReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="browseDictionaryResponse">
+
+      <wsdl:part name="browseDictionaryReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="retrieveLinksResponse">
+
+      <wsdl:part name="retrieveLinksReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="citingArticlesRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="primaryKey" type="xsd:string"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="firstRec" type="xsd:int"/>
+
+      <wsdl:part name="numRecs" type="xsd:int"/>
+
+      <wsdl:part name="fields" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchResponse">
+
+      <wsdl:part name="searchReturn" type="impl:SearchResults"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="mapTermsResponse1">
+
+      <wsdl:part name="mapTermsReturn" type="impl:ArrayOf_xsd_string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="searchRetrieveRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="query" type="xsd:string"/>
+
+      <wsdl:part name="depth" type="xsd:string"/>
+
+      <wsdl:part name="editions" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="firstRec" type="xsd:int"/>
+
+      <wsdl:part name="numRecs" type="xsd:int"/>
+
+      <wsdl:part name="fields" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="relatedRecordsResponse">
+
+      <wsdl:part name="relatedRecordsReturn" type="impl:SearchResults"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="citedReferencesRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="primaryKey" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="sharedReferencesRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="primaryKeys" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="retrieveRecidRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="recid" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="fields" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="publisherLinksResponse">
+
+      <wsdl:part name="publisherLinksReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="mapTermsRequest1">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="index" type="xsd:string"/>
+
+      <wsdl:part name="terms" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="retrieveLinksRequest">
+
+      <wsdl:part name="query" type="xsd:string"/>
+
+      <wsdl:part name="jsetList" type="xsd:string"/>
+
+      <wsdl:part name="include" type="xsd:string"/>
+
+      <wsdl:part name="exclude" type="xsd:string"/>
+
+      <wsdl:part name="options" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="citingArticlesResponse">
+
+      <wsdl:part name="citingArticlesReturn" type="impl:SearchResults"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="mapTermsRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="index" type="xsd:string"/>
+
+      <wsdl:part name="terms" type="impl:ArrayOf_xsd_string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="describeDatabaseRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="format" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="citedReferencesResponse">
+
+      <wsdl:part name="citedReferencesReturn" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="retrieveRequest">
+
+      <wsdl:part name="databaseID" type="xsd:string"/>
+
+      <wsdl:part name="primaryKeys" type="xsd:string"/>
+
+      <wsdl:part name="sort" type="xsd:string"/>
+
+      <wsdl:part name="fields" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="publisherLinksRequest">
+
+      <wsdl:part name="query" type="xsd:string"/>
+
+      <wsdl:part name="jsetList" type="xsd:string"/>
+
+   </wsdl:message>
+
+   <wsdl:portType name="SearchRetrieve">
+
+      <wsdl:operation name="search" parameterOrder="databaseID query depth editions firstRec numRecs">
+
+         <wsdl:input message="impl:searchRequest" name="searchRequest"/>
+
+         <wsdl:output message="impl:searchResponse" name="searchResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="retrieve" parameterOrder="databaseID primaryKeys sort fields">
+
+         <wsdl:input message="impl:retrieveRequest" name="retrieveRequest"/>
+
+         <wsdl:output message="impl:retrieveResponse" name="retrieveResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="searchRetrieve" parameterOrder="databaseID query depth editions sort firstRec numRecs fields">
+
+         <wsdl:input message="impl:searchRetrieveRequest" name="searchRetrieveRequest"/>
+
+         <wsdl:output message="impl:searchRetrieveResponse" name="searchRetrieveResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="retrieveRecid" parameterOrder="databaseID recid sort fields">
+
+         <wsdl:input message="impl:retrieveRecidRequest" name="retrieveRecidRequest"/>
+
+         <wsdl:output message="impl:retrieveRecidResponse" name="retrieveRecidResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="citingArticles" parameterOrder="databaseID primaryKey depth editions sort firstRec numRecs fields">
+
+         <wsdl:input message="impl:citingArticlesRequest" name="citingArticlesRequest"/>
+
+         <wsdl:output message="impl:citingArticlesResponse" name="citingArticlesResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="citingArticlesByRecids" parameterOrder="databaseID recids depth editions sort firstRec numRecs fields">
+
+         <wsdl:input message="impl:citingArticlesByRecidsRequest" name="citingArticlesByRecidsRequest"/>
+
+         <wsdl:output message="impl:citingArticlesByRecidsResponse" name="citingArticlesByRecidsResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="citedReferences" parameterOrder="databaseID primaryKey">
+
+         <wsdl:input message="impl:citedReferencesRequest" name="citedReferencesRequest"/>
+
+         <wsdl:output message="impl:citedReferencesResponse" name="citedReferencesResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sharedReferences" parameterOrder="databaseID primaryKeys">
+
+         <wsdl:input message="impl:sharedReferencesRequest" name="sharedReferencesRequest"/>
+
+         <wsdl:output message="impl:sharedReferencesResponse" name="sharedReferencesResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="relatedRecords" parameterOrder="databaseID primaryKey depth editions sort firstRec numRecs fields">
+
+         <wsdl:input message="impl:relatedRecordsRequest" name="relatedRecordsRequest"/>
+
+         <wsdl:output message="impl:relatedRecordsResponse" name="relatedRecordsResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="summary" parameterOrder="databaseID query depth editions sort firstRec numRecs">
+
+         <wsdl:input message="impl:summaryRequest" name="summaryRequest"/>
+
+         <wsdl:output message="impl:summaryResponse" name="summaryResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="publisherLinks" parameterOrder="query jsetList">
+
+         <wsdl:input message="impl:publisherLinksRequest" name="publisherLinksRequest"/>
+
+         <wsdl:output message="impl:publisherLinksResponse" name="publisherLinksResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="retrieveLinks" parameterOrder="query jsetList include exclude options">
+
+         <wsdl:input message="impl:retrieveLinksRequest" name="retrieveLinksRequest"/>
+
+         <wsdl:output message="impl:retrieveLinksResponse" name="retrieveLinksResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="describeDatabase" parameterOrder="databaseID format">
+
+         <wsdl:input message="impl:describeDatabaseRequest" name="describeDatabaseRequest"/>
+
+         <wsdl:output message="impl:describeDatabaseResponse" name="describeDatabaseResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="browseDictionary" parameterOrder="databaseID term index linesBefore linesAfter pageNumber depth editions">
+
+         <wsdl:input message="impl:browseDictionaryRequest" name="browseDictionaryRequest"/>
+
+         <wsdl:output message="impl:browseDictionaryResponse" name="browseDictionaryResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="mapTerms" parameterOrder="databaseID index terms">
+
+         <wsdl:input message="impl:mapTermsRequest" name="mapTermsRequest"/>
+
+         <wsdl:output message="impl:mapTermsResponse" name="mapTermsResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="mapTerms" parameterOrder="databaseID index terms">
+
+         <wsdl:input message="impl:mapTermsRequest1" name="mapTermsRequest1"/>
+
+         <wsdl:output message="impl:mapTermsResponse1" name="mapTermsResponse1"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="SearchRetrieveSoapBinding" type="impl:SearchRetrieve">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="search">
+
+         <wsdlsoap:operation soapAction="search"/>
+
+         <wsdl:input name="searchRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="searchResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="retrieve">
+
+         <wsdlsoap:operation soapAction="retrieve"/>
+
+         <wsdl:input name="retrieveRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="retrieveResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="searchRetrieve">
+
+         <wsdlsoap:operation soapAction="searchRetrieve"/>
+
+         <wsdl:input name="searchRetrieveRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="searchRetrieveResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="retrieveRecid">
+
+         <wsdlsoap:operation soapAction="retrieveRecid"/>
+
+         <wsdl:input name="retrieveRecidRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="retrieveRecidResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="citingArticles">
+
+         <wsdlsoap:operation soapAction="citingArticles"/>
+
+         <wsdl:input name="citingArticlesRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="citingArticlesResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="citingArticlesByRecids">
+
+         <wsdlsoap:operation soapAction="citingArticlesByRecids"/>
+
+         <wsdl:input name="citingArticlesByRecidsRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="citingArticlesByRecidsResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="citedReferences">
+
+         <wsdlsoap:operation soapAction="citedReferences"/>
+
+         <wsdl:input name="citedReferencesRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="citedReferencesResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="sharedReferences">
+
+         <wsdlsoap:operation soapAction="sharedReferences"/>
+
+         <wsdl:input name="sharedReferencesRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="sharedReferencesResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="relatedRecords">
+
+         <wsdlsoap:operation soapAction="relatedRecords"/>
+
+         <wsdl:input name="relatedRecordsRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="relatedRecordsResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="summary">
+
+         <wsdlsoap:operation soapAction="summary"/>
+
+         <wsdl:input name="summaryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="summaryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="publisherLinks">
+
+         <wsdlsoap:operation soapAction="publisherLinks"/>
+
+         <wsdl:input name="publisherLinksRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="publisherLinksResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="retrieveLinks">
+
+         <wsdlsoap:operation soapAction="retrieveLinks"/>
+
+         <wsdl:input name="retrieveLinksRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="retrieveLinksResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="describeDatabase">
+
+         <wsdlsoap:operation soapAction="describeDatabase"/>
+
+         <wsdl:input name="describeDatabaseRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="describeDatabaseResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="browseDictionary">
+
+         <wsdlsoap:operation soapAction="browseDictionary"/>
+
+         <wsdl:input name="browseDictionaryRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="browseDictionaryResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="mapTerms">
+
+         <wsdlsoap:operation soapAction="mapTerms"/>
+
+         <wsdl:input name="mapTermsRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="mapTermsResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="mapTerms">
+
+         <wsdlsoap:operation soapAction="mapTerms"/>
+
+         <wsdl:input name="mapTermsRequest1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="mapTermsResponse1">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://esti.isinet.com/soap/search" use="encoded"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="SearchRetrieveService">
+
+      <wsdl:port binding="impl:SearchRetrieveSoapBinding" name="SearchRetrieve">
+
+         <wsdlsoap:address location="http://wok-ws.isiknowledge.com/esti/soap/SearchRetrieve"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>
