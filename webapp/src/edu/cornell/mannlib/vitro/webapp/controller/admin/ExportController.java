@@ -119,9 +119,8 @@ public class ExportController extends FreemarkerHttpServlet {
 
 		try (Connection conn = DriverManager
 				.getConnection(url, connectionProps);
-				Statement stmt = conn.createStatement()) {
-			stmt.setFetchSize(50);
-			java.sql.ResultSet rs = stmt.executeQuery(SQL_QUERY);
+				Statement stmt = createStatement(conn);
+				java.sql.ResultSet rs = stmt.executeQuery(SQL_QUERY)) {
 			while (rs.next()) {
 				NodeInfo s = new NodeInfo(rs.getString("sLex"),
 						rs.getString("sLang"), rs.getString("sDatatype"),
@@ -140,6 +139,14 @@ public class ExportController extends FreemarkerHttpServlet {
 			}
 			writer.flush();
 		}
+	}
+
+	private Statement createStatement(Connection conn) throws SQLException {
+		Statement stmt = conn.createStatement(
+				java.sql.ResultSet.TYPE_FORWARD_ONLY,
+				java.sql.ResultSet.CONCUR_READ_ONLY);
+		stmt.setFetchSize(Integer.MIN_VALUE);
+		return stmt;
 	}
 
 	private String composeNquadsLine(NodeInfo s, NodeInfo p, NodeInfo o,
