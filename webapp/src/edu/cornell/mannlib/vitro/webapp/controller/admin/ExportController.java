@@ -119,8 +119,9 @@ public class ExportController extends FreemarkerHttpServlet {
 
 		try (Connection conn = DriverManager
 				.getConnection(url, connectionProps);
-				Statement stmt = conn.createStatement();
-				java.sql.ResultSet rs = stmt.executeQuery(SQL_QUERY)) {
+				Statement stmt = conn.createStatement()) {
+			stmt.setFetchSize(50);
+			java.sql.ResultSet rs = stmt.executeQuery(SQL_QUERY);
 			while (rs.next()) {
 				NodeInfo s = new NodeInfo(rs.getString("sLex"),
 						rs.getString("sLang"), rs.getString("sDatatype"),
