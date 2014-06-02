@@ -3,12 +3,15 @@
 package edu.cornell.mannlib.vitro.webapp.rdfservice.impl.logging;
 
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.List;
 
 import edu.cornell.mannlib.vitro.webapp.rdfservice.ChangeListener;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.ChangeSet;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFServiceException;
+import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService.ResultFormat;
+import edu.cornell.mannlib.vitro.webapp.rdfservice.impl.jena.RDFServiceJena;
 
 /**
  * This RDFService wrapper adds instrumentation to the time-consuming methods of
@@ -51,6 +54,12 @@ public class LoggingRDFService implements RDFService {
 		}
 	}
 
+	public void sparqlSelectQuery(String query, ResultFormat resultFormat,
+			OutputStream outputStream) throws RDFServiceException {
+		((RDFServiceJena) innerService).sparqlSelectQuery(query, resultFormat,
+				outputStream);
+	}
+	
 	@Override
 	public InputStream sparqlSelectQuery(String query, ResultFormat resultFormat)
 			throws RDFServiceException {

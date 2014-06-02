@@ -3,11 +3,13 @@
 package edu.cornell.mannlib.vitro.webapp.rdfservice.impl;
 
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.List;
 
 import edu.cornell.mannlib.vitro.webapp.rdfservice.ChangeListener;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.ChangeSet;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService;
+import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService.ResultFormat;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFServiceException;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFServiceFactory;
 
@@ -92,6 +94,12 @@ public class RDFServiceFactorySingle implements RDFServiceFactory {
         }
 
         @Override
+		public void sparqlSelectQuery(String query, ResultFormat resultFormat,
+				OutputStream outputStream) throws RDFServiceException {
+        	s.sparqlSelectQuery(query, resultFormat, outputStream);
+		}
+
+		@Override
         public boolean sparqlAskQuery(String query) throws RDFServiceException {
             return s.sparqlAskQuery(query);
         }

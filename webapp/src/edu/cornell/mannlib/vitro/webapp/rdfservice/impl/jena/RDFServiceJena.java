@@ -5,9 +5,8 @@ package edu.cornell.mannlib.vitro.webapp.rdfservice.impl.jena;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -33,6 +32,7 @@ import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
+import com.hp.hpl.jena.sdb.SDB;
 import com.hp.hpl.jena.shared.Lock;
 
 import edu.cornell.mannlib.vitro.webapp.dao.jena.DatasetWrapper;
@@ -335,6 +335,45 @@ public abstract class RDFServiceJena extends RDFServiceImpl implements RDFServic
         return getRDFResultStream(query, DESCRIBE, resultFormat);
     }
 
+
+    
+	public void sparqlSelectQuery(String query, ResultFormat resultFormat,
+			OutputStream outputStream) throws RDFServiceException {
+		DatasetWrapper dw = getDatasetWrapper();
+		try {
+			Dataset d = dw.getDataset();
+			Query q = createQuery(query);
+			QueryExecution qe = createQueryExecution(query, q, d);
+			qe.getContext().set(SDB.jdbcFetchSize, Integer.MIN_VALUE);
+			qe.getContext().set(SDB.jdbcStream, true);
+			qe.getContext().set(SDB.streamGraphAPI, true);
+			try {
+				ResultSet resultSet = qe.execSelect();
+				switch (resultFormat) {
+				case CSV:
+					ResultSetFormatter.outputAsCSV(outputStream, resultSet);
+					break;
+				case TEXT:
+					ResultSetFormatter.out(outputStream, resultSet);
+					break;
+				case JSON:
+					ResultSetFormatter.outputAsJSON(outputStream, resultSet);
+					break;
+				case XML:
+					ResultSetFormatter.outputAsXML(outputStream, resultSet);
+					break;
+				default:
+					throw new RDFServiceException("unrecognized result format");
+				}
+			} finally {
+				qe.close();
+			}
+		} finally {
+			dw.close();
+		}
+
+	}
+
     @Override
     public InputStream sparqlSelectQuery(String query, ResultFormat resultFormat)
             throws RDFServiceException {
@@ -343,6 +382,9 @@ public abstract class RDFServiceJena extends RDFServiceImpl implements RDFServic
             Dataset d = dw.getDataset();
             Query q = createQuery(query);
             QueryExecution qe = createQueryExecution(query, q, d);
+            qe.getContext().set(SDB.jdbcFetchSize, Integer.MIN_VALUE);
+            qe.getContext().set(SDB.jdbcStream, true);
+            qe.getContext().set(SDB.streamGraphAPI, true);
             try {
                 ResultSet resultSet = qe.execSelect();
                 ByteArrayOutputStream outputStream = new ByteArrayOutputStream(); 

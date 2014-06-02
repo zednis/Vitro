@@ -33,6 +33,7 @@ import edu.cornell.mannlib.vitro.webapp.controller.freemarker.FreemarkerHttpServ
 import edu.cornell.mannlib.vitro.webapp.controller.freemarker.TemplateProcessingHelper.TemplateProcessingException;
 import edu.cornell.mannlib.vitro.webapp.controller.freemarker.responsevalues.ResponseValues;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService;
+import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService.ResultFormat;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.impl.RDFServiceUtils;
 
 /**
@@ -67,7 +68,9 @@ public class ExportController extends FreemarkerHttpServlet {
 
 			if ("/sparql".equals(req.getPathInfo())) {
 				writeNamedGraphsFromSelect(req, writer);
-			} else {
+			} else if ("/stream".equals(req.getPathInfo())) {
+				streamAllFromSelect(req, resp);
+			} else{
 				writeQuadsFromSQLConnection(req, writer);
 			}
 		} catch (Exception e) {
@@ -75,6 +78,24 @@ public class ExportController extends FreemarkerHttpServlet {
 			resp.sendError(500);
 		}
 
+	}
+
+	private void streamAllFromSelect(HttpServletRequest req,
+			HttpServletResponse resp) {
+		try {
+			PrintWriter writer = new PrintWriter(new OutputStreamWriter(
+					resp.getOutputStream(), "UTF-8"));
+			writeCommentBlock("Stream all from select.", writer);
+
+			RDFService rdfService = RDFServiceUtils
+					.getRDFService(new VitroRequest(req));
+
+			String query = "SELECT * WHERE { GRAPH ?g {?s ?p ?o}}";
+			rdfService.sparqlSelectQuery(query, ResultFormat.JSON,
+					resp.getOutputStream());
+		} catch (Throwable t) {
+			log.error("Failed to stream.", t);
+		}
 	}
 
 	private void writeNamedGraphsFromSelect(HttpServletRequest req,

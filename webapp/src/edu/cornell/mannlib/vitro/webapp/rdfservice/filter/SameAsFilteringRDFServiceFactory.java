@@ -4,11 +4,14 @@ package edu.cornell.mannlib.vitro.webapp.rdfservice.filter;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -32,6 +35,7 @@ import edu.cornell.mannlib.vitro.webapp.rdfservice.ChangeListener;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.ChangeSet;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService.ModelSerializationFormat;
+import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFService.ResultFormat;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFServiceException;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.RDFServiceFactory;
 import edu.cornell.mannlib.vitro.webapp.rdfservice.impl.RDFServiceImpl;
@@ -104,7 +108,23 @@ public class SameAsFilteringRDFServiceFactory implements RDFServiceFactory {
             return new ByteArrayInputStream(out.toByteArray());
         }
               
-        @Override 
+		/**
+		 * TODO rewrite filtering to use this form instead - avoid one level of
+		 * buffering.
+		 */
+    	@Override
+    	public void sparqlSelectQuery(String query, ResultFormat resultFormat,
+    			OutputStream outputStream) throws RDFServiceException {
+    		InputStream input = sparqlSelectQuery(query, resultFormat);
+    		try {
+    			IOUtils.copy(input, outputStream);
+    			input.close();
+    		} catch (IOException e) {
+    			throw new RDFServiceException(e);
+    		}
+    	}
+    	
+    	@Override 
         public InputStream sparqlSelectQuery(String query, ResultFormat resultFormat) 
                 throws RDFServiceException {
             ResultSet rs = ResultSetFactory.load(
