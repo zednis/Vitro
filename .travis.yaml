@@ -3,5 +3,8 @@ jdk:
 - openjdk7
 - oraclejdk7
 - oraclejdk8
+branches:
+  only:
+    - feature/facets
 install:
   - cp webapp/config/example.build.properties webapp/config/build.properties
