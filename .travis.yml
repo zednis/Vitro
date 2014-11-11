@@ -8,3 +8,5 @@ branches:
     - feature/facets
 install:
   - cp webapp/config/example.build.properties webapp/config/build.properties
+  - cd webapp
+
