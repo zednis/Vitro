@@ -10,6 +10,7 @@ import edu.cornell.mannlib.vitro.webapp.dao.DataPropertyDao;
 import edu.cornell.mannlib.vitro.webapp.dao.DataPropertyStatementDao;
 import edu.cornell.mannlib.vitro.webapp.dao.DatatypeDao;
 import edu.cornell.mannlib.vitro.webapp.dao.DisplayModelDao;
+import edu.cornell.mannlib.vitro.webapp.dao.FauxPropertyDao;
 import edu.cornell.mannlib.vitro.webapp.dao.IndividualDao;
 import edu.cornell.mannlib.vitro.webapp.dao.MenuDao;
 import edu.cornell.mannlib.vitro.webapp.dao.ObjectPropertyDao;
@@ -57,6 +58,7 @@ public class WebappDaoFactoryFiltering implements WebappDaoFactory {
     transient private DataPropertyStatementDao filteringDataPropertyStatementDao=null;
     transient private IndividualDao            filteringIndividualDao=null;
     transient private ObjectPropertyDao        filteringObjectPropertyDao=null;
+    transient private FauxPropertyDao          filteringFauxPropertyDao=null;
     transient private ObjectPropertyStatementDao filteringObjectPropertyStatementDao=null;
     transient private VClassDao                filteringVClassDao=null;
 
@@ -72,10 +74,12 @@ public class WebappDaoFactoryFiltering implements WebappDaoFactory {
         this.innerWebappDaoFactory = innerDao;
     }
 
-    @Override
+	@Override
 	public String toString() {
-		return "WebappDaoFactoryFiltering[inner=" + innerWebappDaoFactory + "]";
+		return "WebappDaoFactoryFiltering[inner=" + innerWebappDaoFactory
+				+ ", filters=" + filters + "]";
 	}
+
     
     /* ******************* filtering *********************** */
 
@@ -232,6 +236,14 @@ public class WebappDaoFactoryFiltering implements WebappDaoFactory {
         return filteringObjectPropertyDao;
     }
 
+    public FauxPropertyDao getFauxPropertyDao() {
+    	if (filteringFauxPropertyDao == null ){
+    		filteringFauxPropertyDao = new FauxPropertyDaoFiltering(innerWebappDaoFactory.getFauxPropertyDao(),
+    				filters);
+    	}
+    	return filteringFauxPropertyDao;
+    }
+    
 
     public VClassDao getVClassDao() {
         if (filteringVClassDao == null ){
